@@ -10,15 +10,13 @@ import {
 import { Button, Layout, Menu, theme } from 'antd';
 // import content_map from '@/components/ContentMap'
 
-const { Header, Sider, Content } = Layout;
+const { Header, Sider } = Layout;
 
 const App: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
   const {
-    token: { colorBgContainer, borderRadiusLG },
+    token: { colorBgContainer },
   } = theme.useToken();
-
-  const [selectedKey, setSelectedKey] = useState('11');
 
   return (
     <Layout className='w-full h-full'>
@@ -28,7 +26,7 @@ const App: React.FC = () => {
             theme="light"
             mode="inline"
             defaultSelectedKeys={['1']}
-            onClick={({ key }) => setSelectedKey(key)}
+            // onClick={({ key }) => setSelectedKey(key)}
             items={[
                 {
                   key: '1',

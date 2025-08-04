@@ -2,7 +2,7 @@
 import { unstableSetRender} from 'antd';
 import { createRoot } from 'react-dom/client';
 
-unstableSetRender((node,container:any)=>{
+unstableSetRender((node,container: (Element | DocumentFragment) & { _reactRoot?: ReturnType<typeof createRoot> })=>{
     container._reactRoot ||= createRoot(container);
     const root: ReturnType<typeof createRoot> = container._reactRoot;
     root.render(node);
