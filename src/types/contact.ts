@@ -1,6 +1,6 @@
 import { RoomDto, RoomEntity } from "./room";
 
-export interface ContactEntity {
+export interface ContactEntity{
     id: number;
     firstName: string;
     middleName?: string;

@@ -1,14 +1,13 @@
 'use client'
 
-import {DemoTable} from "@/components/edit";
+import { MainContent } from "@/components/edit";
 
 
 function EditPage() {
 
   return (
     <div>
-      <DemoTable />
-
+      <MainContent />
     </div>
   );
 };

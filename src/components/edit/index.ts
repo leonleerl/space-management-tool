@@ -1,2 +1,2 @@
-export * from './DemoTable'
+export * from './MainContent'
 export * from './ContentMap'

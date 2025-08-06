@@ -1,7 +1,7 @@
 import { ContactDto, ContactEntity } from "@/types/contact";
 
 // mock data, suppose to be fetched from database
-const contacts : ContactEntity[] = [
+let contacts : ContactEntity[] = [
     {
         id: 1,
         firstName: 'John',
@@ -91,7 +91,12 @@ const contacts : ContactEntity[] = [
 ]
 
 export async function GET(request: Request) : Promise<Response> {
+    const { searchParams } = new URL(request.url);
+    const contactCategory = searchParams.get('contactCategory');
 
+    if (contactCategory) {
+        contacts = contacts.filter(contact => contact.contactCategory.name === contactCategory);
+    }
     const contactDtos : ContactDto[] = await Promise.resolve(contacts.map(contact => {
         if (!contact.middleName) {
             // if middleName is not provided, return fullName as firstName and lastName
@@ -116,4 +121,10 @@ export async function GET(request: Request) : Promise<Response> {
         }
     }))
     return Response.json(contactDtos);
+}
+
+export async function POST(request: Request) : Promise<Response> {
+    const contact = await request.json();
+    contacts.push(contact);
+    return Response.json(contact);
 }

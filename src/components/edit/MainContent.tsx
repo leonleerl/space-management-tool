@@ -124,7 +124,7 @@ const items = [
 
 registerAllModules();
 
-const DemoTable : FC<HotTableProps> = (props) => {
+const MainContent : FC<HotTableProps> = (props) => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
@@ -167,4 +167,4 @@ const DemoTable : FC<HotTableProps> = (props) => {
   )
 }
 
-export { DemoTable}
+export { MainContent }
