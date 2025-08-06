@@ -129,7 +129,7 @@ const DemoTable : FC<HotTableProps> = (props) => {
     token: { colorBgContainer },
   } = theme.useToken();
 
-  const [selectedKey, setSelectedKey] = useState<string>('11');
+  const [selectedKey, setSelectedKey] = useState<string>('21');
 
 
   return (
@@ -156,7 +156,7 @@ const DemoTable : FC<HotTableProps> = (props) => {
               borderRadius: 10,
             }}
           >
-            {ContentMap[selectedKey] || <div>No content</div>}
+            {ContentMap[selectedKey] || <div>Under development...</div>}
           </Content>
         </Layout>
       </Layout>
