@@ -24,6 +24,7 @@ function AccFinAcc() {
         if (!res.ok) throw new Error("Failed to fetch map data");
   
         const data = await res.json();
+        console.log(data);
         setCellData(data.cells);
         setLayoutData(data.layout);
       } catch (err) {
