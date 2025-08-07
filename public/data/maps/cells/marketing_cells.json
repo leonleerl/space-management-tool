@@ -1,0 +1,1080 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 14,
+    "rowEnd": 27,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 37,
+    "rowEnd": 11,
+    "colEnd": 39,
+    "content": "",
+  	"keylocker": "591630",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2201"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 19,
+    "rowEnd": 14,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591627",
+    "bgColor": "FFFFFF",
+    "comment": "\n\n\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2223"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 19,
+    "rowEnd": 11,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "591641",
+    "bgColor": "FFFFFF",
+    "comment": "Uwana - received keys\nMoving out to Daniel's office 2207",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2212"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 22,
+    "rowEnd": 11,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591640",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2211"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 25,
+    "rowEnd": 11,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591638",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2209"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 28,
+    "rowEnd": 11,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591636",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nMOVING OUT TO 2210",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2207"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 24,
+    "rowEnd": 32,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "l"
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 19,
+    "rowEnd": 20,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591625",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2225"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 19,
+    "rowEnd": 17,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591626",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2224"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 31,
+    "rowEnd": 11,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591634",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2205"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 34,
+    "rowEnd": 11,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591632",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2203"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 19,
+    "rowEnd": 23,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591624",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2226"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 19,
+    "rowEnd": 32,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591620",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2229"
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 19,
+    "rowEnd": 29,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591621",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2228"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 19,
+    "rowEnd": 26,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591623",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2227"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 18,
+    "rowEnd": 3,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 20,
+    "rowEnd": 3,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2213G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 18,
+    "rowEnd": 5,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "2213I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 20,
+    "rowEnd": 5,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2213H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 5,
+    "rowEnd": 3,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 25,
+    "rowEnd": 5,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591639",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2210"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 28,
+    "rowEnd": 5,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591637",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2208"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 31,
+    "rowEnd": 5,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591635",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2206"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 41,
+    "rowEnd": 7,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2200 Meeting Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 37,
+    "rowEnd": 5,
+    "colEnd": 39,
+    "content": "",
+  	"keylocker": "591631",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2202"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 34,
+    "rowEnd": 5,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591633",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2204"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 10,
+    "rowEnd": 22,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nHong Hanh wants to move in once LiLi finished",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 14,
+    "rowEnd": 22,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 14,
+    "rowEnd": 32,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 10,
+    "rowEnd": 30,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 4,
+    "rowEnd": 5,
+    "colEnd": 4,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 15,
+    "rowEnd": 3,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "2213E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 15,
+    "rowEnd": 5,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2213J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 5,
+    "rowEnd": 11,
+    "colEnd": 7,
+    "content": "",
+  	"keylocker": "501645",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\n1.0 FXT contract\nBegin first week of July for 12 months\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2217"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 8,
+    "rowEnd": 11,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "591644",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nGreg Brush is moving in with Jill and Luise and the key to the office is provided to him",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2216"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 11,
+    "rowEnd": 11,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "591643",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2215"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 14,
+    "rowEnd": 11,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "591642",
+    "bgColor": "FFFFFF",
+    "comment": "\n\"2201\n\nTim MAZZAROL x3981\nGeoff SOUTAR  x7885\nKey Locker \n591630\"\t\t\n\t\t\n\t\t\n\t\t",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2214"
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 14,
+    "rowEnd": 30,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 10,
+    "rowEnd": 32,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 10,
+    "rowEnd": 25,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 14,
+    "rowEnd": 25,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 10,
+    "rowEnd": 27,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 10,
+    "rowEnd": 15,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 14,
+    "rowEnd": 15,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 16,
+    "colStart": 10,
+    "rowEnd": 17,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 16,
+    "colStart": 14,
+    "rowEnd": 17,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 10,
+    "rowEnd": 20,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2222E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 14,
+    "rowEnd": 20,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2222F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 14,
+    "rowEnd": 13,
+    "colEnd": 16,
+    "content": "PTR 396 Printer Serial # SAA2J041015388",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 1,
+    "rowEnd": 7,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 8,
+    "rowEnd": 3,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 10,
+    "rowEnd": 3,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 8,
+    "rowEnd": 5,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "Esther W:\nPaul Harrigan Visiting PhD student Elvira Ferrer coming from June - August 2025",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 10,
+    "rowEnd": 5,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 13,
+    "rowEnd": 3,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2213D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 13,
+    "rowEnd": 5,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "2213K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 5,
+    "rowEnd": 5,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nSamar Aladem will use when come back to do paper visions post thesis\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "2213N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 1,
+    "rowEnd": 5,
+    "colEnd": 3,
+    "content": "PTR 395 Printer Serial # SAA7N047000765",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 3,
+    "rowEnd": 11,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  }
+]

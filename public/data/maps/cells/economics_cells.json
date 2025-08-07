@@ -1,0 +1,1540 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 27,
+    "rowEnd": 4,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 27,
+    "rowEnd": 6,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102R"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 29,
+    "rowEnd": 4,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 29,
+    "rowEnd": 6,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102S"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 17,
+    "rowEnd": 4,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 17,
+    "rowEnd": 6,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 20,
+    "rowEnd": 4,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 20,
+    "rowEnd": 6,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 24,
+    "rowEnd": 4,
+    "colEnd": 25,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 24,
+    "rowEnd": 6,
+    "colEnd": 25,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102Q"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 13,
+    "rowEnd": 6,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nEOI - move to 143H",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 9,
+    "rowEnd": 21,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 11,
+    "rowEnd": 21,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 12,
+    "rowEnd": 21,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 9,
+    "rowEnd": 23,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 11,
+    "rowEnd": 23,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 12,
+    "rowEnd": 23,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 3,
+    "rowEnd": 7,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Case Study Room 101"
+  },
+  {
+    "type": "merged",
+    "rowStart": 45,
+    "colStart": 19,
+    "rowEnd": 45,
+    "colEnd": 26,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 46,
+    "colStart": 19,
+    "rowEnd": 46,
+    "colEnd": 26,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 47,
+    "colStart": 19,
+    "rowEnd": 47,
+    "colEnd": 26,
+    "content":"",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 34,
+    "rowEnd": 40,
+    "colEnd": 36,
+    "content": "PTR 388 Printer Serial # SAA7N047000781",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "155 Meeting Room & Print Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 27,
+    "rowEnd": 40,
+    "colEnd": 29,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 19,
+    "rowEnd": 44,
+    "colEnd": 26,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 27,
+    "rowEnd": 38,
+    "colEnd": 29,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 31,
+    "rowEnd": 40,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591336",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "151"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 12,
+    "rowEnd": 40,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 15,
+    "rowEnd": 40,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 18,
+    "rowEnd": 40,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 21,
+    "rowEnd": 40,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nHenderi will move in when Sineth finish - Michael Palmer has approved\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 24,
+    "rowEnd": 40,
+    "colEnd": 26,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 12,
+    "rowEnd": 38,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 15,
+    "rowEnd": 38,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 18,
+    "rowEnd": 38,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 21,
+    "rowEnd": 38,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 24,
+    "rowEnd": 38,
+    "colEnd": 26,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "143D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 35,
+    "rowEnd": 34,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 13,
+    "rowEnd": 34,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591330",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "144"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 16,
+    "rowEnd": 34,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "591331",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "145"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 19,
+    "rowEnd": 34,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "591332",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "146"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 25,
+    "rowEnd": 34,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591334",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "148"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 28,
+    "rowEnd": 34,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591335",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "149"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 22,
+    "rowEnd": 34,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591333",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "147"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 25,
+    "rowEnd": 12,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591313",
+    "bgColor": "FFFFFF",
+    "comment": "Wendy Lumanau:\nYanli Lin - new staff starting in Aug\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "107"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 28,
+    "rowEnd": 12,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591314",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "108"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 31,
+    "rowEnd": 12,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591315",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "109"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 9,
+    "rowEnd": 25,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 31,
+    "rowEnd": 34,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591337",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "150"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 12,
+    "rowEnd": 25,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 11,
+    "rowEnd": 25,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "130H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 9,
+    "rowEnd": 28,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591328",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "131"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 13,
+    "rowEnd": 12,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591309",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "103"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 16,
+    "rowEnd": 12,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "591310",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "104"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 19,
+    "rowEnd": 12,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "591311",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "105"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 22,
+    "rowEnd": 12,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591312",
+    "bgColor": "FFFFFF",
+    "comment": "Ha Le:\nTwice a week-Tue,Thu",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "106"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 32,
+    "rowEnd": 4,
+    "colEnd": 32,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 33,
+    "rowEnd": 4,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 36,
+    "rowEnd": 4,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 40,
+    "rowEnd": 6,
+    "colEnd": 42,
+    "content": "",
+  	"keylocker": "591317",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "113"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 43,
+    "rowEnd": 6,
+    "colEnd": 45,
+    "content": "",
+  	"keylocker": "591321",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "115"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 46,
+    "rowEnd": 6,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "591323",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "117"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 50,
+    "rowEnd": 6,
+    "colEnd": 52,
+    "content": "PTR 386 Printer Serial # SAA2J041015694 \nPTR 387 Printer Serial # SAA2J041015546",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "121 Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 36,
+    "rowEnd": 6,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102V"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 32,
+    "rowEnd": 6,
+    "colEnd": 32,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "102T"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 33,
+    "rowEnd": 6,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102U"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 22,
+    "rowEnd": 4,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 22,
+    "rowEnd": 6,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 15,
+    "rowEnd": 4,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 15,
+    "rowEnd": 6,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 13,
+    "rowEnd": 4,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "102A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 26,
+    "rowEnd": 2,
+    "colEnd": 29,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    },
+    "room": "Made up desk - Damian Lenzo"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 10,
+    "rowEnd": 34,
+    "colEnd": 12,
+    "content": "PTR 384 Printer Serial # SAA2J041015473",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 3,
+    "rowEnd": 40,
+    "colEnd": 8,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "142 Case Study Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 7,
+    "colStart": 51,
+    "rowEnd": 8,
+    "colEnd": 52,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 35,
+    "colStart": 35,
+    "rowEnd": 36,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 50,
+    "rowEnd": 12,
+    "colEnd": 50,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 37,
+    "rowEnd": 12,
+    "colEnd": 39,
+    "content": "",
+  	"keylocker": "591319",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nMichael M retired but holds an Emeritus Professor title. Can check with Leandro if have new staff coming\nHolger Sturlik will use the office from 9/2 - 9/3 2025",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "111"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 40,
+    "rowEnd": 12,
+    "colEnd": 42,
+    "content": "",
+  	"keylocker": "591320",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "112"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 43,
+    "rowEnd": 12,
+    "colEnd": 45,
+    "content": "",
+  	"keylocker": "591322",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "114"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 46,
+    "rowEnd": 12,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "591324",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "116"
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 14,
+    "rowEnd": 29,
+    "colEnd": 48,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 34,
+    "rowEnd": 12,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591318",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "110"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 9,
+    "rowEnd": 14,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591325",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "127"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 9,
+    "rowEnd": 16,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591326",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nYanrui Wu Visiting Student Han JiaBin Until  31-1-2025\nYongMing Miao leaving earlier than 1-11-2024",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "128"
+  },
+  {
+    "type": "merged",
+    "rowStart": 17,
+    "colStart": 9,
+    "rowEnd": 18,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591327",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "129"
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 9,
+    "rowEnd": 30,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591329",
+    "bgColor": "FFFFFF",
+    "comment": "Freya: \nAlison Preston reserves for visitor for March 2025\n\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "132"
+  }
+]

@@ -7,7 +7,7 @@ import 'handsontable/styles/ht-theme-main.css';
 import { ContactDto } from '@/types/contact';
 import { Button } from 'antd';
 
-const AccFinTable : FC<HotTableProps> = (props) => {
+const AccFinCon : FC<HotTableProps> = (props) => {
   const [data, setData] = useState<ContactDto[]>([]);
   const hotRef = useRef<HotTableRef>(null);
 
@@ -56,4 +56,4 @@ const AccFinTable : FC<HotTableProps> = (props) => {
   )
 }
 
-export { AccFinTable }
+export { AccFinCon }

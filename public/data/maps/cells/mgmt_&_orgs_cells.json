@@ -1,0 +1,2160 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 42,
+    "rowEnd": 36,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "591405",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "175"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 13,
+    "rowEnd": 36,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591412",
+    "bgColor": "FFFFFF",
+    "comment": "Xiaochen Gao:\nReserve for Joseph and Yifan Zhong's seminar guest from April 30 - May 6",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "184"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 45,
+    "rowEnd": 36,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "591435",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "170 Online Tutorial Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 25,
+    "rowEnd": 45,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 21,
+    "rowEnd": 43,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "182M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 21,
+    "rowEnd": 45,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182Q"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 37,
+    "rowEnd": 47,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "190 Staff Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 3,
+    "rowEnd": 11,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 28,
+    "rowEnd": 8,
+    "colEnd": 50,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Wesfarmers Lecture Theatre"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 8,
+    "rowEnd": 11,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "591442",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1202"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 11,
+    "rowEnd": 11,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "91422",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1201"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 1,
+    "rowEnd": 31,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Ernst & Young Lecture Theatre"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 15,
+    "rowEnd": 31,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 18,
+    "rowEnd": 31,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 28,
+    "colStart": 15,
+    "rowEnd": 29,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 28,
+    "colStart": 18,
+    "rowEnd": 29,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 25,
+    "colStart": 15,
+    "rowEnd": 26,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 23,
+    "colStart": 15,
+    "rowEnd": 24,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 23,
+    "colStart": 18,
+    "rowEnd": 24,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 15,
+    "rowEnd": 11,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1204C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 5,
+    "rowEnd": 11,
+    "colEnd": 7,
+    "content": "Peter Van Onselen / Nick Letch / Shamit Sagger x2934",
+  	"keylocker": "591441",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1205"
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 15,
+    "rowEnd": 19,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nDonella's visisting professor Singer Hsing-Er Lin stay Sep 5, 2025 - Jan 5, 2026\nComputer deployed pod for her\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 15,
+    "rowEnd": 14,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 36,
+    "colStart": 50,
+    "rowEnd": 39,
+    "colEnd": 53,
+    "content": "",
+  	"keylocker": "591411",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "171"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 3,
+    "rowEnd": 43,
+    "colEnd": 5,
+    "content": "PTR 501 Printer Serial # SAA2J041014488",
+  	"keylocker": "501201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "189 Meeting / Print Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 14,
+    "rowEnd": 41,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "182F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 30,
+    "rowEnd": 36,
+    "colEnd": 32,
+    "content": "",
+  	"keylocker": "591409",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "179"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 33,
+    "rowEnd": 36,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "591408",
+    "bgColor": "FFFFFF",
+    "comment": "Xiaochen Gao:\nStart from 6th Jan 2025\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "178"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 36,
+    "rowEnd": 36,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "591407",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "177"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 39,
+    "rowEnd": 36,
+    "colEnd": 41,
+    "content": "",
+  	"keylocker": "591406",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "176"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 7,
+    "rowEnd": 43,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "182A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 14,
+    "rowEnd": 43,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "182G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 44,
+    "rowEnd": 43,
+    "colEnd": 46,
+    "content": "",
+  	"keylocker": "591404",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "174"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 47,
+    "rowEnd": 43,
+    "colEnd": 49,
+    "content": "",
+  	"keylocker": "591403",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "173"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 50,
+    "rowEnd": 43,
+    "colEnd": 53,
+    "content": "",
+  	"keylocker": "591402",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "172"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 28,
+    "rowEnd": 43,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591440",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "193"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 27,
+    "rowEnd": 36,
+    "colEnd": 29,
+    "content": "",
+  	"keylocker": "591410",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "180"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 11,
+    "rowEnd": 41,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 11,
+    "rowEnd": 43,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 22,
+    "rowEnd": 3,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "1204E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 25,
+    "rowEnd": 3,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "1204F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 22,
+    "rowEnd": 5,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "1204G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 25,
+    "rowEnd": 5,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "medium",
+      "top": null,
+      "bottom": "medium"
+    },
+    "room": "1204H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 1,
+    "rowEnd": 7,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 1,
+    "rowEnd": 5,
+    "colEnd": 3,
+    "content": "PTR 399 Printer Serial # SAA2J041014127",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1212 Meeting / Print Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 5,
+    "rowEnd": 5,
+    "colEnd": 7,
+    "content": "",
+  	"keylocker": "591434",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1208"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 8,
+    "rowEnd": 5,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "591433",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1207"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 11,
+    "rowEnd": 5,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "591432",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1206"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 14,
+    "rowEnd": 5,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "591431",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1203"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 15,
+    "rowEnd": 16,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nCasual tutor, Lecturer\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 15,
+    "rowEnd": 9,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1204A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 7,
+    "colStart": 22,
+    "rowEnd": 8,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "1204I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 7,
+    "colStart": 25,
+    "rowEnd": 8,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "1204J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 18,
+    "rowEnd": 9,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1204B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 18,
+    "rowEnd": 16,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 18,
+    "rowEnd": 11,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1204D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 11,
+    "colStart": 29,
+    "rowEnd": 31,
+    "colEnd": 43,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "BHP Billiton Courtyard"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 24,
+    "rowEnd": 32,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591414",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1220"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 24,
+    "rowEnd": 14,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591421",
+    "bgColor": "FFFFFF",
+    "comment": "Xiaochen Gao:\nRoom is allocated to Elly Leung, effective from 04 Feb",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "1214"
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 24,
+    "rowEnd": 29,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591415",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1219"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 24,
+    "rowEnd": 17,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591420",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1215"
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 24,
+    "rowEnd": 20,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591418",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1216"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 23,
+    "rowEnd": 11,
+    "colEnd": 27,
+    "content": "PTR 385 Printer Serial # SAA2J041015456",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 18,
+    "rowEnd": 19,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nKate is current UC and requires desk for Semester 1 2025",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 25,
+    "colStart": 18,
+    "rowEnd": 26,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 24,
+    "rowEnd": 23,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591417",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1217"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 24,
+    "rowEnd": 26,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591416",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1218"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 18,
+    "rowEnd": 14,
+    "colEnd": 20,
+    "content": "Bemi Soetan x2799",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 15,
+    "rowEnd": 21,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 18,
+    "rowEnd": 39,
+    "colEnd": 20,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 14,
+    "rowEnd": 39,
+    "colEnd": 16,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 18,
+    "rowEnd": 21,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "1213H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 16,
+    "rowEnd": 36,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "591437",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "183"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 7,
+    "rowEnd": 45,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 14,
+    "rowEnd": 45,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 11,
+    "rowEnd": 45,
+    "colEnd": 13,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 18,
+    "rowEnd": 45,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 21,
+    "rowEnd": 41,
+    "colEnd": 23,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nAlexandra Roberts noticed may need to be reassigned if we reqruier the pod for PhD student\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 18,
+    "rowEnd": 41,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 18,
+    "rowEnd": 43,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 3,
+    "rowEnd": 37,
+    "colEnd": 4,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 7,
+    "rowEnd": 36,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "591436",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nMGMT5608 UC\nstay: 28/01/2025 - 14/03/2025\nKey provided",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "185A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 10,
+    "rowEnd": 36,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591413",
+    "bgColor": "FFFFFF",
+    "comment": "Xiaochen Gao:\nJohn Cordery: Adjunct Professor",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "185"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 34,
+    "rowEnd": 43,
+    "colEnd": 37,
+    "content": "",
+  	"keylocker": "591438",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "191"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 31,
+    "rowEnd": 43,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591439",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "192"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 24,
+    "rowEnd": 36,
+    "colEnd": 26,
+    "content": "",
+  	"keylocker": "591411",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "181"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 25,
+    "rowEnd": 41,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 42,
+    "colStart": 25,
+    "rowEnd": 43,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "182O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 5,
+    "rowEnd": 36,
+    "colEnd": 5,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "single",
+    "rowStart": 2,
+    "colStart": 17,
+    "rowEnd": 2,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 3,
+    "colStart": 17,
+    "rowEnd": 3,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 4,
+    "colStart": 17,
+    "rowEnd": 4,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 5,
+    "colStart": 17,
+    "rowEnd": 5,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 6,
+    "colStart": 27,
+    "rowEnd": 6,
+    "colEnd": 27,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 11,
+    "colStart": 44,
+    "rowEnd": 11,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 12,
+    "colStart": 44,
+    "rowEnd": 12,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 13,
+    "colStart": 44,
+    "rowEnd": 13,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 14,
+    "colStart": 44,
+    "rowEnd": 14,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 15,
+    "colStart": 44,
+    "rowEnd": 15,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 16,
+    "colStart": 44,
+    "rowEnd": 16,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 17,
+    "colStart": 44,
+    "rowEnd": 17,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 18,
+    "colStart": 44,
+    "rowEnd": 18,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 19,
+    "colStart": 44,
+    "rowEnd": 19,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 20,
+    "colStart": 44,
+    "rowEnd": 20,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 21,
+    "colStart": 44,
+    "rowEnd": 21,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 22,
+    "colStart": 15,
+    "rowEnd": 22,
+    "colEnd": 15,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 22,
+    "colStart": 20,
+    "rowEnd": 22,
+    "colEnd": 20,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 22,
+    "colStart": 44,
+    "rowEnd": 22,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 23,
+    "colStart": 44,
+    "rowEnd": 23,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 24,
+    "colStart": 44,
+    "rowEnd": 24,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 25,
+    "colStart": 44,
+    "rowEnd": 25,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 26,
+    "colStart": 44,
+    "rowEnd": 26,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 27,
+    "colStart": 44,
+    "rowEnd": 27,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 28,
+    "colStart": 23,
+    "rowEnd": 28,
+    "colEnd": 23,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 28,
+    "colStart": 44,
+    "rowEnd": 28,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 29,
+    "colStart": 44,
+    "rowEnd": 29,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 30,
+    "colStart": 44,
+    "rowEnd": 30,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 31,
+    "colStart": 44,
+    "rowEnd": 31,
+    "colEnd": 44,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 40,
+    "colStart": 17,
+    "rowEnd": 40,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 41,
+    "colStart": 17,
+    "rowEnd": 41,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 42,
+    "colStart": 17,
+    "rowEnd": 42,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 43,
+    "colStart": 17,
+    "rowEnd": 43,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 44,
+    "colStart": 17,
+    "rowEnd": 44,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 45,
+    "colStart": 17,
+    "rowEnd": 45,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  }
+]

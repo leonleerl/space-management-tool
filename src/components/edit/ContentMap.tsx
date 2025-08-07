@@ -1,10 +1,10 @@
 import React from 'react'
-import { AccFinTable } from './contact'
-import { AccFinTable as AccFinTableAccomodation } from './accomodation'
+import { AccFinCon } from './contact'
+import { AccFinAcc } from './accomodation'
 
 const ContentMap : Record<string, React.ReactNode> = {
-    "11": <AccFinTableAccomodation />,
-    '21': <AccFinTable />,
+    "16": <AccFinAcc />,
+    '21': <AccFinCon />,
 }
 
 export { ContentMap }
