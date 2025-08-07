@@ -1,7 +1,7 @@
-import { ContactDto, ContactEntity } from "@/types/contact";
+import { StaffDto, StaffEntity } from "@/types/STAFF";
 
 // mock data, suppose to be fetched from database
-let contacts : ContactEntity[] = [
+let staff : StaffEntity[] = [
     {
         id: 1,
         firstName: 'John',
@@ -19,7 +19,7 @@ let contacts : ContactEntity[] = [
                 name: 'A205',
             }
         },
-        contactCategory: {
+        staffCategory: {
             id: 1,
             name: 'AccFin'
         }
@@ -41,7 +41,7 @@ let contacts : ContactEntity[] = [
                 name: 'A206',
             }
         },
-        contactCategory: {
+        staffCategory: {
             id: 1,
             name: 'AccFin'
         }
@@ -62,7 +62,7 @@ let contacts : ContactEntity[] = [
                 name: 'A207',
             }
         },
-        contactCategory: {
+        staffCategory: {
             id: 2,
             name: 'Economics'
         }
@@ -83,7 +83,7 @@ let contacts : ContactEntity[] = [
                 name: 'A208',
             }
         },
-        contactCategory: {
+        staffCategory: {
             id: 2,
             name: 'AccFin'
         }
@@ -95,36 +95,36 @@ export async function GET(request: Request) : Promise<Response> {
     const contactCategory = searchParams.get('contactCategory');
 
     if (contactCategory) {
-        contacts = contacts.filter(contact => contact.contactCategory.name === contactCategory);
+        staff = staff.filter(staff => staff.staffCategory.name === contactCategory);
     }
-    const contactDtos : ContactDto[] = await Promise.resolve(contacts.map(contact => {
-        if (!contact.middleName) {
+    const staffDtos : StaffDto[] = await Promise.resolve(staff.map(staff => {
+        if (!staff.middleName) {
             // if middleName is not provided, return fullName as firstName and lastName
             return {
-                id: contact.id,
-                fullName: `${contact.firstName} ${contact.lastName}`,
-                position: contact.position,
-                extNo: contact.extNo,
-                source: contact.source,
-                room: contact.room,
-                contactCategory: contact.contactCategory
+                id: staff.id,
+                fullName: `${staff.firstName} ${staff.lastName}`,
+                position: staff.position,
+                extNo: staff.extNo,
+                source: staff.source,
+                room: staff.room,
+                staffCategory: staff.staffCategory
             }
         }
         return {
-            id: contact.id,
-            fullName: `${contact.firstName} ${contact.middleName} ${contact.lastName}`,
-            position: contact.position,
-            extNo: contact.extNo,
-            source: contact.source,
-            room: contact.room,
-            contactCategory: contact.contactCategory
+            id: staff.id,
+            fullName: `${staff.firstName} ${staff.middleName} ${staff.lastName}`,
+            position: staff.position,
+            extNo: staff.extNo,
+            source: staff.source,
+            room: staff.room,
+            staffCategory: staff.staffCategory
         }
     }))
-    return Response.json(contactDtos);
+    return Response.json(staffDtos);
 }
 
 export async function POST(request: Request) : Promise<Response> {
-    const contact = await request.json();
-    contacts.push(contact);
-    return Response.json(contact);
+    const staff = await request.json();
+    staff.push(staff);
+    return Response.json(staff);
 }

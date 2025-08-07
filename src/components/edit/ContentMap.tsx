@@ -1,5 +1,5 @@
 import React from 'react'
-import { AccFinCon } from './contact'
+import { AccFinCon } from './staff'
 import { AccFinAcc } from './accomodation'
 
 const ContentMap : Record<string, React.ReactNode> = {

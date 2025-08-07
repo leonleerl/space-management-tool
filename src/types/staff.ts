@@ -1,6 +1,6 @@
 import { RoomDto, RoomEntity } from "./room";
 
-export interface ContactEntity{
+export interface StaffEntity{
     id: number;
     firstName: string;
     middleName?: string;
@@ -9,25 +9,25 @@ export interface ContactEntity{
     extNo: string;
     source: string;
     room: RoomEntity;
-    contactCategory: ContactCategoryEntity;
+    staffCategory: StaffCategoryEntity;
 }
 
-export interface ContactCategoryEntity {
+export interface StaffCategoryEntity {
     id: number;
     name: string;
 }
 
-export interface ContactDto {
+export interface StaffDto {
     id: number;
     fullName: string;
     position: string;
     extNo: string;
     source: string;
     room: RoomDto;
-    contactCategory: ContactCategoryDto;
+    staffCategory: StaffCategoryDto;
 }
 
-export interface ContactCategoryDto {
+export interface StaffCategoryDto {
     id: number;
     name: string;
 }

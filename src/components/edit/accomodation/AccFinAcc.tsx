@@ -34,26 +34,6 @@ function AccFinAcc() {
   
     fetchMapData();
   }, []);
-  
-  const handleSave = async () => {
-    if (!cellData || !layoutData) return;
-    try {
-      const res = await fetch("/api/save-map", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          sheetName: "accounting_finance",
-          cellData,
-          layoutData,
-        }),
-      });
-      if (!res.ok) throw new Error("Failed to save data");
-      alert("Data saved successfully!");
-    } catch (err) {
-      console.error(err);
-      alert("Failed to save data. Please try again later.");
-    }
-  };
 
   return (
     <div className="flex flex-col w-full border-2"
