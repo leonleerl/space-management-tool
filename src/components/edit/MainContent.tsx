@@ -59,7 +59,7 @@ const items = [
   {
     key: '2',
     icon: <FolderOutlined/>,
-    label: 'Contact List',
+    label: 'Staff List',
     children: [
         {
           key: '21',

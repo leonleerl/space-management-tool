@@ -2,11 +2,11 @@
 export interface RoomDto {
     id: number;
     roomNo: string;
-    keyLocker: string;
-    roomCategory: RoomCategoryDto;
+    keyLocker: string | null;
+    roomLocation?: RoomLocationDto | null;
 }
 
-export interface RoomCategoryDto {
+export interface RoomLocationDto {
     id: number;
     name: string;
 }
@@ -14,11 +14,11 @@ export interface RoomCategoryDto {
 export interface RoomEntity {
     id: number;
     roomNo: string;
-    keyLocker: string;
-    roomCategory: RoomCategoryEntity;
+    keyLocker: string | null;
+    roomLocation?: RoomLocationEntity | null;
 }
 
-export interface RoomCategoryEntity {
+export interface RoomLocationEntity {
     id: number;
     name: string;
 }

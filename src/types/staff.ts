@@ -3,16 +3,16 @@ import { RoomDto, RoomEntity } from "./room";
 export interface StaffEntity{
     id: number;
     firstName: string;
-    middleName?: string;
+    middleName: string | null;
     lastName: string;
-    position: string;
-    extNo: string;
-    source: string;
-    room: RoomEntity;
-    staffCategory: StaffCategoryEntity;
+    position: string | null;
+    extNo: string | null;
+    source: string | null;
+    room: RoomEntity | null;
+    department: DepartmentEntity | null;
 }
 
-export interface StaffCategoryEntity {
+export interface DepartmentEntity {
     id: number;
     name: string;
 }
@@ -20,14 +20,14 @@ export interface StaffCategoryEntity {
 export interface StaffDto {
     id: number;
     fullName: string;
-    position: string;
-    extNo: string;
-    source: string;
-    room: RoomDto;
-    staffCategory: StaffCategoryDto;
+    position: string | null;
+    extNo: string | null;
+    source: string | null;
+    room: RoomDto | null;
+    department: DepartmentDto | null;
 }
 
-export interface StaffCategoryDto {
+export interface DepartmentDto {
     id: number;
     name: string;
 }

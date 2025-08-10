@@ -48,7 +48,6 @@ function AccFinAcc() {
                       .join(' ');
                     allPeople.push(fullName);
                     
-                    // 添加extNo
                     if (person.extNo) {
                       allPeople.push(`Ext: ${person.extNo}`);
                     }
