@@ -24,7 +24,63 @@ function AccFinAcc() {
         if (!res.ok) throw new Error("Failed to fetch map data");
   
         const data = await res.json();
-        console.log(data);
+
+        const dataPatch = await fetch("/api/accommodation?roomLocation=AccFin", {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+        })
+        .then(res => res.json());
+
+        // new logic
+          if (dataPatch && dataPatch.length > 0) {
+            dataPatch.forEach((roomData: any) => {
+              const roomNo = roomData.roomNo;
+              
+              const matchingCellIndex = data.cells.findIndex((cell: any) => cell.room === roomNo);
+              
+              if (matchingCellIndex !== -1) {
+                const allPeople: string[] = [];
+                
+                if (roomData.staff && roomData.staff.length > 0) {
+                  roomData.staff.forEach((person: any) => {
+                    const fullName = [person.firstName, person.middleName, person.lastName]
+                      .filter(name => name !== null && name !== undefined)
+                      .join(' ');
+                    allPeople.push(fullName);
+                    
+                    // 添加extNo
+                    if (person.extNo) {
+                      allPeople.push(`Ext: ${person.extNo}`);
+                    }
+                  });
+                }
+                
+                if (roomData.students && roomData.students.length > 0) {
+                  roomData.students.forEach((person: any) => {
+                    const fullName = [person.firstName, person.middleName, person.lastName]
+                      .filter(name => name !== null && name !== undefined)
+                      .join(' ');
+                    allPeople.push(fullName);
+                    
+                    if (person.extNo) {
+                      allPeople.push(`Ext: ${person.extNo}`);
+                    }
+                  });
+                }
+                
+                const contentParts = [roomNo, ...allPeople];
+                
+                if (roomData.keyLocker) {
+                  contentParts.push(`Key Locker: ${roomData.keyLocker}`);
+                }
+                
+                const newContent = contentParts.join('\n');
+                
+                data.cells[matchingCellIndex].content = newContent;
+              }
+            });
+          }
+                  
         setCellData(data.cells);
         setLayoutData(data.layout);
       } catch (err) {
