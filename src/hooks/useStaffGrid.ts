@@ -36,7 +36,7 @@ export function useStaffGrid(departmentName: string) {
     return s.length === 0 ? null : s;
   };
 
-  const handleSave = async () => {
+  const handleSave: () => Promise<void> = async () => {
     setIsSaving(true);
     const hot = hotRef.current?.hotInstance;
     if (!hot) {
@@ -93,7 +93,16 @@ export function useStaffGrid(departmentName: string) {
       });
   };
 
-  return { hotRef, gridRows, setGridRows, isSaving, handleSave } as const;
+  const handleAdd = () => {
+    setGridRows((previousRows) => {
+      const numberOfColumns = previousRows[0]?.length ?? 5;
+      const emptyRow: GridCell[] = Array(numberOfColumns).fill(null);
+      return [...previousRows, emptyRow];
+    });
+
+  };
+
+  return { hotRef, gridRows, setGridRows, isSaving, handleSave, handleAdd } as const;
 }
 
 

@@ -7,13 +7,16 @@ import { Button } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
 
 const AccFinStaff : FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleSave } = useStaffGrid('AccFin');
+  const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('AccFin');
 
   return (
     <div>
       <div className='flex items-center justify-between'>
         <div className='font-black text-2xl'>Accounting & Finance Staff</div>
-        <Button type='primary' onClick={handleSave} loading={isSaving}>Save Changes</Button>
+        <div className='flex gap-2'>
+          <Button type='primary' onClick={handleAdd}>Add</Button>
+          <Button color='cyan' variant='solid' onClick={handleSave} loading={isSaving}>Save Changes</Button>
+        </div>
       </div>
 
     <HotTable
