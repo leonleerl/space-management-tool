@@ -3,35 +3,13 @@
 import React from'react';
 import { Slider } from 'antd';
 import { HotTableView } from "@/components";
-import type { CellMeta, LayoutMeta } from "@/types/map";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { useMapData } from '@/hooks/useMapData';
 
 function AccFinAcc() {
-  const [cellData, setCellData] = useState<CellMeta[] | null>(null);
-  const [layoutData, setLayoutData] = useState<LayoutMeta | null>(null);
+  const { cellData, layoutData, setCellData, setLayoutData } = useMapData('accounting_finance');
   const [scale, setScale] = useState(1);
-  
-  useEffect(() => {
-    async function fetchMapData() {
-      try {
-        const res = await fetch("/api/get-map-data", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ mapName: "accounting_finance" })
-        });
-  
-        if (!res.ok) throw new Error("Failed to fetch map data");
-  
-        const data = await res.json();
-        setCellData(data.cells);
-        setLayoutData(data.layout);
-      } catch (err) {
-        console.error(err);
-      }
-    }
-  
-    fetchMapData();
-  }, []);
+
 
   return (
     <div className="flex flex-col w-full border-2"
