@@ -5,27 +5,9 @@ import { HotTable } from "@handsontable/react-wrapper";
 import Handsontable from "handsontable";
 import "handsontable/dist/handsontable.full.min.css";
 import { ConvertRowHeights, ConvertColWidths } from "@/components";
+import type { CellMeta, LayoutMeta } from "@/features/accommodation-map/types";
 
-export interface CellMeta {
-  rowStart: number;
-  colStart: number;
-  rowEnd: number;
-  colEnd: number;
-  content: string;
-  bgColor?: string; 
-  border: {
-    left?: string | null;
-    right?: string | null;
-    top?: string | null;
-    bottom?: string | null;
-  };
-  comment?: string | null;
-}
-
-export interface LayoutMeta {
-  row_heights: Record<string, number>;
-  column_widths: Record<string, number>;
-}
+// types moved to features/accommodation-map/types
 
 interface Props {
   cellData: CellMeta[];

@@ -3,16 +3,11 @@ import fs from 'fs/promises';
 import { NextRequest, NextResponse } from 'next/server';
 import { loadFilteredStudents } from '@/lib/loadFilteredStudents';
 import { loadFilteredContacts } from '@/lib/loadFilteredContacts';
+import { prisma } from '@/lib/prisma';
+import { studentColors, mapToStudentKey, mapToContactKey, mapToRoomLocation, excludeRooms, roomFormatRegexps } from '@/features/accommodation-map/constants';
+import type { CellMeta } from '@/features/accommodation-map/types';
 
-interface CellMeta {
-  rowStart: number;
-  rowEnd: number;
-  colStart: number;
-  colEnd: number;
-  content: string;
-  bgColor?: string;
-  [key: string]: any;
-}
+export const runtime = 'nodejs';
 
 interface ContactEntry {
   "Full Name": string;
@@ -30,33 +25,7 @@ interface StudentEntry {
   Type: string | null;
 }
 
-const studentColors: Record<string, string> = {
-  "PhDs": "#D8E4C4",
-  "New PhD in 2025": "#DB9E91",
-  "Mphil": "#F0E68C",
-  "Visiting Student": "#A78EC1",
-  "Visitors": "#D3D3D3",
-  "Casual Staff": "#F5F5DC",
-  "Research Assistant": "#FFA07A",
-  "HDR": "#7CB7C2",
-  "Other": "#ADD8E6",
-};
-
-const mapToStudentKey: Record<string, string> = {
-  'accounting_finance': 'AccFin',
-  'economics': 'Economics',
-  'marketing': 'Marketing',
-  'mgmt_&_orgs': 'Mgmt & Orgs',
-  'gf_da': 'GF-DA'
-};
-
-const mapToContactKey: Record<string, string> = {
-  'accounting_finance': 'Accounting & Finance',
-  'economics': 'Economics',
-  'marketing': 'Marketing',
-  'mgmt_&_orgs': 'Mgmt & Orgs',
-  'deanery_lvl_2': 'Deans Office'
-};
+// moved to features/accommodation-map/constants
 
 function getStudentBgColor(
   students: StudentEntry[],
@@ -80,11 +49,21 @@ function getContactBgColor(
   return undefined;
 }
 
-function buildSummary(entry: any): string {
-  const name = entry.Name || entry["Full Name"] || '';
-  const type = entry.Type ? ` (${entry.Type})` : '';
-  const position = entry.Position ? `\n${entry.Position}` : '';
-  const ext = entry["Ext No"] ? `\nExt: ${entry["Ext No"]}` : '';
+function buildSummary(entry: StudentEntry | ContactEntry): string {
+  let name = '';
+  let type = '';
+  let position = '';
+  let ext = '';
+
+  if ('Name' in entry) {
+    name = entry.Name || '';
+    type = entry.Type ? ` (${entry.Type})` : '';
+  }
+  if ('Full Name' in entry) {
+    name = entry['Full Name'] || name;
+    position = entry.Position ? `\n${entry.Position}` : '';
+    ext = entry['Ext No'] ? `\nExt: ${entry['Ext No']}` : '';
+  }
   return `${name}${type}${position}${ext}`;
 }
 
@@ -142,11 +121,64 @@ export async function POST(req: NextRequest) {
       roomMap[room].push(summary);
     });
 
+    // Try to enrich with DB data when possible
+    type DbPerson = { firstName: string; middleName: string | null; lastName: string; extNo: string | null };
+    let roomsByNo: Map<string, { keyLocker: string | null; staff: DbPerson[]; students: DbPerson[] } > = new Map();
+    const locationKey = mapToRoomLocation[mapName];
+    if (locationKey) {
+      try {
+        const location = await prisma.roomLocation.findUnique({ where: { name: locationKey } });
+        if (location) {
+          const rooms = await prisma.room.findMany({
+            where: { locationId: location.id },
+            include: { staff: true, students: true }
+          });
+          roomsByNo = new Map(
+            rooms.map(r => [r.roomNo, { keyLocker: r.keyLocker, staff: r.staff, students: r.students }])
+          );
+        }
+      } catch (e) {
+        // best-effort enrichment; fall back silently
+        console.error('[get-map-data] db enrichment failed', e);
+      }
+    }
+
     const updatedCells = cells.map((cell) => {
       const room = String(cell.room ?? '').trim();
-      const people = roomMap[room];
+      let people = roomMap[room];
       const comment = commentMap[room];
-      const keylocker = cell.keylocker?.trim();
+      let keylocker = cell.keylocker?.trim();
+
+      // merge DB enrichment if available
+      const db = roomsByNo.get(room);
+      if (db) {
+        const names: string[] = [];
+        if (db.staff?.length) {
+          for (const s of db.staff) {
+            const fullName = [s.firstName, s.middleName, s.lastName]
+              .filter(v => v !== null && v !== undefined && String(v).trim().length > 0)
+              .join(' ');
+            if (fullName) names.push(fullName);
+            if (s.extNo) names.push(`Ext: ${s.extNo}`);
+          }
+        }
+        if (db.students?.length) {
+          for (const stu of db.students) {
+            const fullName = [stu.firstName, stu.middleName, stu.lastName]
+              .filter(v => v !== null && v !== undefined && String(v).trim().length > 0)
+              .join(' ');
+            if (fullName) names.push(fullName);
+            if (stu.extNo) names.push(`Ext: ${stu.extNo}`);
+          }
+        }
+        // If DB has any people, override JSON people completely
+        if (names.length) {
+          people = names;
+        }
+        if (!keylocker && db.keyLocker) {
+          keylocker = db.keyLocker;
+        }
+      }
 
       let content = '';
       if (people && people.length > 0) {
@@ -164,20 +196,7 @@ export async function POST(req: NextRequest) {
 
       let bgColor: string | undefined = undefined;
 
-      const excludeRooms = new Set([
-        "CAFÉ",
-        "Kitchen",
-        "Fire Hydrant",
-        "Woodside Courtyard",
-        "Meeting Room",
-        "Printer",
-        "WC"
-      ]);
-      
-      const isValidRoomFormat =
-        /^[A-Z]+\d+[A-Z]*$/.test(room) ||  // e.g. G123, G37D
-        /^\d+[A-Z]$/.test(room) ||        // e.g. 1204A
-        /^\d+$/.test(room);               // e.g. 177
+      const isValidRoomFormat = roomFormatRegexps.some((re) => re.test(room));
       
       if (studentColor) {
         bgColor = studentColor;
@@ -207,8 +226,9 @@ export async function POST(req: NextRequest) {
       cells: updatedCells,
       layout: layoutData,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('[populate error]', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

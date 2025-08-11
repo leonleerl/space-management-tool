@@ -1,5 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import { StaffDto, StaffEntity } from "@/types/staff";
+import { StaffDtoArraySchema, parseFullName } from "@/features/staff/schemas";
+
+export const runtime = 'edge';
 
 export async function GET(request: Request) : Promise<Response> {
     const { searchParams } = new URL(request.url);
@@ -45,20 +48,17 @@ export async function GET(request: Request) : Promise<Response> {
 
 export async function POST(request: Request) : Promise<Response> {
     await prisma.staff.deleteMany();
-    
-    const payload : StaffDto[] = await request.json();
 
-    const parseName = (fullName: string) => {
-        const parts = (fullName || '').split(' ').filter(Boolean);
-        const firstName = parts[0] ?? '';
-        const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
-        const middle = parts.slice(1, -1).join(' ');
-        const middleName = middle.length > 0 ? middle : null;
-        return { firstName, middleName, lastName };
-    };
+    const body = await request.json();
+    const parseResult = StaffDtoArraySchema.safeParse(body);
+    if (!parseResult.success) {
+        return Response.json({ error: 'Invalid payload', details: parseResult.error.flatten() }, { status: 400 });
+    }
+
+    const payload : StaffDto[] = parseResult.data as StaffDto[];
 
     const rows = payload.map((dto) => {
-        const { firstName, middleName, lastName } = parseName(dto.fullName);
+        const { firstName, middleName, lastName } = parseFullName(dto.fullName);
         return {
             firstName,
             middleName,

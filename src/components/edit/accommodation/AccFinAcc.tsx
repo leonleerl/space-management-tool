@@ -3,11 +3,10 @@
 import React from'react';
 import { Slider } from 'antd';
 import { HotTableView } from "@/components";
-import type { CellMeta, LayoutMeta } from "@/components";
-import { useEffect, useState, useRef } from 'react';
+import type { CellMeta, LayoutMeta } from "@/features/accommodation-map/types";
+import { useEffect, useState } from 'react';
 
 function AccFinAcc() {
-  const containerRef = useRef<HTMLDivElement>(null);
   const [cellData, setCellData] = useState<CellMeta[] | null>(null);
   const [layoutData, setLayoutData] = useState<LayoutMeta | null>(null);
   const [scale, setScale] = useState(1);
@@ -24,62 +23,6 @@ function AccFinAcc() {
         if (!res.ok) throw new Error("Failed to fetch map data");
   
         const data = await res.json();
-
-        const dataPatch = await fetch("/api/accommodation?roomLocation=AccFin", {
-          method: "GET",
-          headers: { "Content-Type": "application/json" },
-        })
-        .then(res => res.json());
-
-        // new logic
-          if (dataPatch && dataPatch.length > 0) {
-            dataPatch.forEach((roomData: any) => {
-              const roomNo = roomData.roomNo;
-              
-              const matchingCellIndex = data.cells.findIndex((cell: any) => cell.room === roomNo);
-              
-              if (matchingCellIndex !== -1) {
-                const allPeople: string[] = [];
-                
-                if (roomData.staff && roomData.staff.length > 0) {
-                  roomData.staff.forEach((person: any) => {
-                    const fullName = [person.firstName, person.middleName, person.lastName]
-                      .filter(name => name !== null && name !== undefined)
-                      .join(' ');
-                    allPeople.push(fullName);
-                    
-                    if (person.extNo) {
-                      allPeople.push(`Ext: ${person.extNo}`);
-                    }
-                  });
-                }
-                
-                if (roomData.students && roomData.students.length > 0) {
-                  roomData.students.forEach((person: any) => {
-                    const fullName = [person.firstName, person.middleName, person.lastName]
-                      .filter(name => name !== null && name !== undefined)
-                      .join(' ');
-                    allPeople.push(fullName);
-                    
-                    if (person.extNo) {
-                      allPeople.push(`Ext: ${person.extNo}`);
-                    }
-                  });
-                }
-                
-                const contentParts = [roomNo, ...allPeople];
-                
-                if (roomData.keyLocker) {
-                  contentParts.push(`Key Locker: ${roomData.keyLocker}`);
-                }
-                
-                const newContent = contentParts.join('\n');
-                
-                data.cells[matchingCellIndex].content = newContent;
-              }
-            });
-          }
-                  
         setCellData(data.cells);
         setLayoutData(data.layout);
       } catch (err) {
