@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import { StaffDto, StaffEntity } from "@/types/staff";
-import { StaffDtoArraySchema, parseFullName } from "@/features/staff/schemas";
+import { StaffDtoArraySchema, parseFullName } from "@/lib/schemas/staff.schema";
 
 export const runtime = 'edge';
 

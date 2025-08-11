@@ -3,7 +3,7 @@
 import React from'react';
 import { Slider } from 'antd';
 import { HotTableView } from "@/components";
-import type { CellMeta, LayoutMeta } from "@/features/accommodation-map/types";
+import type { CellMeta, LayoutMeta } from "@/types/map";
 import { useEffect, useState } from 'react';
 
 function AccFinAcc() {

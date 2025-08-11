@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 
 import { FC } from 'react';
-import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import { registerAllModules } from 'handsontable/registry';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 
-import { FileExcelOutlined, FileTextOutlined, FolderOutlined, LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
+import { FileExcelOutlined, FileTextOutlined, FolderOutlined } from '@ant-design/icons';
 import { Layout, Menu, theme } from 'antd';
 import { ContentMap } from './ContentMap';
 
@@ -124,7 +122,7 @@ const items = [
 
 registerAllModules();
 
-const MainContent : FC<HotTableProps> = (props) => {
+const MainContent : FC = () => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();

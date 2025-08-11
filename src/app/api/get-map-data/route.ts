@@ -4,8 +4,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { loadFilteredStudents } from '@/lib/loadFilteredStudents';
 import { loadFilteredContacts } from '@/lib/loadFilteredContacts';
 import { prisma } from '@/lib/prisma';
-import { studentColors, mapToStudentKey, mapToContactKey, mapToRoomLocation, excludeRooms, roomFormatRegexps } from '@/features/accommodation-map/constants';
-import type { CellMeta } from '@/features/accommodation-map/types';
+import { studentColors, mapToStudentKey, mapToContactKey, mapToRoomLocation, excludeRooms, roomFormatRegexps } from '@/types/constants';
+import type { CellMeta } from "@/types/map";
 
 export const runtime = 'nodejs';
 

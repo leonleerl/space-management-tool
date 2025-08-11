@@ -5,9 +5,7 @@ import { HotTable } from "@handsontable/react-wrapper";
 import Handsontable from "handsontable";
 import "handsontable/dist/handsontable.full.min.css";
 import { ConvertRowHeights, ConvertColWidths } from "@/components";
-import type { CellMeta, LayoutMeta } from "@/features/accommodation-map/types";
-
-// types moved to features/accommodation-map/types
+import type { CellMeta, LayoutMeta } from "@/types/map";
 
 interface Props {
   cellData: CellMeta[];
@@ -15,26 +13,30 @@ interface Props {
   onUpdate?: (cells: CellMeta[], layout: LayoutMeta) => void;
 }
 
+type ColorCellProperties = Handsontable.CellProperties & {
+  bgColor?: string;
+};
+
 function colorRenderer(
   instance: Handsontable.Core,
   td: HTMLTableCellElement,
   row: number,
   col: number,
-  prop: any,
-  value: any,
-  cellProperties: Handsontable.CellProperties
+  prop: string | number,
+  value: Handsontable.CellValue,
+  cellProperties: ColorCellProperties
 ) {
   Handsontable.renderers.TextRenderer(instance, td, row, col, prop, value, cellProperties);
 
-  if ((cellProperties as any).bgColor) {
-    td.style.backgroundColor = (cellProperties as any).bgColor;
+  if (cellProperties.bgColor) {
+    td.style.backgroundColor = cellProperties.bgColor;
   }
 }
 
 const HotTableView: React.FC<Props> = ({ cellData, layoutData }) => {
   const [data, setData] = useState<string[][]>([]);
   const [mergeCells, setMergeCells] = useState<Handsontable.GridSettings["mergeCells"]>();
-  const [cellMeta, setCellMeta] = useState<Record<string, any>>({}); 
+  const [cellMeta, setCellMeta] = useState<Record<string, Partial<ColorCellProperties>>>({}); 
 
   useEffect(() => {
     if (!cellData || !layoutData) return;
@@ -44,7 +46,7 @@ const HotTableView: React.FC<Props> = ({ cellData, layoutData }) => {
 
     const tableData = Array.from({ length: maxRow }, () => Array(maxCol).fill(""));
     const merges: NonNullable<Handsontable.GridSettings["mergeCells"]> = [];
-    const meta: Record<string, any> = {};
+    const meta: Record<string, Partial<ColorCellProperties>> = {};
 
     for (const cell of cellData) {
       const r = cell.rowStart - 1;
