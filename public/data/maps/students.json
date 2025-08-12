@@ -1,0 +1,964 @@
+{
+  "Mgmt & Orgs": [
+    {
+      "Name": "Danyu Zhu",
+      "End Date": "26-Dec-2024",
+      "Comment": "Rui Zhong's visiting research student, 26/02/2024 - 26/12/2024",
+      "Pod No": "1213H",
+      "Ext No": "x5814",
+      "Type": "Visitors"
+    },
+    {
+      "Name": "Karen Winter",
+      "End Date": "31-Dec-2024",
+      "Comment": "Marketing PhD, submit by end of 2024; Enroled PhD part time",
+      "Pod No": "1213A",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Zhouyue Wu",
+      "End Date": "31-Dec-2024",
+      "Comment": "exchange student, Alex Lukste and Ruolian Fan",
+      "Pod No": "182I",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Emika HOWARD",
+      "End Date": "22-Jan-2025",
+      "Comment": "submit in August, 2024. Can reassign her pod after that ( revert it into 2 pods as original configuration)",
+      "Pod No": "182N",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Han Wen",
+      "End Date": "28-Jan-2025",
+      "Comment": "AccFin student, commencement date: 29/1/2024; end date: 28/1/2025",
+      "Pod No": "1204J",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Miaojia Huang",
+      "End Date": "20-Feb-2026",
+      "Comment": "Sandra: Miao should also submit towards the end of 2024 so that pod should free up too for 2025 at least.\ncheck callista at the end of 2024",
+      "Pod No": "182P",
+      "Ext No": "x5681",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Mare Stevanovski",
+      "End Date": "31-Jul-2026",
+      "Comment": null,
+      "Pod No": "182K",
+      "Ext No": "x5672",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Xiaoxiao Jiang",
+      "End Date": "20-Oct-2026",
+      "Comment": "",
+      "Pod No": "182Q",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Anis MARIS",
+      "End Date": "22-Jan-2027",
+      "Comment": null,
+      "Pod No": "182B",
+      "Ext No": "x4620",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Agnieszka Miller",
+      "End Date": "26-Feb-2027",
+      "Comment": null,
+      "Pod No": "1213K",
+      "Ext No": "x5678",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Restu Khaliq Aidillah",
+      "End Date": "31-May-2027",
+      "Comment": null,
+      "Pod No": "182E",
+      "Ext No": "x1441",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Arza Faldy PRAMESWARA",
+      "End Date": "11-Jun-2027",
+      "Comment": null,
+      "Pod No": "182D",
+      "Ext No": "x5696",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Thilini KUMARA BANDAGE",
+      "End Date": "29-Feb-2028",
+      "Comment": "Commencement Date 1 Mar 2024; End date 29 Feb 2028",
+      "Pod No": "182M",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Dimas Pratama",
+      "End Date": "03-Jun-2028",
+      "Comment": "commencement date 4/6/2024; end date 3/6/2028",
+      "Pod No": "182H",
+      "Ext No": "x5670",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Aleena Shuja",
+      "End Date": "28-Jul-2028",
+      "Comment": "deferred commencement 29/07/2024",
+      "Pod No": "182J",
+      "Ext No": "x5698",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Menaka Rathnayaka Nudiyanselage",
+      "End Date": "23-Aug-2028",
+      "Comment": "24/02/2025 - 23/8/2028",
+      "Pod No": "182C",
+      "Ext No": "x5669",
+      "Type": "New PhD in 2025"
+    },
+    {
+      "Name": "Muhammad Rifqi Hidayat",
+      "End Date": "23-Feb-2029",
+      "Comment": "24/2/2025 - 23/2/2029",
+      "Pod No": "182F",
+      "Ext No": "x5870",
+      "Type": "New PhD in 2025"
+    },
+    {
+      "Name": "Penny York",
+      "End Date": "01-Mar-2029",
+      "Comment": "commencement date: 25/2/2021",
+      "Pod No": "1204H",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Chee Wei Loh",
+      "End Date": null,
+      "Comment": "causal tutor",
+      "Pod No": "1213M",
+      "Ext No": "x5819",
+      "Type": "Casual Staff"
+    },
+    {
+      "Name": "Alexandra Roberts",
+      "End Date": null,
+      "Comment": "Causal staff - UC and tutor in semester 2, 2024",
+      "Pod No": "182L",
+      "Ext No": "x5673",
+      "Type": "Casual Staff"
+    },
+    {
+      "Name": "Ben Perks",
+      "End Date": null,
+      "Comment": "Research Assistant (Public Value team)",
+      "Pod No": "1204I",
+      "Ext No": "x2917",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Elly LEUNG",
+      "End Date": null,
+      "Comment": "working for Donella Caspersz",
+      "Pod No": "1214",
+      "Ext No": "",
+      "Type": "Research Assistant"
+    },
+    {
+      "Name": "Elly LEUNG",
+      "End Date": null,
+      "Comment": "working for Donella Caspersz",
+      "Pod No": "1213C",
+      "Ext No": "",
+      "Type": "Research Assistant"
+    },
+    {
+      "Name": "Sumayyah Ahmad",
+      "End Date": null,
+      "Comment": "causal teaching",
+      "Pod No": "1204G",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Lucia Cronin",
+      "End Date": null,
+      "Comment": "David Gilchrist's team member",
+      "Pod No": "1204F",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Kate Searle",
+      "End Date": null,
+      "Comment": "new commencing RA, replacing Grace Brooks",
+      "Pod No": "1204E",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Barry Curtis",
+      "End Date": null,
+      "Comment": "causal tutor - AccFin",
+      "Pod No": "1213I",
+      "Ext No": "",
+      "Type": "Casual Staff"
+    },
+    {
+      "Name": "Moazzam Ali",
+      "End Date": null,
+      "Comment": null,
+      "Pod No": "1201",
+      "Ext No": "x984",
+      "Type": "Research Assistant"
+    },
+    {
+      "Name": "Kate McGee",
+      "End Date": null,
+      "Comment": "Causal staff",
+      "Pod No": "1213F",
+      "Ext No": "x5699",
+      "Type": "Casual Staff"
+    },
+    {
+      "Name": "Kate ARNUAUTOVIC",
+      "End Date": null,
+      "Comment": null,
+      "Pod No": "182O",
+      "Ext No": "x5682",
+      "Type": "PhDs"
+    }
+  ],
+  "Economics": [
+    {
+      "Name": "Hui Geng csdjabjad",
+      "End Date": "10-Jan-2025",
+      "Comment": "Casual Teaching, vacated pod 102D and is using office now",
+      "Pod No": "130A",
+      "Ext No": "x7361",
+      "Type": "Visitors"
+    },
+    {
+      "Name": "Anam Fida",
+      "End Date": "31-Jan-2025",
+      "Comment": "Christopher Parsons's visiting student, 20/07/2024-31/01/2025",
+      "Pod No": "130I",
+      "Ext No": "",
+      "Type": "Visiting Student"
+    },
+    {
+      "Name": "Damian Lenzo",
+      "End Date": "18-Mar-2025",
+      "Comment": "Chekced with Michael Palmer that 102O is assigned to Damien but he instead uses a make up table by the window, and he is happy to give up the POD102O. \nSupervisor Chris Parsons",
+      "Pod No": "102H",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Sineth Koralalage",
+      "End Date": "13-Jun-2025",
+      "Comment": "will leave on Dec 9 - then Henderi will move in",
+      "Pod No": "143H",
+      "Ext No": "x5650",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Kuson Leawsakul",
+      "End Date": "22-Aug-2025",
+      "Comment": null,
+      "Pod No": "102V",
+      "Ext No": "x5641",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Paul Azzalini",
+      "End Date": "17-Sep-2025",
+      "Comment": null,
+      "Pod No": "143L",
+      "Ext No": "x2694",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Yaofangshu Jin (Apphia)",
+      "End Date": "13-Feb-2026",
+      "Comment": null,
+      "Pod No": "143C",
+      "Ext No": "x5654",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Sania Khalil",
+      "End Date": "28-Feb-2026",
+      "Comment": null,
+      "Pod No": "143B",
+      "Ext No": "x5644",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Erica Lukas",
+      "End Date": "09-Mar-2026",
+      "Comment": null,
+      "Pod No": "143I",
+      "Ext No": "x5651",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Xin Shao",
+      "End Date": "30-Mar-2026",
+      "Comment": null,
+      "Pod No": "102E",
+      "Ext No": "x1061",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Asep Nurwanda",
+      "End Date": "11-Apr-2026",
+      "Comment": null,
+      "Pod No": "102J",
+      "Ext No": "x3414",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "MUBIN Muhammad Khoerul",
+      "End Date": "30-Jun-2026",
+      "Comment": null,
+      "Pod No": "143F",
+      "Ext No": "x5648",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Kesavarajah Kesavan",
+      "End Date": "29-Sep-2026",
+      "Comment": null,
+      "Pod No": "143E",
+      "Ext No": "x5647",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Acwin Saputra",
+      "End Date": "04-Oct-2026",
+      "Comment": null,
+      "Pod No": "102C",
+      "Ext No": "x5674",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Lubna Uzair",
+      "End Date": "30-Jan-2027",
+      "Comment": null,
+      "Pod No": "102B",
+      "Ext No": "x8671",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Adhipradana Prabu Swasito",
+      "End Date": "31-Jan-2027",
+      "Comment": "commencement date: 1/2/2023",
+      "Pod No": "143K",
+      "Ext No": "x2585",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Nugraheni Kusumaningsih",
+      "End Date": "07-Feb-2027",
+      "Comment": null,
+      "Pod No": "143G",
+      "Ext No": "x5649",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Humayun Kabir",
+      "End Date": "14-Feb-2027",
+      "Comment": null,
+      "Pod No": "102P",
+      "Ext No": "x5634",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Wisynu Wardana",
+      "End Date": "01-May-2027",
+      "Comment": null,
+      "Pod No": "102U",
+      "Ext No": "x5636",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Manh VU",
+      "End Date": "31-Aug-2027",
+      "Comment": null,
+      "Pod No": "102G",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Xian Chen",
+      "End Date": "31-Aug-2027",
+      "Comment": null,
+      "Pod No": "143A",
+      "Ext No": "x5643",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Henderi",
+      "End Date": "01-Nov-2027",
+      "Comment": null,
+      "Pod No": "102L",
+      "Ext No": "x5397",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Siyu Ai",
+      "End Date": "11-Feb-2028",
+      "Comment": "commencement date: 12/2/2024",
+      "Pod No": "102A",
+      "Ext No": "x7666",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Lana Pavlovic",
+      "End Date": "28-Feb-2028",
+      "Comment": null,
+      "Pod No": "102K",
+      "Ext No": "x4587",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Enni XU (Annie)",
+      "End Date": "30-Jun-2028",
+      "Comment": "Commencement date 01/07/2024",
+      "Pod No": "143D",
+      "Ext No": "x5646",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Yekti Pratiwi",
+      "End Date": "21-Jul-2028",
+      "Comment": "commencement date 22/07/2024",
+      "Pod No": "102F",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Xichen Wang",
+      "End Date": "01-Sep-2028",
+      "Comment": "02/09/2024 - 01/09/2028",
+      "Pod No": "102Q",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Pu Li",
+      "End Date": "01-Sep-2028",
+      "Comment": "02/09/2024 - 01/09/2028",
+      "Pod No": "102R",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Hao Wang",
+      "End Date": "01-Sep-2028",
+      "Comment": "02/09/2024 - 01/09/2028",
+      "Pod No": "102D",
+      "Ext No": "x1079",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Teguh Warsito",
+      "End Date": "01-Sep-2028",
+      "Comment": "02/09/2024 - 01/09/2028",
+      "Pod No": "102T",
+      "Ext No": "",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Eman Adhi Patra",
+      "End Date": "08-Sep-2028",
+      "Comment": "09/09/2024 - 08/09/2028",
+      "Pod No": "102I",
+      "Ext No": "",
+      "Type": "PhDs"
+    }
+  ],
+  "Marketing": [
+    {
+      "Name": "Benjamin Lau",
+      "End Date": "09-Aug-2024",
+      "Comment": "Bachelor of Philosophy student on a month's research placement\nPaul Harrigan Student",
+      "Pod No": "2213J",
+      "Type": "Visiting Student",
+      "Ext No": "x5880"
+    },
+    {
+      "Name": "Anya Grobler",
+      "End Date": "01-Nov-2024",
+      "Comment": null,
+      "Pod No": "2222B",
+      "Type": "PhDs",
+      "Ext No": "x5872"
+    },
+    {
+      "Name": "Arslan Rafi",
+      "End Date": "30-Dec-2024",
+      "Comment": "02/01/2023 - 30/12/2024",
+      "Pod No": "2213I",
+      "Type": "Visiting Student",
+      "Ext No": "x3976"
+    },
+    {
+      "Name": "Mackenzie REYNOLDS",
+      "End Date": "28-Jan-2025",
+      "Comment": "Master of Research, start date 29/01/2024",
+      "Pod No": "2222I",
+      "Type": "Mphil",
+      "Ext No": "x5879"
+    },
+    {
+      "Name": "Ying (Hermione) Zhou",
+      "End Date": "28-Jan-2025",
+      "Comment": "Master of Research , start date 29/01/2024",
+      "Pod No": "2222P",
+      "Type": "PhDs",
+      "Ext No": "x5871"
+    },
+    {
+      "Name": "Lili Qiu",
+      "End Date": "01-Sep-2025",
+      "Comment": null,
+      "Pod No": "2222G",
+      "Type": "PhDs",
+      "Ext No": "x5877"
+    },
+    {
+      "Name": "HOANG Thi Hong Hanh",
+      "End Date": "01-Feb-2026",
+      "Comment": null,
+      "Pod No": "2213H",
+      "Type": "PhDs",
+      "Ext No": "x5880"
+    },
+    {
+      "Name": "Arief Johan",
+      "End Date": "01-Sep-2026",
+      "Comment": null,
+      "Pod No": "2222N",
+      "Type": "PhDs",
+      "Ext No": "x5884"
+    },
+    {
+      "Name": "Masha POLSHINSKAYA",
+      "End Date": "01-Sep-2026",
+      "Comment": null,
+      "Pod No": "2222F",
+      "Type": "PhDs",
+      "Ext No": "x5623"
+    },
+    {
+      "Name": "Alua Devine",
+      "End Date": "01-Oct-2026",
+      "Comment": null,
+      "Pod No": "2222O",
+      "Type": "PhDs",
+      "Ext No": "x5885"
+    },
+    {
+      "Name": "Xiaoling Guo",
+      "End Date": "01-Jan-2027",
+      "Comment": "NB: does not use pod",
+      "Pod No": "2222M",
+      "Type": "PhDs",
+      "Ext No": "x2892"
+    },
+    {
+      "Name": "Ena Vejnovic",
+      "End Date": "01-Feb-2027",
+      "Comment": null,
+      "Pod No": "2213G",
+      "Type": "PhDs",
+      "Ext No": "x5684"
+    },
+    {
+      "Name": "Ery PRIMASKARA",
+      "End Date": "01-Sep-2027",
+      "Comment": null,
+      "Pod No": "2222H",
+      "Type": "PhDs",
+      "Ext No": "x5878"
+    },
+    {
+      "Name": "Khalid Yanallah",
+      "End Date": "01-Sep-2027",
+      "Comment": null,
+      "Pod No": "2222K",
+      "Type": "PhDs",
+      "Ext No": "x5881"
+    },
+    {
+      "Name": "Chuan HE",
+      "End Date": "12-Nov-2027",
+      "Comment": "Chuan HE commences in Nov 2023 finihses Nov…",
+      "Pod No": "2222C",
+      "Type": "PhDs",
+      "Ext No": "x5873"
+    },
+    {
+      "Name": "Joohee Kim",
+      "End Date": "19-Feb-2028",
+      "Comment": null,
+      "Pod No": "2222A",
+      "Type": "PhDs",
+      "Ext No": "x5823"
+    },
+    {
+      "Name": "Rimayanti",
+      "End Date": "09-Jun-2028",
+      "Comment": "commencement date 10 Jun 2024, end date 9 Jun 2028",
+      "Pod No": "2213B",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Mengmei Chen",
+      "End Date": "30-Jun-2028",
+      "Comment": "commencement date 1/7/2024",
+      "Pod No": "2222L",
+      "Type": "PhDs",
+      "Ext No": "x5882"
+    },
+    {
+      "Name": "Yali Hou",
+      "End Date": "30-Jun-2028",
+      "Comment": "commencement date 01/07/2024",
+      "Pod No": "2213D",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Qing Yan",
+      "End Date": "31-Aug-2028",
+      "Comment": "commencement date 1/8/2024, deferred 1/09/2024",
+      "Pod No": "2213L",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Xiaonan Wen",
+      "End Date": "01-Sep-2028",
+      "Comment": "commencement date 2/9/2024; end date 1/9/2028",
+      "Pod No": "2213F",
+      "Type": "PhDs",
+      "Ext No": "x4618"
+    },
+    {
+      "Name": "Trinitaria Marlis Putri (Tari)",
+      "End Date": "30-Sep-2028",
+      "Comment": "pre arrival 16/9/24, commencement 1/10/24",
+      "Pod No": "2213A",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Xingyang Ma",
+      "End Date": "19-Feb-2029",
+      "Comment": "20/2/25 - 19/2/29",
+      "Pod No": "2222D",
+      "Type": "New PhD in 2025",
+      "Ext No": "x5874"
+    }
+  ],
+  "AccFin": [
+    {
+      "Name": "Fiona Roeslim",
+      "End Date": "17-Jan-2025",
+      "Comment": null,
+      "Pod No": "202F",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Tiange Zheng",
+      "End Date": "03-Mar-2025",
+      "Comment": null,
+      "Pod No": "202K",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Li Choo TAY",
+      "End Date": "22-Mar-2025",
+      "Comment": null,
+      "Pod No": "240F",
+      "Type": "Phds",
+      "Ext No": "x5847"
+    },
+    {
+      "Name": "Zhi-ting Xu",
+      "End Date": "09-Aug-2025",
+      "Comment": "Rui Zhong's visiting student for 1 year from 9 August 2024 - HL",
+      "Pod No": "240V",
+      "Type": "Visiting Student",
+      "Ext No": ""
+    },
+    {
+      "Name": "Kunliang Xu",
+      "End Date": "11-Oct-2025",
+      "Comment": "Visiting Reseach Student, 11/10/2024 -11/10/2025",
+      "Pod No": "240W",
+      "Type": "Visiting Student",
+      "Ext No": ""
+    },
+    {
+      "Name": "Usman Arief",
+      "End Date": "28-Nov-2025",
+      "Comment": "old pod 240G, reserve the new pod 202I, sent email to him and asked when he will move",
+      "Pod No": "202I",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Nico Oefele",
+      "End Date": "31-Jan-2026",
+      "Comment": null,
+      "Pod No": "202G",
+      "Type": null,
+      "Ext No": ""
+    },
+    {
+      "Name": "Xiaorui Zhang",
+      "End Date": "27-Feb-2026",
+      "Comment": null,
+      "Pod No": "202B",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Fujie Zhao",
+      "End Date": "30-Mar-2026",
+      "Comment": null,
+      "Pod No": "240P",
+      "Type": "PhDs",
+      "Ext No": "x5348"
+    },
+    {
+      "Name": "Harrison (Chenhao) Guo",
+      "End Date": "03-Apr-2026",
+      "Comment": null,
+      "Pod No": "240O",
+      "Type": "PhDs",
+      "Ext No": "x5346"
+    },
+    {
+      "Name": "Indeewari Colombage",
+      "End Date": "03-Apr-2026",
+      "Comment": null,
+      "Pod No": "240R",
+      "Type": "PhDs",
+      "Ext No": "x5350"
+    },
+    {
+      "Name": "Yulin MA",
+      "End Date": "30-Jun-2026",
+      "Comment": null,
+      "Pod No": "240M",
+      "Type": "PhDs",
+      "Ext No": "x5347"
+    },
+    {
+      "Name": "Zirui SONG",
+      "End Date": "01-Jul-2026",
+      "Comment": "commencement date 1/7/2024",
+      "Pod No": "202L",
+      "Type": "PhDs",
+      "Ext No": "x2900"
+    },
+    {
+      "Name": "Aonan Sun",
+      "End Date": "31-Aug-2026",
+      "Comment": null,
+      "Pod No": "202A",
+      "Type": "PhDs",
+      "Ext No": "x5892"
+    },
+    {
+      "Name": "Ferina Nurlaily",
+      "End Date": "01-Oct-2026",
+      "Comment": null,
+      "Pod No": "240S",
+      "Type": "PhDs",
+      "Ext No": "x5351"
+    },
+    {
+      "Name": "Hui Sun",
+      "End Date": "15-Jan-2027",
+      "Comment": null,
+      "Pod No": "202J",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Yuyun Huang",
+      "End Date": "08-Jun-2027",
+      "Comment": null,
+      "Pod No": "240B",
+      "Type": "PhDs",
+      "Ext No": "x5843"
+    },
+    {
+      "Name": "Liwen Ling",
+      "End Date": "29-Jun-2027",
+      "Comment": null,
+      "Pod No": "240L",
+      "Type": "PhDs",
+      "Ext No": "x7529"
+    },
+    {
+      "Name": "Rumi Yati",
+      "End Date": "04-Feb-2028",
+      "Comment": null,
+      "Pod No": "240T",
+      "Type": "PhDs",
+      "Ext No": "x5352"
+    },
+    {
+      "Name": "Nadine QIN",
+      "End Date": "04-Feb-2028",
+      "Comment": "commencement date 5/2/2024",
+      "Pod No": "240D",
+      "Type": "PhDs",
+      "Ext No": "x5845"
+    },
+    {
+      "Name": "Nurul FATIMAH",
+      "End Date": "04-Feb-2028",
+      "Comment": "commencement date 5/2/2024",
+      "Pod No": "240C",
+      "Type": "PhDs",
+      "Ext No": "x5844"
+    },
+    {
+      "Name": "Chi Minh Ho",
+      "End Date": "25-Feb-2028",
+      "Comment": null,
+      "Pod No": "202D",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Yudi Hartanto",
+      "End Date": "24-Mar-2028",
+      "Comment": null,
+      "Pod No": "240U",
+      "Type": "PhDs",
+      "Ext No": "x5353"
+    },
+    {
+      "Name": "Silvana Ilievska",
+      "End Date": "01-May-2028",
+      "Comment": "Phil Hancock & Nikki Schonfeldt transfer from education",
+      "Pod No": "202E",
+      "Type": "PhDs",
+      "Ext No": ""
+    },
+    {
+      "Name": "Lufi Yuwana MURSITA",
+      "End Date": "05-May-2028",
+      "Comment": "commencement date 6/5/2024",
+      "Pod No": "240A",
+      "Type": "PhDs",
+      "Ext No": "x5842"
+    },
+    {
+      "Name": "Yanuar Pribadi",
+      "End Date": "30-Sep-2028",
+      "Comment": "01/10/2024 - 30/09/2028",
+      "Pod No": "240G",
+      "Type": "PhDs",
+      "Ext No": "x5848"
+    },
+    {
+      "Name": "Meiqi Wang",
+      "End Date": null,
+      "Comment": "M.Phil, supervisors: Frank liu, Yifan Zhong, commencement 12/3/25",
+      "Pod No": "240I",
+      "Type": "Mphil",
+      "Ext No": "x5851"
+    }
+  ],
+  "GF-DA": [
+    {
+      "Name": "Garima",
+      "End Date": "14-Jul-2026",
+      "Comment": "Supervisors: Doina and Brett",
+      "Pod No": "G305E",
+      "Ext No": "x5661",
+      "Type": "PhDs"
+    },
+    {
+      "Name": "Garry Ellis",
+      "End Date": "31-dec-2026",
+      "Comment": "master by research, nominated completion 2026",
+      "Pod No": "G305I",
+      "Ext No": "",
+      "Type": "HDR"
+    },
+    {
+      "Name": "Poming Zhang",
+      "End Date": "04-Feb-2028",
+      "Comment": "Commencement date 5/2/2024; end date 4/2/2028",
+      "Pod No": "G305J",
+      "Ext No": "x5892",
+      "Type": "HDR"
+    },
+    {
+      "Name": "Muhammad Hafiz RIANDI",
+      "End Date": "30-Jun-2028",
+      "Comment": "PHD student, commencement 01/07/2024",
+      "Pod No": "G305C",
+      "Ext No": "",
+      "Type": "HDR"
+    },
+    {
+      "Name": "Yini Sheng",
+      "End Date": "01-Sep-2028",
+      "Comment": "Commencement date 02/09/2024, end date 01/09/2028",
+      "Pod No": "G305B",
+      "Ext No": "x5677",
+      "Type": "HDR"
+    },
+    {
+      "Name": "Chao Li",
+      "End Date": "01-Sep-2028",
+      "Comment": "Commencement date 02/09/2024, end date 01/09/2028",
+      "Pod No": "G305A",
+      "Ext No": "x2673",
+      "Type": "HDR"
+    },
+    {
+      "Name": "Shivom Chakravarty",
+      "End Date": "02-Feb-2029",
+      "Comment": "03/02/2025 -02/022029",
+      "Pod No": "G305F",
+      "Ext No": "",
+      "Type": "New PhD in 2025"
+    },
+    {
+      "Name": "Khai",
+      "End Date": null,
+      "Comment": null,
+      "Pod No": "G305K",
+      "Ext No": "x1452",
+      "Type": "Research Assistant"
+    }
+  ]
+}

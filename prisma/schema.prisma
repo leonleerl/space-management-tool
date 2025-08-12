@@ -1,0 +1,145 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Department table (shared by both Staff and Student)
+model Department {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relationships
+  staff     Staff[]
+  students  Student[]
+
+  @@map("departments")
+}
+
+// Student table
+model Student {
+  id           Int          @id @default(autoincrement())
+  firstName    String
+  middleName   String?
+  lastName     String
+  endDate      DateTime?    // End date for graduation email notifications
+  comment      String?      // Additional comments
+  extNo        String?      // Extension number
+  podNo        String?      // Pod number
+  roomId       Int?
+  departmentId Int?
+  typeId       Int?
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  // Relationships
+  room         Room?        @relation(fields: [roomId], references: [id])
+  department   Department?  @relation(fields: [departmentId], references: [id])
+  type         StudentType? @relation(fields: [typeId], references: [id])
+
+  @@map("students")
+}
+
+// Student type table
+model StudentType {
+  id        Int       @id @default(autoincrement())
+  name      String    @unique
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  // Relationships
+  students  Student[]
+
+  @@map("student_types")
+}
+
+// Staff table
+model Staff {
+  id           Int         @id @default(autoincrement())
+  firstName    String
+  middleName   String?
+  lastName     String
+  position     String?     // Job position/title
+  extNo        String?     // Extension number
+  source       String?     // New field for staff source information
+  roomId       Int?
+  departmentId Int?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  // Relationships
+  room         Room?       @relation(fields: [roomId], references: [id])
+  department   Department? @relation(fields: [departmentId], references: [id])
+
+  @@map("staff")
+}
+
+// Room table
+model Room {
+  id         Int          @id @default(autoincrement())
+  roomNo     String       @unique
+  keyLocker  String?      // Key locker identifier
+  locationId Int?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  // Relationships
+  location   RoomLocation? @relation(fields: [locationId], references: [id])
+  staff      Staff[]
+  students   Student[]
+
+  @@map("rooms")
+}
+
+// Room location table
+model RoomLocation {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique  // Ground Floor, Level 2, etc.
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relationships
+  rooms     Room[]
+
+  @@map("room_locations")
+}
+
+// Admin table
+model Admin {
+  id        Int       @id @default(autoincrement())
+  username  String    @unique
+  email     String    @unique
+  password  String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  // Relationships
+  sessions  Session[]
+
+  @@map("admins")
+}
+
+// Session table (for admin login management)
+model Session {
+  id        String   @id  // Using String as session ID
+  adminId   Int
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  // Relationships
+  admin     Admin    @relation(fields: [adminId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}

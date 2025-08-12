@@ -1,0 +1,1118 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 13,
+    "rowEnd": 31,
+    "colEnd": 14,
+    "content": "DK",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "Current desk arrangement unless desks are required. ",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 13,
+    "rowEnd": 33,
+    "colEnd": 14,
+    "content": "Shahnaz Rind",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 1,
+    "rowEnd": 33,
+    "colEnd": 3,
+    "content": "Work room for BITS \nPTR 394 Printer Serial # SAA7N047000778",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G77"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 5,
+    "rowEnd": 31,
+    "colEnd": 6,
+    "content": "Winsome MacLaurin",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 5,
+    "rowEnd": 33,
+    "colEnd": 6,
+    "content": "Jason Barrow",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 8,
+    "rowEnd": 31,
+    "colEnd": 9,
+    "content": "Bruce Davies",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 8,
+    "rowEnd": 33,
+    "colEnd": 9,
+    "content": "Emmanualle Dodo Balu",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 10,
+    "rowEnd": 31,
+    "colEnd": 11,
+    "content": "Tim Trindle-Thomas",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 10,
+    "rowEnd": 33,
+    "colEnd": 11,
+    "content": "DK",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 15,
+    "rowEnd": 31,
+    "colEnd": 16,
+    "content": "Lily Zsabo",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 15,
+    "rowEnd": 33,
+    "colEnd": 16,
+    "content": "Syarif Abdul Sayed",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 18,
+    "rowEnd": 31,
+    "colEnd": 19,
+    "content": "Ben Scullin",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 18,
+    "rowEnd": 33,
+    "colEnd": 19,
+    "content": "Yasmine Hooper",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 38,
+    "rowEnd": 33,
+    "colEnd": 41,
+    "content": "Paul Flatau",
+  	"keylocker": "591132",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G61"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 20,
+    "rowEnd": 31,
+    "colEnd": 21,
+    "content": "McCusker Intern",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "G70M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 20,
+    "rowEnd": 33,
+    "colEnd": 21,
+    "content": "Reuben Lester",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 23,
+    "rowEnd": 33,
+    "colEnd": 24,
+    "content": "Hotdesk",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 42,
+    "rowEnd": 33,
+    "colEnd": 44,
+    "content": "Leanne Lester",
+  	"keylocker": "59120",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G60"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 45,
+    "rowEnd": 33,
+    "colEnd": 49,
+    "content": "Kath Conway & Mags Martin & Hotdesk x 2",
+  	"keylocker": "591130",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G59"
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 23,
+    "rowEnd": 31,
+    "colEnd": 24,
+    "content": "Abderahman Efhialelbum  (Omar) ",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G70O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 22,
+    "rowEnd": 27,
+    "colEnd": 24,
+    "content": "Jian Zhao",
+  	"keylocker": "591139",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G67"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 25,
+    "rowEnd": 27,
+    "colEnd": 27,
+    "content": "David O'Shaughness",
+  	"keylocker": "591138",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G66"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 28,
+    "rowEnd": 27,
+    "colEnd": 30,
+    "content": "Jacinta Francis",
+  	"keylocker": "591137",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G65"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 40,
+    "rowEnd": 27,
+    "colEnd": 43,
+    "content": "Phil Hancock x1835",
+  	"keylocker": "591133",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G56"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 46,
+    "rowEnd": 26,
+    "colEnd": 49,
+    "content": "G57 (HOTDESK) \nNatasha King (M, T, TH afternoon)",
+  	"keylocker": "591128",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G57"
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 46,
+    "rowEnd": 29,
+    "colEnd": 49,
+    "content": "G58 WILG Team Consult Room ",
+  	"keylocker": "591129",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G58"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 31,
+    "rowEnd": 27,
+    "colEnd": 33,
+    "content": "Mariana Atkins",
+  	"keylocker": "591136",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G64"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 34,
+    "rowEnd": 27,
+    "colEnd": 36,
+    "content": "James Herber",
+  	"keylocker": "591135",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G63"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 37,
+    "rowEnd": 27,
+    "colEnd": 39,
+    "content": "Lisette Kaleveld",
+  	"keylocker": "591134",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G62"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 27,
+    "rowEnd": 35,
+    "colEnd": 35,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G90 Meeting Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 2,
+    "rowEnd": 27,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 4,
+    "rowEnd": 27,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "591144",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G73 Recording Studio"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 7,
+    "rowEnd": 27,
+    "colEnd": 9,
+    "content": "Donna Oxenham ",
+  	"keylocker": "591143",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G72"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 10,
+    "rowEnd": 27,
+    "colEnd": 12,
+    "content": "Barbara Paulson",
+  	"keylocker": "591142",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G71"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 13,
+    "rowEnd": 27,
+    "colEnd": 15,
+    "content": "Zoe Callis",
+  	"keylocker": "591141",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G70"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 11,
+    "rowEnd": 23,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G78 Postgrad Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 40,
+    "rowEnd": 23,
+    "colEnd": 43,
+    "content": "",
+  	"keylocker": "591127",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G55 Student Experience Consult Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 46,
+    "rowEnd": 22,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": null,
+      "bottom": "medium"
+    },
+    "room": "Waiting area"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 16,
+    "rowEnd": 27,
+    "colEnd": 18,
+    "content": "Caryn Earnshaw",
+  	"keylocker": "593110",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G69"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 19,
+    "rowEnd": 27,
+    "colEnd": 21,
+    "content": "Carole Katz",
+  	"keylocker": "593103",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G68"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 45,
+    "rowEnd": 14,
+    "colEnd": 47,
+    "content": "Lisa Guo",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 11,
+    "rowEnd": 20,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "590000",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G87 Computer Lab 3"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 42,
+    "rowEnd": 16,
+    "colEnd": 44,
+    "content": "Olivia Rimmer",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 45,
+    "rowEnd": 16,
+    "colEnd": 47,
+    "content": "Karen Oakley",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 40,
+    "rowEnd": 20,
+    "colEnd": 43,
+    "content": "Kate Hutchinson x4737",
+  	"keylocker": "591126",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G54"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 46,
+    "rowEnd": 20,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Waiting area"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 19,
+    "rowEnd": 6,
+    "colEnd": 20,
+    "content": "PTR 389 Printer Serial \n# SAA2J041015476",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 19,
+    "rowEnd": 12,
+    "colEnd": 20,
+    "content": "PTR 392 Printer Seial \n#SA93E047000641",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 51,
+    "rowEnd": 8,
+    "colEnd": 55,
+    "content": "PTR 391 Printer Serial \n# SAE93E047000643",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 28,
+    "colStart": 1,
+    "rowEnd": 29,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 11,
+    "rowEnd": 8,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "590000",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G85 Computer Lab 1"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 22,
+    "rowEnd": 22,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "BHP Billiton Courtyard"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 43,
+    "rowEnd": 4,
+    "colEnd": 46,
+    "content": "PTR 393 Printer Serial # SAA2J0410155532",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G51 Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 1,
+    "rowEnd": 23,
+    "colEnd": 10,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Ernst & Young Lecture Theatre"
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 49,
+    "rowEnd": 9,
+    "colEnd": 49,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "MBA Counter"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 42,
+    "rowEnd": 9,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 45,
+    "rowEnd": 9,
+    "colEnd": 47,
+    "content": "Luke Willmot",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 11,
+    "rowEnd": 14,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "590000",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G86 Computer Lab 2"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 42,
+    "rowEnd": 11,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 45,
+    "rowEnd": 11,
+    "colEnd": 47,
+    "content": "David Hallam",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  },
+  {
+    "type": "merged",
+    "rowStart": 11,
+    "colStart": 49,
+    "rowEnd": 17,
+    "colEnd": 49,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "UG & PG Student Counter"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 42,
+    "rowEnd": 14,
+    "colEnd": 44,
+    "content": "Bec West",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G50"
+  }
+]

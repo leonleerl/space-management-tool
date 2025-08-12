@@ -1,0 +1,774 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 34,
+    "rowEnd": 7,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591614",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "274"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 36,
+    "rowEnd": 13,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "591612",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "272"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 37,
+    "rowEnd": 7,
+    "colEnd": 40,
+    "content": "",
+  	"keylocker": "591613",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "273"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 39,
+    "rowEnd": 13,
+    "colEnd": 41,
+    "content": "",
+  	"keylocker": "591611",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "271"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 27,
+    "rowEnd": 5,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "275"
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 27,
+    "rowEnd": 7,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "275"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 32,
+    "rowEnd": 7,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "275"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 27,
+    "rowEnd": 13,
+    "colEnd": 29,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Seating Area"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 20,
+    "rowEnd": 7,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "591616",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "277"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 29,
+    "rowEnd": 7,
+    "colEnd": 31,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Seating Area"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 23,
+    "rowEnd": 11,
+    "colEnd": 25,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 23,
+    "rowEnd": 7,
+    "colEnd": 26,
+    "content": "",
+  	"keylocker": "591615",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "276"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 42,
+    "rowEnd": 13,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "591610",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "270"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 2,
+    "rowEnd": 13,
+    "colEnd": 4,
+    "content": "PTR 398 \nPrinter Serial # SAA2J041014148",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "286 Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 6,
+    "rowEnd": 11,
+    "colEnd": 8,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nHolly to move in on part time basis",
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "278A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 10,
+    "rowEnd": 11,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 13,
+    "rowEnd": 11,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 16,
+    "rowEnd": 11,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "278D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 18,
+    "rowEnd": 11,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 6,
+    "rowEnd": 13,
+    "colEnd": 8,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    },
+    "room": "278F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 10,
+    "rowEnd": 13,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 13,
+    "rowEnd": 13,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 16,
+    "rowEnd": 13,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 18,
+    "rowEnd": 13,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 21,
+    "rowEnd": 13,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 23,
+    "rowEnd": 13,
+    "colEnd": 25,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 10,
+    "colStart": 21,
+    "rowEnd": 11,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "278L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 31,
+    "rowEnd": 19,
+    "colEnd": 34,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "290"
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 2,
+    "rowEnd": 9,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 13,
+    "rowEnd": 9,
+    "colEnd": 14,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 16,
+    "rowEnd": 9,
+    "colEnd": 17,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 4,
+    "rowEnd": 7,
+    "colEnd": 4,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "284 Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 6,
+    "rowEnd": 7,
+    "colEnd": 8,
+    "content": "",
+  	"keylocker": "591619",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "282 Ela (IT)\nStorage Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 9,
+    "rowEnd": 7,
+    "colEnd": 11,
+    "content": "",
+  	"keylocker": "591618",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "281"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 12,
+    "rowEnd": 7,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "591617",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "280"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 15,
+    "rowEnd": 7,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "279"
+  },
+  {
+    "type": "single",
+    "rowStart": 3,
+    "colStart": 23,
+    "rowEnd": 3,
+    "colEnd": 23,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 3,
+    "colStart": 24,
+    "rowEnd": 3,
+    "colEnd": 24,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 3,
+    "colStart": 25,
+    "rowEnd": 3,
+    "colEnd": 25,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 3,
+    "colStart": 26,
+    "rowEnd": 3,
+    "colEnd": 26,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 10,
+    "colStart": 15,
+    "rowEnd": 10,
+    "colEnd": 15,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 11,
+    "colStart": 15,
+    "rowEnd": 11,
+    "colEnd": 15,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 12,
+    "colStart": 15,
+    "rowEnd": 12,
+    "colEnd": 15,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 13,
+    "colStart": 15,
+    "rowEnd": 13,
+    "colEnd": 15,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  }
+]

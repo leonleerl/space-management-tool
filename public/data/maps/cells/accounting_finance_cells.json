@@ -1,0 +1,1580 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 4,
+    "rowEnd": 28,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240N"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 7,
+    "rowEnd": 46,
+    "colEnd": 15,
+    "content": "",
+    "keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Case Study Room 242"
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 11,
+    "rowEnd": 5,
+    "colEnd": 12,
+    "content": "PTR 391 \nPrinter Serial # SAE93E047000643",
+    "keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 7,
+    "colStart": 54,
+    "rowEnd": 8,
+    "colEnd": 55,
+    "content": "",
+    "keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 38,
+    "colStart": 38,
+    "rowEnd": 39,
+    "colEnd": 39,
+    "content": "",
+    "keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 33,
+    "rowEnd": 6,
+    "colEnd": 33,
+    "content": "",
+    "keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Stationery"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 34,
+    "rowEnd": 6,
+    "colEnd": 36,
+    "content": "",
+    "keylocker": "591507",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "210"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 40,
+    "rowEnd": 6,
+    "colEnd": 42,
+    "content": "",
+  	"keylocker": "591511",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "214"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 43,
+    "rowEnd": 6,
+    "colEnd": 45,
+    "content": "",
+  	"keylocker": "591513",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "216"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 46,
+    "rowEnd": 6,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "591515",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "218"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 49,
+    "rowEnd": 6,
+    "colEnd": 51,
+    "content": "",
+  	"keylocker": "591517",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "220"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 53,
+    "rowEnd": 6,
+    "colEnd": 55,
+    "content": "PTR 397 \nPrinter Serial # SAA2J041014161",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 37,
+    "rowEnd": 6,
+    "colEnd": 39,
+    "content": "",
+  	"keylocker": "591509",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "212"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 26,
+    "rowEnd": 6,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 29,
+    "rowEnd": 6,
+    "colEnd": 31,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 29,
+    "rowEnd": 4,
+    "colEnd": 31,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 26,
+    "rowEnd": 4,
+    "colEnd": 28,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 23,
+    "rowEnd": 4,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 16,
+    "rowEnd": 6,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 3,
+    "rowEnd": 7,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Case Study Room 201"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 1,
+    "rowEnd": 14,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 4,
+    "rowEnd": 14,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 7,
+    "rowEnd": 14,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 18,
+    "rowEnd": 4,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 23,
+    "rowEnd": 6,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 16,
+    "rowEnd": 4,
+    "colEnd": 17,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202A"
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 17,
+    "rowEnd": 32,
+    "colEnd": 52,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Woodside Courtyard"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 19,
+    "rowEnd": 12,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "591502",
+    "bgColor": "FFFFFF",
+    "comment": "Ha Le:\nin the office for 1 - 2 days per week.",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "204"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 34,
+    "rowEnd": 12,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591508",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "209"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 25,
+    "rowEnd": 12,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591504",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "206"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 28,
+    "rowEnd": 12,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591505",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "207"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 31,
+    "rowEnd": 12,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591506",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "208"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 21,
+    "rowEnd": 4,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 21,
+    "rowEnd": 6,
+    "colEnd": 22,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 18,
+    "rowEnd": 6,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "202K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 53,
+    "rowEnd": 12,
+    "colEnd": 53,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 37,
+    "rowEnd": 12,
+    "colEnd": 39,
+    "content": "",
+  	"keylocker": "591510",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nNew Staff to use this room while Elizabeth Ooi is on 2 year maternity leave.",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "211"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 40,
+    "rowEnd": 12,
+    "colEnd": 42,
+    "content": "",
+  	"keylocker": "591512",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "213"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 43,
+    "rowEnd": 12,
+    "colEnd": 45,
+    "content": "",
+  	"keylocker": "591514",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "215"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 46,
+    "rowEnd": 12,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "591516",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "217"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 49,
+    "rowEnd": 12,
+    "colEnd": 51,
+    "content": "",
+  	"keylocker": "591518",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "219"
+  },
+  {
+    "type": "merged",
+    "rowStart": 17,
+    "colStart": 1,
+    "rowEnd": 18,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 17,
+    "colStart": 4,
+    "rowEnd": 18,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 17,
+    "colStart": 7,
+    "rowEnd": 18,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 4,
+    "rowEnd": 32,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240Q"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 7,
+    "rowEnd": 32,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240R"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 4,
+    "rowEnd": 20,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 7,
+    "rowEnd": 20,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 1,
+    "rowEnd": 20,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 1,
+    "rowEnd": 25,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "medium",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "240J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 4,
+    "rowEnd": 25,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "240K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 7,
+    "rowEnd": 25,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 1,
+    "rowEnd": 28,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240O"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 7,
+    "rowEnd": 28,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240M"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 7,
+    "rowEnd": 34,
+    "colEnd": 9,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240U"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 1,
+    "rowEnd": 34,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240S"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 16,
+    "rowEnd": 37,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "591539",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "243"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 19,
+    "rowEnd": 37,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "591526",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "244"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 13,
+    "rowEnd": 34,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Fire Hydrant"
+  },
+  {
+    "type": "merged",
+    "rowStart": 36,
+    "colStart": 1,
+    "rowEnd": 38,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240V"
+  },
+  {
+    "type": "merged",
+    "rowStart": 36,
+    "colStart": 4,
+    "rowEnd": 38,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240W"
+  },
+  {
+    "type": "merged",
+    "rowStart": 16,
+    "colStart": 12,
+    "rowEnd": 18,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591520",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "234"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 22,
+    "rowEnd": 12,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591503",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "205"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 12,
+    "rowEnd": 15,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591519",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "233"
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 16,
+    "rowEnd": 12,
+    "colEnd": 18,
+    "content": "",
+  	"keylocker": "591501",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "203"
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 12,
+    "rowEnd": 24,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591522",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "236"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 12,
+    "rowEnd": 21,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591521",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "235"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 34,
+    "rowEnd": 37,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591534",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "249"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 37,
+    "rowEnd": 43,
+    "colEnd": 39,
+    "content": "PTR 400  \nPrinter Serial # SAA2J041014115",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "253 Meeting Room & Print Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 34,
+    "rowEnd": 43,
+    "colEnd": 36,
+    "content": "",
+  	"keylocker": "591533",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "254"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 38,
+    "rowEnd": 37,
+    "colEnd": 38,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 40,
+    "rowEnd": 44,
+    "colEnd": 42,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 25,
+    "colStart": 12,
+    "rowEnd": 27,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591523",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "237"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 17,
+    "rowEnd": 43,
+    "colEnd": 20,
+    "content": "",
+  	"keylocker": "591538",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nFiona is sitting this room. She awares need to move when new academic arrives\nDavid Yermack arriving on 19/03 - leaving on 19/04 will be using this room. \nFiona amd Maryam will vacate room and provide the key. ",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "259"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 1,
+    "rowEnd": 32,
+    "colEnd": 3,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240P"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 21,
+    "rowEnd": 43,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591535",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "258"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 25,
+    "rowEnd": 43,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591536",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "257"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 25,
+    "rowEnd": 37,
+    "colEnd": 27,
+    "content": "",
+  	"keylocker": "591528",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "246"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 28,
+    "rowEnd": 37,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591530",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "247"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 31,
+    "rowEnd": 37,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591532",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "248"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 28,
+    "rowEnd": 43,
+    "colEnd": 30,
+    "content": "",
+  	"keylocker": "591537",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "256"
+  },
+  {
+    "type": "merged",
+    "rowStart": 40,
+    "colStart": 31,
+    "rowEnd": 43,
+    "colEnd": 33,
+    "content": "",
+  	"keylocker": "591531",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "255"
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 22,
+    "rowEnd": 37,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "591527",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "245"
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 12,
+    "rowEnd": 33,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591525",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "239"
+  },
+  {
+    "type": "merged",
+    "rowStart": 28,
+    "colStart": 12,
+    "rowEnd": 30,
+    "colEnd": 15,
+    "content": "",
+  	"keylocker": "591524",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "238"
+  },
+  {
+    "type": "merged",
+    "rowStart": 33,
+    "colStart": 4,
+    "rowEnd": 34,
+    "colEnd": 6,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "240T"
+  },
+  {
+    "type": "single",
+    "rowStart": 42,
+    "colStart": 16,
+    "rowEnd": 42,
+    "colEnd": 16,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "single",
+    "rowStart": 43,
+    "colStart": 16,
+    "rowEnd": 43,
+    "colEnd": 16,
+    "content": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": "thin",
+      "top": null,
+      "bottom": null
+    }
+  }
+]

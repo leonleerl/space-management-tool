@@ -1,0 +1,542 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 15,
+    "rowEnd": 25,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "G305B"
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 18,
+    "rowEnd": 11,
+    "colEnd": 52,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Woodside Courtyard"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 23,
+    "rowEnd": 28,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305L"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 20,
+    "rowEnd": 28,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305I"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 18,
+    "rowEnd": 28,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305F"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 23,
+    "rowEnd": 25,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "G305K"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 20,
+    "rowEnd": 23,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305G"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 20,
+    "rowEnd": 25,
+    "colEnd": 21,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "G305H"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 15,
+    "rowEnd": 17,
+    "colEnd": 19,
+    "content": "Mehdi Asadabadi",
+  	"keylocker": "591103",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G32"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 20,
+    "rowEnd": 17,
+    "colEnd": 24,
+    "content": "Ronnie Das",
+  	"keylocker": "591104",
+    "bgColor": "FFFFFF",
+    "comment": "\nVesna:\n- key has been requested and  new occupant will be Ronnie Das \n\n\n\n\n\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G33"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 25,
+    "rowEnd": 17,
+    "colEnd": 29,
+    "content": "Maduka Subasinghage",
+  	"keylocker": "591105",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G34"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 30,
+    "rowEnd": 17,
+    "colEnd": 34,
+    "content": "Tianyi Long x4313 ",
+  	"keylocker": "591106",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G35"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 35,
+    "rowEnd": 17,
+    "colEnd": 39,
+    "content": "Miguel Loyola x5680",
+  	"keylocker": "591107",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G36"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 40,
+    "rowEnd": 17,
+    "colEnd": 44,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G37 Meeting Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 40,
+    "rowEnd": 20,
+    "colEnd": 44,
+    "content": "PTR 390 Printer Serial #SAA2K041019274",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Printer Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 4,
+    "rowEnd": 25,
+    "colEnd": 12,
+    "content": "",
+  	"keylocker": "591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G42 Case Study Room \nMichael Chaney Case Study Room"
+  },
+  {
+    "type": "merged",
+    "rowStart": 23,
+    "colStart": 1,
+    "rowEnd": 25,
+    "colEnd": 2,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G30"
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 47,
+    "rowEnd": 20,
+    "colEnd": 48,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "WC"
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 3,
+    "rowEnd": 12,
+    "colEnd": 14,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "CAFÉ"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 35,
+    "rowEnd": 28,
+    "colEnd": 39,
+    "content": "Brett Smith x3979",
+  	"keylocker": "591150",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G40"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 30,
+    "rowEnd": 28,
+    "colEnd": 34,
+    "content": "Yifan Zhong",
+  	"keylocker": "591149",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G39"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 25,
+    "rowEnd": 28,
+    "colEnd": 29,
+    "content": "Doina Olaru x3908",
+  	"keylocker": "591148",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G38"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 45,
+    "rowEnd": 28,
+    "colEnd": 48,
+    "content": "Mayowa Babalola x2192",
+  	"keylocker": "591152",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G43"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 40,
+    "rowEnd": 28,
+    "colEnd": 44,
+    "content": "Paul Bergey x4658",
+  	"keylocker": "591151",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G41"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 23,
+    "rowEnd": 23,
+    "colEnd": 24,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305J"
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 46,
+    "rowEnd": 18,
+    "colEnd": 46,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "Kitchen"
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 15,
+    "rowEnd": 28,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305C"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 18,
+    "rowEnd": 23,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    },
+    "room": "G305D"
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 18,
+    "rowEnd": 25,
+    "colEnd": 19,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    },
+    "room": "G305E"
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 15,
+    "rowEnd": 23,
+    "colEnd": 16,
+    "content": "",
+  	"keylocker": "",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    },
+    "room": "G305A"
+  }
+]
