@@ -4,10 +4,10 @@ import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button } from 'antd';
-import { useStaffGrid } from '@/hooks/useStaffGrid';
+import { useStudentGrid } from '@/hooks/useStudentGrid';
 
 const AccFinStu : FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('AccFin');
+  const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStudentGrid('AccFin');
 
   return (
     <div>
@@ -23,7 +23,7 @@ const AccFinStu : FC<HotTableProps> = () => {
       ref={hotRef}
       themeName="ht-theme-main"
       colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Type']}
-      // data={gridRows}
+      data={gridRows}
       rowHeaders={true}
       height="auto"
       autoWrapRow={true}
