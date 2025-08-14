@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { HotTableRef } from '@handsontable/react-wrapper';
 import { message } from 'antd';
 import { StudentDto, StudentEntity } from '@/types/student';
+import { StudentTypeDto } from '@/types/studentType';
 
 type GridCell = string | null;
 
@@ -9,6 +10,7 @@ export function useStudentGrid(departmentName: string) {
   const hotRef = useRef<HotTableRef>(null);
   const [gridRows, setGridRows] = useState<GridCell[][]>([]);
   const [isSaving, setIsSaving] = useState(false);
+  const [studentTypes, setStudentTypes] = useState<StudentTypeDto[]>([]);
 
   const formatDateToYyyyMmDd = (value: unknown): string | null => {
     if (!value) return null;
@@ -48,6 +50,14 @@ export function useStudentGrid(departmentName: string) {
         message.error('Failed to load student');
       });
   }, [departmentName]);
+
+  useEffect(() => {
+    fetch('/api/studentType')
+      .then((res) => res.json())
+      .then((rows: StudentTypeDto[]) => {
+        setStudentTypes(rows);
+      });
+  }, []);
 
   const normalize = (value: unknown): string | null => {
     if (value === undefined || value === null) return null;
@@ -118,7 +128,7 @@ export function useStudentGrid(departmentName: string) {
 
   };
 
-  return { hotRef, gridRows, setGridRows, isSaving, handleSave, handleAdd } as const;
+  return { hotRef, gridRows, setGridRows, isSaving, handleSave, handleAdd, studentTypes } as const;
 }
 
 

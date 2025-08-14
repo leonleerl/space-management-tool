@@ -4,6 +4,5 @@ export interface StudentTypeEntity {
 }
 
 export interface StudentTypeDto {
-    id: number;
-    name: string;
+    names: string[];
 }
