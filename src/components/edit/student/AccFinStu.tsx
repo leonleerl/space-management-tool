@@ -3,7 +3,7 @@ import React, { FC } from 'react'
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button } from 'antd';
+import { Button, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
 
 const AccFinStu : FC<HotTableProps> = () => {
@@ -15,7 +15,15 @@ const AccFinStu : FC<HotTableProps> = () => {
         <div className='font-black text-2xl'>Accounting & Finance Student</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
-          <Button color='cyan' variant='solid' onClick={handleSave} loading={isSaving}>Save Changes</Button>
+          <Popconfirm
+            title='Confirm Save'
+            description='Are you sure you want to save the changes?'
+            okText='Save'
+            cancelText='Cancel'
+            onConfirm={handleSave}
+          >
+            <Button color='cyan' variant='solid' loading={isSaving}>Save Changes</Button>
+          </Popconfirm>
         </div>
       </div>
 
