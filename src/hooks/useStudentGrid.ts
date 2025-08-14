@@ -40,6 +40,7 @@ export function useStudentGrid(departmentName: string) {
               item.comment ?? null,
               item.extNo ?? null,
               item.podNo ?? null,
+              item.room?.roomNo ?? null,
               item.type?.name ?? null,
             ];
           })
@@ -87,7 +88,8 @@ export function useStudentGrid(departmentName: string) {
         const comment = normalize(row[2]);
         const extNo = normalize(row[3]);
         const podNo = normalize(row[4]);
-        const type = normalize(row[5]);
+        const room = normalize(row[5]);
+        const type = normalize(row[6]);
 
         return {
           id: 0,
@@ -96,7 +98,7 @@ export function useStudentGrid(departmentName: string) {
           extNo,
           podNo,
           endDate,
-          room: null,
+          room: room ? { id: 0, roomNo: room } : null,
           type: type ? { id: 0, name: type } : null,
           department: { id: 0, name: departmentName },
         } as StudentDto;

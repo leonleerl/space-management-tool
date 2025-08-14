@@ -16,15 +16,15 @@ const AccFinStu : FC<HotTableProps> = () => {
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
           <Button color='cyan' variant='solid' onClick={handleSave} loading={isSaving}>Save Changes</Button>
-
         </div>
       </div>
 
     <HotTable
       ref={hotRef}
       themeName="ht-theme-main"
-      colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Type']}
+      colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Room', 'Type']}
       columns={[
+        {},
         {},
         {},
         {},
@@ -32,7 +32,7 @@ const AccFinStu : FC<HotTableProps> = () => {
         {},
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
-      colWidths={[200, 100, 300, 100, 100, 180]}
+      colWidths={[180, 100, 220, 100, 100, 100,180]}
       data={gridRows}
       rowHeaders={true}
       height="600px"
