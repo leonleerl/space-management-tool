@@ -7,7 +7,7 @@ const ContentMap : Record<string, React.ReactNode> = {
     "15": <MarketingAcc />,
     "16": <AccFinAcc />,
     '21': <AccFinStaff />,
-    '22': <MarketingStaff />,
+    '23': <MarketingStaff />,
 }
 
 export { ContentMap }
