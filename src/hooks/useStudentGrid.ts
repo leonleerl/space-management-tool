@@ -10,7 +10,7 @@ export function useStudentGrid(departmentName: string) {
   const hotRef = useRef<HotTableRef>(null);
   const [gridRows, setGridRows] = useState<GridCell[][]>([]);
   const [isSaving, setIsSaving] = useState(false);
-  const [studentTypes, setStudentTypes] = useState<StudentTypeDto[]>([]);
+  const [studentTypes, setStudentTypes] = useState<string[]>([]);
 
   const formatDateToYyyyMmDd = (value: unknown): string | null => {
     if (!value) return null;
@@ -54,7 +54,7 @@ export function useStudentGrid(departmentName: string) {
   useEffect(() => {
     fetch('/api/studentType')
       .then((res) => res.json())
-      .then((rows: StudentTypeDto[]) => {
+      .then((rows: string[]) => {
         setStudentTypes(rows);
       });
   }, []);
