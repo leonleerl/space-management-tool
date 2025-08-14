@@ -15,7 +15,9 @@ const AccFinStu : FC<HotTableProps> = () => {
         <div className='font-black text-2xl'>Accounting & Finance Student</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
-          <Button color='cyan' variant='solid' onClick={handleSave} loading={isSaving}>Save Changes</Button>
+          {/* <Button color='cyan' variant='solid' onClick={handleSave} loading={xisSaving}>Save Changes</Button> */}
+          <Button color='cyan' variant='solid'>Save Changes</Button>
+
         </div>
       </div>
 
