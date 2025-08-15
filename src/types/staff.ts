@@ -1,4 +1,5 @@
 import { RoomDto, RoomEntity } from "./room";
+import { DepartmentDto, DepartmentEntity } from "./department";
 
 export interface StaffEntity{
     id: number;
@@ -12,10 +13,7 @@ export interface StaffEntity{
     department: DepartmentEntity | null;
 }
 
-export interface DepartmentEntity {
-    id: number;
-    name: string;
-}
+
 
 export interface StaffDto {
     id: number;
@@ -27,7 +25,3 @@ export interface StaffDto {
     department: DepartmentDto | null;
 }
 
-export interface DepartmentDto {
-    id: number;
-    name: string;
-}
