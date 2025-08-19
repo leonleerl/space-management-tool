@@ -2,8 +2,23 @@ import React, { FC } from 'react'
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button } from 'antd';
+import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
+
+// static data for staff positions
+// This can be replaced with dynamic data from a database or API if needed - TODO
+const STAFF_POSITIONS = [
+  'Lecturer',
+  'Senior Lecturer',
+  'Associate Professor',
+  'Professor',
+  'Research Fellow',
+  'Postdoctoral Researcher',
+  'Teaching Assistant',
+  'Administrative Officer'
+];
+
+const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const EconomicsStaff: FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('Economics');
@@ -11,10 +26,19 @@ const EconomicsStaff: FC<HotTableProps> = () => {
   return (
     <div>
       <div className='flex items-center justify-between'>
-        <div className='font-black text-2xl'>Economics Staff</div>
+        <div className='font-black text-2xl'>Economics</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
-          <Button color='cyan' variant='solid' onClick={handleSave} loading={isSaving}>Save Changes</Button>
+          <Popconfirm
+            title='Confirm Save'
+            description='Are you sure you want to save the changes?'
+            okText='Save'
+            cancelText='Cancel'
+            onConfirm={handleSave}
+          >
+          <Button color='cyan' variant='solid' loading={isSaving}>Save Changes</Button>
+
+          </Popconfirm>
         </div>
       </div>
 
@@ -22,13 +46,21 @@ const EconomicsStaff: FC<HotTableProps> = () => {
         ref={hotRef}
         themeName="ht-theme-main"
         colHeaders={['Full Name', 'Position', 'Ext No', 'Room', 'Source']}
+        columns={[
+          {},
+          { type: 'autocomplete', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
+          {},
+          {},
+          { type: 'autocomplete', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
+        ]}
+        colWidths={[180, 150, 100, 100, 120]}
         data={gridRows}
         rowHeaders={true}
-        height="auto"
+        height="600px"
         autoWrapRow={true}
         autoWrapCol={true}
-        licenseKey="non-commercial-and-evaluation"  // for non-commercial use only
-      />
+        licenseKey="non-commercial-and-evaluation" // for non-commercial use only
+    />
     </div>
   )
 }
