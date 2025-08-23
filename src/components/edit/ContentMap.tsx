@@ -19,7 +19,7 @@ const ContentMap: Record<string, React.ReactNode> = {
   "22": <EconomicsStaff />,
   "23": <MarketingStaff />,
   "24": <MOStaff />,
-  "25": <DeanStaff />, // 新增：对应菜单项'25'
+  "25": <DeanStaff />, 
   "32": <EconomicsStu />,
   "34": <AccFinStu />,
 };
