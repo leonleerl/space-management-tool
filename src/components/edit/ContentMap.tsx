@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   AccFinStaff,
   MarketingStaff,
@@ -8,7 +7,8 @@ import {
   DeanStaff,
 } from "./staff";
 import { AccFinAcc, MarketingAcc, MOAcc, EconomicsAcc } from "./accommodation";
-import { AccFinStu, EconomicsStu } from "./student";
+import { AccFinStu, EconomicsStu, MarketingStu } from './student'
+
 
 const ContentMap: Record<string, React.ReactNode> = {
   "13": <MOAcc />,
@@ -21,7 +21,9 @@ const ContentMap: Record<string, React.ReactNode> = {
   "24": <MOStaff />,
   "25": <DeanStaff />, 
   "32": <EconomicsStu />,
+  '33': <MarketingStu />,
   "34": <AccFinStu />,
 };
+
 
 export { ContentMap };
