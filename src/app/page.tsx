@@ -1,4 +1,4 @@
-import { Button } from "antd";
+import { LoginModal } from "@/components/auth/login";
 
 export default function Home() {
   return (
@@ -10,21 +10,7 @@ export default function Home() {
         <p className="text-gray-600 text-xl mb-12 leading-relaxed">
           This web app lets you seamlessly synchronize your Excel files online. Please sign in or sign up to get started.
         </p>
-        <div className="flex justify-center gap-6">
-          <Button 
-            type="primary" 
-            size="large"
-            className="px-8 py-2 h-12 text-lg font-medium"
-          >
-            Sign in
-          </Button>
-          <Button 
-            size="large"
-            className="px-8 py-2 h-12 text-lg font-medium"
-          >
-            Sign up
-          </Button>
-        </div>
+        <LoginModal />
       </div>
     </div>
   );

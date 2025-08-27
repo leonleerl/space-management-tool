@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import Fix from '@/lib/fix';
+import { SessionProvider } from '@/components/SessionProvider';
 
 export default function RootLayout({
   children,
@@ -14,8 +15,10 @@ export default function RootLayout({
       <body>
         <AntdRegistry>
           <Fix />
-          <Header />
-          {children}
+          <SessionProvider>
+            <Header />
+            {children}
+          </SessionProvider>
         </AntdRegistry>
       </body>
     </html>
