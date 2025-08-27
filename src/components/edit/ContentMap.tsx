@@ -2,7 +2,7 @@ import React from 'react'
 
 import { AccFinStaff, MarketingStaff, MOStaff, EconomicsStaff } from './staff'
 import { AccFinAcc, MarketingAcc, MOAcc, EconomicsAcc } from './accommodation'
-import { AccFinStu, EconomicsStu } from './student'
+import { AccFinStu, EconomicsStu, MarketingStu } from './student'
 
 
 const ContentMap : Record<string, React.ReactNode> = {
@@ -15,6 +15,7 @@ const ContentMap : Record<string, React.ReactNode> = {
     '23': <MarketingStaff />,
     '24': <MOStaff />,
     '32': <EconomicsStu />,
+    '33': <MarketingStu />,
     "34": <AccFinStu />,
 }
 
