@@ -22,9 +22,9 @@ async function authenticateUser(username: string, password: string) {
     if (!user) {
       return null;
     }
-    
-    const isValid = await bcrypt.compare(password, user.password);
-    
+
+    const isValid = await bcrypt.compare(password, user.password)
+
     if (!isValid) {
       return null;
     }

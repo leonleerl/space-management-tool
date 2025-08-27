@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
-import { Button, Modal, Form, Input } from 'antd';
+import { Button, Modal, Form, Input, message } from 'antd';
+import { signIn } from 'next-auth/react';
 
 const LoginModal: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,12 +14,20 @@ const LoginModal: React.FC = () => {
     form.resetFields();
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async (values: { username: string; password: string }) => {
     setConfirmLoading(true);
-    setTimeout(() => {
-      setIsOpen(false);
-      setConfirmLoading(false);
-    }, 2000);
+    const res = await signIn('credentials', {
+      username: values.username,
+      password: values.password,
+      redirect: false,
+    });
+    setConfirmLoading(false);
+    if (res?.error) {
+      message.error("Login failed");
+    } else {
+      message.success('Login successful');
+      closeModal();
+    }
   };
 
   return (
