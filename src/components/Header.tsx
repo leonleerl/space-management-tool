@@ -19,7 +19,9 @@ function Header() {
     </div>
     <div className="flex space-x-6 text-lg ">
       <Link href="/edit" className={getLinkClassName('/edit')}>Edit</Link>
+      {/*
       <Link href="/upload" className={getLinkClassName('/upload')}>Upload</Link>
+      */}
       <Link href="/download" className={getLinkClassName('/download')}>Download</Link>
     </div>
   </div>
