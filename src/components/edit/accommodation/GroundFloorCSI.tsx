@@ -1,6 +1,6 @@
 'use client';
 
-import React from'react';
+import React from 'react';
 import { Slider } from 'antd';
 import {HotTableView} from "@/components";
 import { useState } from 'react';
