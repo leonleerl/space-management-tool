@@ -2,11 +2,11 @@ import React, { FC } from 'react'
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button } from 'antd';
+import { Button, Popconfirm } from 'antd';
 import { useRoomGrid } from '@/hooks/useRoomGrid';
 
 const GroundFloorCSIRoom: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, handleAdd } = useRoomGrid('GF-CSI');
+  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('GF-CSI');
 
   return (
     <div>
@@ -14,6 +14,15 @@ const GroundFloorCSIRoom: FC<HotTableProps> = () => {
         <div className='font-black text-2xl'>Ground Floor - CSI Rooms</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
+          <Popconfirm
+            title='Confirm Save'
+            description='This will replace all rooms with current grid. Continue?'
+            okText='Save'
+            cancelText='Cancel'
+            onConfirm={handleSave}
+          >
+            <Button color='cyan' variant='solid' loading={isSaving}>Save Changes</Button>
+          </Popconfirm>
         </div>
       </div>
 
@@ -21,7 +30,7 @@ const GroundFloorCSIRoom: FC<HotTableProps> = () => {
         ref={hotRef}
         themeName="ht-theme-main"
         colHeaders={['Room No', 'Key Locker', 'Location']}
-        columns={[{}, {}, {}]}
+        columns={[{}, {}, { readOnly: true, className: 'htDimmed' }]}
         data={gridRows}
         rowHeaders={true}
         height="600px"
