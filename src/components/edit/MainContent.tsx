@@ -117,7 +117,50 @@ const items = [
         label: 'Ground Floor',
       },
     ]
+  },
+  {
+    key: '4',
+    icon: <FolderOutlined/>,
+    label: 'Rooms',
+    children: [
+      {
+        key: '41',
+        icon: <FileExcelOutlined />,
+        label: 'Ground Floor - CSI',
+      },
+      {
+        key: '42',
+        icon: <FileExcelOutlined />,
+        label: 'Ground Floor - DA',
+      },
+      {
+        key: '43',
+        icon: <FileExcelOutlined />,
+        label: 'Mgmt & Orgs',
+      },
+      {
+        key: '44',
+        icon: <FileExcelOutlined />,
+        label: 'Economics',
+      },
+      {
+        key: '45',
+        icon: <FileExcelOutlined />,
+        label: 'Marketing',
+      },
+      {
+        key: '46',
+        icon: <FileExcelOutlined />,
+        label: 'AccFin',
+      },
+      {
+        key: '47',
+        icon: <FileExcelOutlined />,
+        label: 'Deanery-LVL 2',
+      },
+    ]
   }
+
 ]
 
 registerAllModules();
@@ -127,7 +170,7 @@ const MainContent : FC = () => {
     token: { colorBgContainer },
   } = theme.useToken();
 
-  const [selectedKey, setSelectedKey] = useState<string>('34');
+  const [selectedKey, setSelectedKey] = useState<string>('11');
 
 
   return (
