@@ -114,7 +114,7 @@ const items = [
       {
         key: '35',
         icon: <FileTextOutlined/>,
-        label: 'Ground Floor - DA',
+        label: 'Ground Floor',
       },
     ]
   }
