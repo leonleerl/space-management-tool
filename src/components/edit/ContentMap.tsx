@@ -4,6 +4,8 @@ import { AccFinStaff, MarketingStaff, MOStaff, EconomicsStaff, DeanStaff} from "
 
 import { AccFinAcc, MarketingAcc, MOAcc, EconomicsAcc, GroundFloorCSI, GroundFloorDA } from "./accommodation";
 import { AccFinStu, EconomicsStu, MarketingStu, GroundFloorStu, MOStu } from './student'
+import { DeanRoom, AccFinRoom, EconomicsRoom, MarketingRoom, MORoom, GroundFloorDARoom } from "./room";
+import { GroundFloorCSIRoom } from "./room";
 
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
@@ -27,5 +29,14 @@ const ContentMap: Record<string, React.ReactNode> = {
   "33": <MarketingStu />,
   "34": <AccFinStu />,
   "35": <GroundFloorStu />,
+
+  // Room Management
+  "41": <GroundFloorCSIRoom />,
+  "42": <GroundFloorDARoom />,
+  "43": <MORoom />,
+  "44": <EconomicsRoom />,
+  "45": <MarketingRoom />,
+  "46": <AccFinRoom />,
+  "47": <DeanRoom />,
 };
 export { ContentMap };
