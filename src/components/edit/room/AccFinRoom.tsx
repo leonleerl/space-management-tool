@@ -1,9 +1,34 @@
-import React from 'react'
+import React, { FC } from 'react'
+import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
+import 'handsontable/styles/handsontable.css';
+import 'handsontable/styles/ht-theme-main.css';
+import { Button } from 'antd';
+import { useRoomGrid } from '@/hooks/useRoomGrid';
 
-function AccFinRoom() {
+const AccFinRoom: FC<HotTableProps> = () => {
+  const { hotRef, gridRows, handleAdd } = useRoomGrid('AccFin');
+
   return (
     <div>
-      AccFin Room
+      <div className='flex items-center justify-between'>
+        <div className='font-black text-2xl'>Accounting & Finance Rooms</div>
+        <div className='flex gap-2'>
+          <Button type='primary' onClick={handleAdd}>Add</Button>
+        </div>
+      </div>
+
+      <HotTable
+        ref={hotRef}
+        themeName="ht-theme-main"
+        colHeaders={['Room No', 'Key Locker', 'Location']}
+        columns={[{}, {}, {}]}
+        data={gridRows}
+        rowHeaders={true}
+        height="600px"
+        autoWrapRow={true}
+        autoWrapCol={true}
+        licenseKey="non-commercial-and-evaluation"
+      />
     </div>
   )
 }
