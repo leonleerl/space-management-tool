@@ -66,7 +66,7 @@ export async function POST(request: Request) : Promise<Response> {
 
     const locationIds = locations.map(l => l.id);
 
-    // Find existing rooms under these locations to safely detach dependents first
+    // Find existing rooms under these locations to cascade delete dependents first
     const roomsToReplace = await prisma.room.findMany({
         where: { locationId: { in: locationIds } },
         select: { id: true },
@@ -74,9 +74,9 @@ export async function POST(request: Request) : Promise<Response> {
     const roomIdsToReplace = roomsToReplace.map(r => r.id);
 
     if (roomIdsToReplace.length > 0) {
-        // Nullify FK on dependents referencing these rooms only
-        await prisma.staff.updateMany({ where: { roomId: { in: roomIdsToReplace } }, data: { roomId: null } });
-        await prisma.student.updateMany({ where: { roomId: { in: roomIdsToReplace } }, data: { roomId: null } });
+        // Cascade delete dependents referencing these rooms only
+        await prisma.staff.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
+        await prisma.student.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
     }
 
     // Delete only rooms for these locations
