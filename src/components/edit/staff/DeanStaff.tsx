@@ -5,24 +5,8 @@ import "handsontable/styles/handsontable.css";
 import "handsontable/styles/ht-theme-main.css";
 import { Button, Popconfirm } from "antd";
 import { useStaffGrid } from "@/hooks/useStaffGrid";
+import { useStaffPosition } from "@/hooks/useStaffPosition";
 
-// Dean's Office specific position list
-// Customized based on actual data from contact_list.json
-const STAFF_POSITIONS = [
-  "Dean",
-  "Associate Dean",
-  "Director MBA Program",
-  "Adjunct Associate Professor",
-  "Senior Lecturer",
-  "Lecturer",
-  "Senior School Operations Coordinator",
-  "School Operations Coordinator",
-  "School Operations Officer",
-  "Project Officer",
-  "UWA PPI - Director",
-  "UWA PPI - Executive Officer",
-  "Administrative Officer",
-];
 
 // Dean's Office source types
 const STAFF_SOURCES = ["Academic", "Administrative", "Executive", "PPI"];
@@ -32,6 +16,7 @@ const DeanStaff: FC<HotTableProps> = () => {
   // This aligns with "Classification": "Deans Office" in contact_list.json
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } =
     useStaffGrid("Dean's Office");
+  const { staffPositions } = useStaffPosition();
 
   return (
     <div>
@@ -63,7 +48,7 @@ const DeanStaff: FC<HotTableProps> = () => {
           {}, // Full Name - free text input
           {
             type: "autocomplete",
-            source: STAFF_POSITIONS,
+            source: staffPositions,
             allowInvalid: false,
             filter: false,
             strict: true,

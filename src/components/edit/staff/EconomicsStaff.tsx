@@ -5,25 +5,14 @@ import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
 import { useRoom } from '@/hooks/useRoomOptions';
-
-// static data for staff positions
-// This can be replaced with dynamic data from a database or API if needed - TODO
-const STAFF_POSITIONS = [
-  'Lecturer',
-  'Senior Lecturer',
-  'Associate Professor',
-  'Professor',
-  'Research Fellow',
-  'Postdoctoral Researcher',
-  'Teaching Assistant',
-  'Administrative Officer'
-];
+import { useStaffPosition } from '@/hooks/useStaffPosition';
 
 const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const EconomicsStaff: FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('Economics');
   const { roomOptions } = useRoom('EconomicsLevel');
+  const { staffPositions } = useStaffPosition();
 
   return (
     <div>
@@ -50,7 +39,7 @@ const EconomicsStaff: FC<HotTableProps> = () => {
         colHeaders={['Full Name', 'Position', 'Ext No', 'Room', 'Source']}
         columns={[
           {},
-          { type: 'autocomplete', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
+          { type: 'autocomplete', source: staffPositions, allowInvalid: false, filter: false, strict: true },  // dropdown
           {},
           {
             type: 'dropdown',
