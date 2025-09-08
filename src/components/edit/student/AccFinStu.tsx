@@ -5,9 +5,11 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
+import { useRoom } from '@/hooks/useRoomOptions';
 
 const AccFinStu : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('AccFin');
+  const { roomOptions } = useRoom('AccountingFinanceLevel');
 
   return (
     <div className=' p-4'>
@@ -33,11 +35,11 @@ const AccFinStu : FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Room', 'Type']}
       columns={[
         {},
+        {type: 'date', allowInvalid: false, filter: false},
         {},
         {},
         {},
-        {},
-        {},
+        { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
       colWidths={[180, 100, 220, 100, 100, 100,180]}
@@ -47,6 +49,7 @@ const AccFinStu : FC<HotTableProps> = () => {
       autoWrapRow={true}
       autoWrapCol={true}
       licenseKey="non-commercial-and-evaluation" // for non-commercial use only
+      columnSorting={true}
     />
     </div>
   )

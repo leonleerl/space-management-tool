@@ -6,7 +6,7 @@ import { Button, Popconfirm } from 'antd';
 import { useRoomGrid } from '@/hooks/useRoomGrid';
 
 const AccFinRoom: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('AccFin');
+  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('AccountingFinanceLevel');
 
   return (
     <div>
@@ -16,7 +16,7 @@ const AccFinRoom: FC<HotTableProps> = () => {
           <Button type='primary' onClick={handleAdd}>Add</Button>
           <Popconfirm
             title='Confirm Save'
-            description='This will replace all rooms with current grid. Continue?'
+            description='If you remove any room, all staff and students in that room will be deleted. Are to save?'
             okText='Save'
             cancelText='Cancel'
             onConfirm={handleSave}
@@ -37,6 +37,7 @@ const AccFinRoom: FC<HotTableProps> = () => {
         autoWrapRow={true}
         autoWrapCol={true}
         licenseKey="non-commercial-and-evaluation"
+        columnSorting={true}
       />
     </div>
   )

@@ -5,6 +5,7 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
+import { useRoom } from '@/hooks/useRoomOptions';
 
 // static data for staff positions
 // This can be replaced with dynamic data from a database or API if needed - TODO
@@ -23,6 +24,7 @@ const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const AccFinStaff : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('AccFin');
+  const { roomOptions } = useRoom('AccountingFinanceLevel');  
 
   return (
     <div>
@@ -48,10 +50,16 @@ const AccFinStaff : FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'Position', 'Ext No', 'Room', 'Source']}
       columns={[
         {},
-        { type: 'autocomplete', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
+        { type: 'dropdown', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
         {},
-        {},
-        { type: 'autocomplete', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
+        {
+          type: 'dropdown',
+          source: roomOptions,
+          allowInvalid: false,
+          filter: true,
+          strict: true,
+        },
+        { type: 'dropdown', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
       ]}
       data={gridRows}
       rowHeaders={true}
@@ -59,9 +67,11 @@ const AccFinStaff : FC<HotTableProps> = () => {
       autoWrapRow={true}
       autoWrapCol={true}
       licenseKey="non-commercial-and-evaluation" // for non-commercial use only
+      columnSorting={true}
     />
     </div>
   )
 }
 
 export { AccFinStaff }
+

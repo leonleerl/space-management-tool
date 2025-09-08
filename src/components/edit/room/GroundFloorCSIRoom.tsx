@@ -6,7 +6,7 @@ import { Button, Popconfirm } from 'antd';
 import { useRoomGrid } from '@/hooks/useRoomGrid';
 
 const GroundFloorCSIRoom: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('GF-CSI');
+  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('GroundFloorCSI');
 
   return (
     <div>
@@ -37,6 +37,7 @@ const GroundFloorCSIRoom: FC<HotTableProps> = () => {
         autoWrapRow={true}
         autoWrapCol={true}
         licenseKey="non-commercial-and-evaluation"
+        columnSorting={true}
       />
     </div>
   )
