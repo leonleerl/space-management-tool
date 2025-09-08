@@ -1,12 +1,11 @@
-
-
-import React, { FC, useEffect, useState } from 'react'
+import React, { FC } from 'react'
 
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button, Popconfirm, message } from 'antd';
+import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
+import { useRoom } from '@/hooks/useRoom';
 
 // static data for staff positions
 // This can be replaced with dynamic data from a database or API if needed - TODO
@@ -25,27 +24,7 @@ const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const AccFinStaff : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('AccFin');
-  const [roomOptions, setRoomOptions] = useState<string[]>([]);
-
-  useEffect(() => {
-    fetch('/api/room?location=AccountingFinanceLevel')
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((rooms: Array<{ roomNo?: string | null }>) => {
-        const options = Array.isArray(rooms)
-          ? rooms
-              .map((r) => (r.roomNo ?? '').toString().trim())
-              .filter((v) => v.length > 0)
-          : [];
-        setRoomOptions(options);
-      })
-      .catch((err) => {
-        console.error(err);
-        message.error('Failed to load rooms');
-      });
-  }, []);
+  const { roomOptions } = useRoom('AccountingFinanceLevel');  
 
   return (
     <div>
