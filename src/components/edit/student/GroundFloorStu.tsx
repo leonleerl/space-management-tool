@@ -46,6 +46,7 @@ const GroundFloorStu: FC<HotTableProps> = () => {
       autoWrapRow={true}
       autoWrapCol={true}
       licenseKey="non-commercial-and-evaluation" 
+      columnSorting={true}
     />
     </div>
   )
