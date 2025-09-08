@@ -6,6 +6,7 @@ import { AccFinAcc, MarketingAcc, MOAcc, EconomicsAcc, GroundFloorCSI, GroundFlo
 import { AccFinStu, EconomicsStu, MarketingStu, GroundFloorStu, MOStu } from './student'
 import { DeanRoom, AccFinRoom, EconomicsRoom, MarketingRoom, MORoom, GroundFloorDARoom } from "./room";
 import { GroundFloorCSIRoom } from "./room";
+import { StudentType } from "./StudentType";
 
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
@@ -38,5 +39,8 @@ const ContentMap: Record<string, React.ReactNode> = {
   "45": <MarketingRoom />,
   "46": <AccFinRoom />,
   "47": <DeanRoom />,
+
+  // Student Type
+  "51": <StudentType />,
 };
 export { ContentMap };
