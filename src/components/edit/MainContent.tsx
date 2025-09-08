@@ -8,6 +8,7 @@ import 'handsontable/styles/ht-theme-main.css';
 import { FileExcelOutlined, FileTextOutlined, FolderOutlined } from '@ant-design/icons';
 import { Layout, Menu, theme } from 'antd';
 import { ContentMap } from './ContentMap';
+import { StudentType } from './StudentType';
 
 const { Content, Sider } = Layout;
 
@@ -159,8 +160,12 @@ const items = [
         label: 'Deanery-LVL 2',
       },
     ]
+  },
+  {
+    key: '51',
+    icon: <FileExcelOutlined />,
+    label: 'Student Type',
   }
-
 ]
 
 registerAllModules();

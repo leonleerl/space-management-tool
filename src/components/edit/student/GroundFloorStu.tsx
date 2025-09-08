@@ -32,7 +32,7 @@ const GroundFloorStu: FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Room', 'Type']}
       columns={[
         {},
-        {},
+        { type: 'date', allowInvalid: false, filter: false, dateFormat: 'YYYY-MM-DD', correctFormat: true },
         {},
         {},
         {},

@@ -84,7 +84,7 @@ export function useStudentGrid(departmentName: string) {
       .map((row) => {
         const fullName = normalize(row[0]) ?? '';
         const endDateString = normalize(row[1]);
-        const endDate = endDateString ? new Date(endDateString) : null;
+        const endDate = endDateString ?? null;
         const comment = normalize(row[2]);
         const extNo = normalize(row[3]);
         const podNo = normalize(row[4]);

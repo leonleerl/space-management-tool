@@ -40,6 +40,10 @@ import {
   GroundFloorCSIRoom,
 } from "./room";
 
+// Student Type
+import { StudentType } from "./StudentType";
+
+
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
   "11": <GroundFloorCSI />,
@@ -72,6 +76,9 @@ const ContentMap: Record<string, React.ReactNode> = {
   "45": <MarketingRoom />,
   "46": <AccFinRoom />,
   "47": <DeanRoom />,
+
+  // Student Type
+  "51": <StudentType />,
 };
 
 export { ContentMap };
