@@ -10,16 +10,28 @@ export async function GET(request: Request) {
     if (!location) {
         return Response.json({ error: 'location is required' }, { status: 400 });
     }
-    const rooms = await prisma.room.findMany({
-        include: {
-            location: true
-        },
-        where: {
-            location: {
-                name: location
-            }
+    // Resolve locationId by location name first for reliable matching
+    const foundLocation = await prisma.roomLocation.findUnique({
+        where: { name: location }
+    });
+
+    if (!foundLocation) {
+        // If not found by name, also accept numeric id for flexibility
+        const numericId = Number(location);
+        if (!Number.isNaN(numericId)) {
+            const roomsById = await prisma.room.findMany({
+                include: { location: true },
+                where: { locationId: numericId }
+            });
+            return Response.json(roomsById);
         }
-    })
+        return Response.json([]);
+    }
+
+    const rooms = await prisma.room.findMany({
+        include: { location: true },
+        where: { locationId: foundLocation.id }
+    });
     return Response.json(rooms)
 }
 

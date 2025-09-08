@@ -6,7 +6,7 @@ import { Button, Popconfirm } from 'antd';
 import { useRoomGrid } from '@/hooks/useRoomGrid';
 
 const EconomicsRoom: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('Economics');
+  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('EconomicsLevel');
 
   return (
     <div>

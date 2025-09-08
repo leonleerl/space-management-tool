@@ -27,13 +27,13 @@ export const studentColors: Record<string, string> = {
   };
   
   export const mapToRoomLocation: Record<string, string> = {
-    accounting_finance: 'AccFin',
-    economics: 'Economics',
-    marketing: 'Marketing',
-    'mgmt_&_orgs': 'Mgmt & Orgs',
-    gf_da: 'GF-DA',
-    gf_csi: 'GF-CSI',
-    deanery_lvl_2: 'Deans Office',
+    accounting_finance: 'AccountingFinanceLevel',
+    economics: 'EconomicsLevel',
+    marketing: 'MarketingLevel',
+    'mgmt_&_orgs': 'ManagementOrganizationsLevel',
+    gf_da: 'GroundFloorDA',
+    gf_csi: 'GroundFloorCSI',
+    deanery_lvl_2: 'DeaneryLevel2',
   };
   
   export const excludeRooms = new Set<string>([
