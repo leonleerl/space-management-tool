@@ -14,7 +14,6 @@ export async function GET(request: Request) {
     const foundLocation = await prisma.roomLocation.findUnique({
         where: { name: location }
     });
-    console.log(foundLocation);
 
     if (!foundLocation) {
         // If not found by name, also accept numeric id for flexibility

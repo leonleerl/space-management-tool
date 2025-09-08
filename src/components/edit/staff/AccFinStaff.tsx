@@ -1,9 +1,11 @@
-import React, { FC } from 'react'
+
+
+import React, { FC, useEffect, useState } from 'react'
 
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button, Popconfirm } from 'antd';
+import { Button, Popconfirm, message } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
 
 // static data for staff positions
@@ -23,6 +25,27 @@ const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const AccFinStaff : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('AccFin');
+  const [roomOptions, setRoomOptions] = useState<string[]>([]);
+
+  useEffect(() => {
+    fetch('/api/room?location=AccountingFinanceLevel')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((rooms: Array<{ roomNo?: string | null }>) => {
+        const options = Array.isArray(rooms)
+          ? rooms
+              .map((r) => (r.roomNo ?? '').toString().trim())
+              .filter((v) => v.length > 0)
+          : [];
+        setRoomOptions(options);
+      })
+      .catch((err) => {
+        console.error(err);
+        message.error('Failed to load rooms');
+      });
+  }, []);
 
   return (
     <div>
@@ -48,10 +71,16 @@ const AccFinStaff : FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'Position', 'Ext No', 'Room', 'Source']}
       columns={[
         {},
-        { type: 'autocomplete', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
+        { type: 'dropdown', source: STAFF_POSITIONS, allowInvalid: false, filter: false, strict: true },  // dropdown
         {},
-        {},
-        { type: 'autocomplete', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
+        {
+          type: 'dropdown',
+          source: roomOptions,
+          allowInvalid: false,
+          filter: true,
+          strict: true,
+        },
+        { type: 'dropdown', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
       ]}
       data={gridRows}
       rowHeaders={true}
@@ -65,3 +94,4 @@ const AccFinStaff : FC<HotTableProps> = () => {
 }
 
 export { AccFinStaff }
+
