@@ -16,7 +16,7 @@ const AccFinRoom: FC<HotTableProps> = () => {
           <Button type='primary' onClick={handleAdd}>Add</Button>
           <Popconfirm
             title='Confirm Save'
-            description='This will replace all rooms with current grid. Continue?'
+            description='If you remove any room, all staff and students in that room will be deleted. Are to save?'
             okText='Save'
             cancelText='Cancel'
             onConfirm={handleSave}
