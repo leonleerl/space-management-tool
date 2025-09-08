@@ -49,6 +49,7 @@ const AccFinStu : FC<HotTableProps> = () => {
       autoWrapRow={true}
       autoWrapCol={true}
       licenseKey="non-commercial-and-evaluation" // for non-commercial use only
+      columnSorting={true}
     />
     </div>
   )

@@ -37,6 +37,7 @@ const GroundFloorCSIRoom: FC<HotTableProps> = () => {
         autoWrapRow={true}
         autoWrapCol={true}
         licenseKey="non-commercial-and-evaluation"
+        columnSorting={true}
       />
     </div>
   )
