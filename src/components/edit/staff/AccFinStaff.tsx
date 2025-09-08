@@ -5,7 +5,7 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
-import { useRoom } from '@/hooks/useRoom';
+import { useRoom } from '@/hooks/useRoomOptions';
 
 // static data for staff positions
 // This can be replaced with dynamic data from a database or API if needed - TODO

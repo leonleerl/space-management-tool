@@ -5,7 +5,7 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
-import { useRoom } from '@/hooks/useRoom';
+import { useRoom } from '@/hooks/useRoomOptions';
 
 const AccFinStu : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('AccFin');
