@@ -165,6 +165,11 @@ const items = [
     key: '51',
     icon: <FileExcelOutlined />,
     label: 'Student Type',
+  },
+  {
+    key: '61',
+    icon: <FileExcelOutlined />,
+    label: 'Staff Position',
   }
 ]
 

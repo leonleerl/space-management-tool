@@ -65,6 +65,15 @@ model StudentType {
   @@map("student_types")
 }
 
+// Staff position lookup table
+model StaffPosition {
+  id   Int    @id @default(autoincrement())
+  name String
+  staff Staff[]
+
+  @@map("staff_positions")
+}
+
 // Staff table
 model Staff {
   id           Int         @id @default(autoincrement())
@@ -76,12 +85,14 @@ model Staff {
   source       String?     // New field for staff source information
   roomId       Int?
   departmentId Int?
+  positionId   Int?
   createdAt    DateTime    @default(now())
   updatedAt    DateTime    @updatedAt
 
   // Relationships
   room         Room?       @relation(fields: [roomId], references: [id])
   department   Department? @relation(fields: [departmentId], references: [id])
+  staffPosition StaffPosition? @relation(fields: [positionId], references: [id])
 
   @@map("staff")
 }

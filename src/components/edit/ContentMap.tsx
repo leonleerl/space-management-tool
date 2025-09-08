@@ -43,6 +43,8 @@ import {
 // Student Type
 import { StudentType } from "./StudentType";
 
+// Staff Position
+import { StaffPosition } from "./StaffPosition";
 
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
@@ -79,6 +81,9 @@ const ContentMap: Record<string, React.ReactNode> = {
 
   // Student Type
   "51": <StudentType />,
+
+  // Staff Position
+  "61": <StaffPosition />,
 };
 
 export { ContentMap };
