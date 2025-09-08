@@ -1,13 +1,35 @@
-import React, { FC } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 
 import { HotTable, HotTableProps } from '@handsontable/react-wrapper';
 import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
-import { Button, Popconfirm } from 'antd';
+import { Button, message, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
 
 const AccFinStu : FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('AccFin');
+  const [roomOptions, setRoomOptions] = useState<string[]>([]);
+
+
+  useEffect(() => {
+    fetch('/api/room?location=AccountingFinanceLevel')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((rooms: Array<{ roomNo?: string | null }>) => {
+        const options = Array.isArray(rooms)
+          ? rooms
+              .map((r) => (r.roomNo ?? '').toString().trim())
+              .filter((v) => v.length > 0)
+          : [];
+        setRoomOptions(options);
+      })
+      .catch((err) => {
+        console.error(err);
+        message.error('Failed to load rooms');
+      });
+  }, []);
 
   return (
     <div className=' p-4'>
@@ -33,11 +55,11 @@ const AccFinStu : FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Room', 'Type']}
       columns={[
         {},
+        {type: 'date', allowInvalid: false, filter: false},
         {},
         {},
         {},
-        {},
-        {},
+        { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
       colWidths={[180, 100, 220, 100, 100, 100,180]}
