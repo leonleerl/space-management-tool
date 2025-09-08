@@ -26,8 +26,6 @@ export async function GET(request: Request) : Promise<Response> {
 }
 
 export async function POST(request: Request) : Promise<Response> {
-    await prisma.student.deleteMany();
-
     const body = await request.json();
     const parseResult = StudentDtoArraySchema.safeParse(body);
     if (!parseResult.success) {
@@ -88,6 +86,12 @@ export async function POST(request: Request) : Promise<Response> {
         );
     }
     const types = typeNames.length > 0 ? await prisma.studentType.findMany({ where: { name: { in: typeNames } } }) : [];
+
+    // Delete only student records within departments provided in the request
+    if (depts.length > 0) {
+        const deptIds = depts.map(d => d.id);
+        await prisma.student.deleteMany({ where: { departmentId: { in: deptIds } } });
+    }
 
     const roomNoToId = new Map(rooms.map(r => [r.roomNo, r.id] as const));
     const deptNameToId = new Map(depts.map(d => [d.name, d.id] as const));
