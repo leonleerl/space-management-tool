@@ -1,0 +1,66 @@
+import { prisma } from "@/lib/prisma";
+
+export const runtime = 'edge';
+
+export async function GET(): Promise<Response> {
+  const sources = await prisma.staffSource.findMany({ select: { name: true } });
+  const names: string[] = sources.map(s => s.name);
+  return Response.json(names);
+}
+
+export async function POST(request: Request): Promise<Response> {
+  try {
+    const body = await request.json();
+
+    let namesUnknown: unknown;
+    if (Array.isArray(body)) {
+      namesUnknown = body;
+    } else if (body && typeof body === 'object' && 'names' in body) {
+      // allow { names: string[] } as well
+      namesUnknown = (body as { names: unknown }).names;
+    } else {
+      return Response.json({ error: 'Invalid payload' }, { status: 400 });
+    }
+
+    if (!Array.isArray(namesUnknown)) {
+      return Response.json({ error: 'Invalid payload' }, { status: 400 });
+    }
+
+    const normalizedNames = Array.from(new Set(
+      (namesUnknown as unknown[])
+        .map(v => typeof v === 'string' ? v.trim() : '')
+        .filter(v => v.length > 0)
+    ));
+
+    const existing = await prisma.staffSource.findMany({ select: { id: true, name: true } });
+    const existingNames = existing.map(e => e.name);
+
+    const toDeleteNames = existingNames.filter(name => !normalizedNames.includes(name));
+    const toDelete = toDeleteNames.length > 0
+      ? await prisma.staffSource.findMany({ where: { name: { in: toDeleteNames } }, select: { id: true } })
+      : [];
+    const toDeleteIds = toDelete.map(t => t.id);
+
+    await prisma.$transaction(async (tx) => {
+      if (toDeleteIds.length > 0) {
+        // Null out foreign keys first
+        await tx.staff.updateMany({ where: { sourceId: { in: toDeleteIds } }, data: { sourceId: null } });
+        await tx.staffSource.deleteMany({ where: { id: { in: toDeleteIds } } });
+      }
+
+      for (const name of normalizedNames) {
+        const exists = await tx.staffSource.findFirst({ where: { name } });
+        if (!exists) {
+          await tx.staffSource.create({ data: { name } });
+        }
+      }
+    });
+
+    return Response.json({ message: 'Staff sources upserted successfully', count: normalizedNames.length });
+  } catch (error) {
+    console.error(error);
+    return new Response('Internal Server Error', { status: 500 });
+  }
+}
+
+

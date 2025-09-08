@@ -74,6 +74,15 @@ model StaffPosition {
   @@map("staff_positions")
 }
 
+// Staff source lookup table
+model StaffSource {
+  id    Int    @id @default(autoincrement())
+  name  String
+  staff Staff[]
+
+  @@map("staff_sources")
+}
+
 // Staff table
 model Staff {
   id           Int         @id @default(autoincrement())
@@ -86,6 +95,7 @@ model Staff {
   roomId       Int?
   departmentId Int?
   positionId   Int?
+  sourceId     Int?
   createdAt    DateTime    @default(now())
   updatedAt    DateTime    @updatedAt
 
@@ -93,6 +103,7 @@ model Staff {
   room         Room?       @relation(fields: [roomId], references: [id])
   department   Department? @relation(fields: [departmentId], references: [id])
   staffPosition StaffPosition? @relation(fields: [positionId], references: [id])
+  staffSource  StaffSource? @relation(fields: [sourceId], references: [id])
 
   @@map("staff")
 }

@@ -40,11 +40,12 @@ import {
   GroundFloorCSIRoom,
 } from "./room";
 
-// Student Type
-import { StudentType } from "./StudentType";
-
-// Staff Position
-import { StaffPosition } from "./StaffPosition";
+// Student Type, Staff Position, Staff Source
+import { 
+  StudentType, 
+  StaffPosition, 
+  StaffSource 
+} from "./index";
 
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
@@ -84,6 +85,9 @@ const ContentMap: Record<string, React.ReactNode> = {
 
   // Staff Position
   "61": <StaffPosition />,
+
+  // Staff Source
+  "71": <StaffSource />,
 };
 
 export { ContentMap };

@@ -6,13 +6,13 @@ import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
 import { useRoom } from '@/hooks/useRoomOptions';
 import { useStaffPosition } from '@/hooks/useStaffPosition';
-
-const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
+import { useStaffSource } from '@/hooks/useStaffSource';
 
 const EconomicsStaff: FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('Economics');
   const { roomOptions } = useRoom('EconomicsLevel');
   const { staffPositions } = useStaffPosition();
+  const { staffSources } = useStaffSource();
 
   return (
     <div>
@@ -48,7 +48,7 @@ const EconomicsStaff: FC<HotTableProps> = () => {
             filter: true,
             strict: true,
           },
-          { type: 'autocomplete', source: STAFF_SOURCES, allowInvalid: false, filter: false, strict: true } // dropdown
+          { type: 'autocomplete', source: staffSources, allowInvalid: false, filter: false, strict: true } // dropdown
         ]}
         colWidths={[180, 150, 100, 100, 120]}
         data={gridRows}

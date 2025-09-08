@@ -6,15 +6,14 @@ import { Button, Popconfirm } from 'antd';
 import { useStaffGrid } from '@/hooks/useStaffGrid';
 import { useRoom } from '@/hooks/useRoomOptions';
 import { useStaffPosition } from '@/hooks/useStaffPosition';
+import { useStaffSource } from '@/hooks/useStaffSource';
 
-
-const STAFF_SOURCES = ['Academic', 'Research', 'Administrative', 'Visiting'];
 
 const MOStaff: FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } = useStaffGrid('MGMT & ORGS');
   const { roomOptions } = useRoom('ManagementOrganizationsLevel');
   const { staffPositions } = useStaffPosition();
-
+  const { staffSources } = useStaffSource();
   return (
     <div>
       <div className='flex items-center justify-between'>
@@ -42,7 +41,7 @@ const MOStaff: FC<HotTableProps> = () => {
           { type: 'dropdown', source: staffPositions, allowInvalid: false, filter: true, strict: true },  // dropdown
           {},
           { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
-          { type: 'dropdown', source: STAFF_SOURCES, allowInvalid: false, filter: true, strict: true } // dropdown
+          { type: 'dropdown', source: staffSources, allowInvalid: false, filter: true, strict: true } // dropdown
         ]}
         colWidths={[180, 150, 200, 100, 120]}
         data={gridRows}

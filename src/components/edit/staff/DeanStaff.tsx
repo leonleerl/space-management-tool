@@ -6,10 +6,9 @@ import "handsontable/styles/ht-theme-main.css";
 import { Button, Popconfirm } from "antd";
 import { useStaffGrid } from "@/hooks/useStaffGrid";
 import { useStaffPosition } from "@/hooks/useStaffPosition";
+import { useStaffSource } from "@/hooks/useStaffSource";
 
 
-// Dean's Office source types
-const STAFF_SOURCES = ["Academic", "Administrative", "Executive", "PPI"];
 
 const DeanStaff: FC<HotTableProps> = () => {
   // Key: Use "Dean's Office" as department name
@@ -17,6 +16,7 @@ const DeanStaff: FC<HotTableProps> = () => {
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } =
     useStaffGrid("Dean's Office");
   const { staffPositions } = useStaffPosition();
+  const { staffSources } = useStaffSource();
 
   return (
     <div>
@@ -57,7 +57,7 @@ const DeanStaff: FC<HotTableProps> = () => {
           {}, // Room - free text input
           {
             type: "autocomplete",
-            source: STAFF_SOURCES,
+            source: staffSources,
             allowInvalid: false,
             filter: false,
             strict: true,
