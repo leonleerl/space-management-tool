@@ -6,7 +6,7 @@ import { Button, Popconfirm } from 'antd';
 import { useRoomGrid } from '@/hooks/useRoomGrid';
 
 const MORoom: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('Mgmt & Orgs');
+  const { hotRef, gridRows, isSaving, handleAdd, handleSave } = useRoomGrid('ManagementOrganizationsLevel');
 
   return (
     <div>
