@@ -6,13 +6,12 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 
 import { FileExcelOutlined, FileTextOutlined, FolderOutlined } from '@ant-design/icons';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu, theme, type MenuProps } from 'antd';
 import { ContentMap } from './ContentMap';
-import { StudentType } from './StudentType';
 
 const { Content, Sider } = Layout;
 
-const items = [
+const items: MenuProps['items'] = [
   {
     key: '1',
     icon: <FolderOutlined/>,
@@ -162,6 +161,9 @@ const items = [
     ]
   },
   {
+    type: 'divider' as const,
+  },
+  {
     key: '51',
     icon: <FileExcelOutlined />,
     label: 'Student Type',
@@ -170,6 +172,11 @@ const items = [
     key: '61',
     icon: <FileExcelOutlined />,
     label: 'Staff Position',
+  },
+  {
+    key: '71',
+    icon: <FileExcelOutlined />,
+    label: 'Staff Source',
   }
 ]
 
