@@ -55,13 +55,16 @@ export async function POST(request: Request) : Promise<Response> {
         return Response.json({ error: 'Each room requires location.name' }, { status: 400 });
     }
 
-    // Resolve location ids from immutable room_locations table
+    // Resolve location ids from room_locations table; auto-create if missing
     const locationNames = Array.from(new Set(payload.map(r => r.location!.name)));
-    const locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
-    const locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
+    let locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
+    let locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
     const missing = locationNames.filter(n => !locationNameToId.has(n));
     if (missing.length > 0) {
-        return Response.json({ error: 'Unknown locations', details: missing }, { status: 400 });
+        await prisma.roomLocation.createMany({ data: missing.map(name => ({ name })), skipDuplicates: true });
+        // re-fetch to ensure we have ids
+        locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
+        locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
     }
 
     const locationIds = locations.map(l => l.id);
