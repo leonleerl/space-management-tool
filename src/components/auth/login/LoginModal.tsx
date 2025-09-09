@@ -15,18 +15,25 @@ const LoginModal: React.FC = () => {
   };
 
   const handleSubmit = async (values: { username: string; password: string }) => {
-    setConfirmLoading(true);
-    const res = await signIn('credentials', {
-      username: values.username,
-      password: values.password,
-      redirect: false,
-    });
-    setConfirmLoading(false);
-    if (res?.error) {
-      message.error("Login failed");
-    } else {
-      message.success('Login successful');
-      closeModal();
+    try {
+      setConfirmLoading(true);
+      const res = await signIn('credentials', {
+        username: values.username,
+        password: values.password,
+        redirect: false,
+      });
+      setConfirmLoading(false);
+
+      if (res?.ok) {
+        message.success('Login successful');
+        closeModal();
+      } else {
+        const reason = res?.error || 'Login failed';
+        message.error(reason === 'CredentialsSignin' ? 'Invalid username or password' : reason);
+      }
+    } catch {
+      setConfirmLoading(false);
+      message.error('Login failed');
     }
   };
 
