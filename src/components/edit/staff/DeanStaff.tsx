@@ -5,23 +5,22 @@ import "handsontable/styles/handsontable.css";
 import "handsontable/styles/ht-theme-main.css";
 import { Button, Popconfirm } from "antd";
 import { useStaffGrid } from "@/hooks/useStaffGrid";
+import { useRoom } from "@/hooks/useRoomOptions";
 import { useStaffPosition } from "@/hooks/useStaffPosition";
 import { useStaffSource } from "@/hooks/useStaffSource";
 
 
-
 const DeanStaff: FC<HotTableProps> = () => {
-  // Key: Use "Dean's Office" as department name
-  // This aligns with "Classification": "Deans Office" in contact_list.json
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } =
     useStaffGrid("Dean's Office");
+  const { roomOptions } = useRoom("DeaneryLevel2");
   const { staffPositions } = useStaffPosition();
   const { staffSources } = useStaffSource();
 
   return (
     <div>
       <div className="flex items-center justify-between">
-        <div className="font-black text-2xl">Dean's Office Staff</div>
+        <div className="font-black text-2xl">Dean&apos;s Office Staff</div>
         <div className="flex gap-2">
           <Button type="primary" onClick={handleAdd}>
             Add
@@ -45,23 +44,29 @@ const DeanStaff: FC<HotTableProps> = () => {
         themeName="ht-theme-main"
         colHeaders={["Full Name", "Position", "Ext No", "Room", "Source"]}
         columns={[
-          {}, // Full Name - free text input
+          {}, 
           {
-            type: "autocomplete",
+            type: "dropdown",
             source: staffPositions,
             allowInvalid: false,
             filter: false,
             strict: true,
-          }, // Position - dropdown selection
-          {}, // Ext No - free text input
-          {}, // Room - free text input
+          }, 
+          {},
           {
-            type: "autocomplete",
+            type: "dropdown",
+            source: roomOptions,
+            allowInvalid: false,
+            filter: true,
+            strict: true,
+          },
+          {
+            type: "dropdown",
             source: staffSources,
             allowInvalid: false,
             filter: false,
             strict: true,
-          }, // Source - dropdown selection
+          }, 
         ]}
         data={gridRows}
         rowHeaders={true}
