@@ -10,16 +10,28 @@ export async function GET(request: Request) {
     if (!location) {
         return Response.json({ error: 'location is required' }, { status: 400 });
     }
-    const rooms = await prisma.room.findMany({
-        include: {
-            location: true
-        },
-        where: {
-            location: {
-                name: location
-            }
+    // Resolve locationId by location name first for reliable matching
+    const foundLocation = await prisma.roomLocation.findUnique({
+        where: { name: location }
+    });
+
+    if (!foundLocation) {
+        // If not found by name, also accept numeric id for flexibility
+        const numericId = Number(location);
+        if (!Number.isNaN(numericId)) {
+            const roomsById = await prisma.room.findMany({
+                include: { location: true },
+                where: { locationId: numericId }
+            });
+            return Response.json(roomsById);
         }
-    })
+        return Response.json([]);
+    }
+
+    const rooms = await prisma.room.findMany({
+        include: { location: true },
+        where: { locationId: foundLocation.id }
+    });
     return Response.json(rooms)
 }
 
@@ -43,18 +55,21 @@ export async function POST(request: Request) : Promise<Response> {
         return Response.json({ error: 'Each room requires location.name' }, { status: 400 });
     }
 
-    // Resolve location ids from immutable room_locations table
+    // Resolve location ids from room_locations table; auto-create if missing
     const locationNames = Array.from(new Set(payload.map(r => r.location!.name)));
-    const locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
-    const locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
+    let locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
+    let locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
     const missing = locationNames.filter(n => !locationNameToId.has(n));
     if (missing.length > 0) {
-        return Response.json({ error: 'Unknown locations', details: missing }, { status: 400 });
+        await prisma.roomLocation.createMany({ data: missing.map(name => ({ name })), skipDuplicates: true });
+        // re-fetch to ensure we have ids
+        locations = await prisma.roomLocation.findMany({ where: { name: { in: locationNames } } });
+        locationNameToId = new Map(locations.map(l => [l.name, l.id] as const));
     }
 
     const locationIds = locations.map(l => l.id);
 
-    // Find existing rooms under these locations to safely detach dependents first
+    // Find existing rooms under these locations to cascade delete dependents first
     const roomsToReplace = await prisma.room.findMany({
         where: { locationId: { in: locationIds } },
         select: { id: true },
@@ -62,9 +77,9 @@ export async function POST(request: Request) : Promise<Response> {
     const roomIdsToReplace = roomsToReplace.map(r => r.id);
 
     if (roomIdsToReplace.length > 0) {
-        // Nullify FK on dependents referencing these rooms only
-        await prisma.staff.updateMany({ where: { roomId: { in: roomIdsToReplace } }, data: { roomId: null } });
-        await prisma.student.updateMany({ where: { roomId: { in: roomIdsToReplace } }, data: { roomId: null } });
+        // Cascade delete dependents referencing these rooms only
+        await prisma.staff.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
+        await prisma.student.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
     }
 
     // Delete only rooms for these locations

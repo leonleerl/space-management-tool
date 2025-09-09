@@ -7,15 +7,13 @@ import { Button, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
 import { useRoom } from '@/hooks/useRoomOptions';
 
-const EconomicsStu : FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('Economics');
-
-  const { roomOptions } = useRoom('EconomicsLevel');
-
+const GroundFloorCSIStu: FC<HotTableProps> = () => {
+  const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('GroundFloorCSI');
+  const { roomOptions } = useRoom('GroundFloorCSI');
   return (
     <div className=' p-4'>
       <div className='flex items-center justify-between mb-4'>
-        <div className='font-black text-2xl'>Economics Student</div>
+        <div className='font-black text-2xl'>GroundFloor - CSI Student</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
           <Popconfirm
@@ -40,13 +38,7 @@ const EconomicsStu : FC<HotTableProps> = () => {
         {},
         {},
         {},
-        {
-          type: 'dropdown',
-          source: roomOptions,
-          allowInvalid: false,
-          filter: true,
-          strict: true,
-        },
+        { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
       colWidths={[180, 100, 220, 100, 100, 100,180]}
@@ -62,4 +54,4 @@ const EconomicsStu : FC<HotTableProps> = () => {
   )
 }
 
-export { EconomicsStu }
+export { GroundFloorCSIStu }

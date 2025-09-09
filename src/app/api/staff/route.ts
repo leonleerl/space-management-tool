@@ -47,7 +47,8 @@ export async function GET(request: Request) : Promise<Response> {
 }
 
 export async function POST(request: Request) : Promise<Response> {
-    await prisma.staff.deleteMany();
+    const { searchParams } = new URL(request.url);
+    const departmentFromQuery = (searchParams.get('department') || '').trim() || null;
 
     const body = await request.json();
     const parseResult = StaffDtoArraySchema.safeParse(body);
@@ -76,8 +77,11 @@ export async function POST(request: Request) : Promise<Response> {
     const deptNameSet = new Set(rows.map(r => r.departmentName).filter((v): v is string => !!v));
 
     const rooms = roomNoSet.size > 0 ? await prisma.room.findMany({ where: { roomNo: { in: Array.from(roomNoSet) } } }) : [];
-    // Ensure departments exist; create missing by name
-    const deptNames = Array.from(deptNameSet);
+    // Ensure departments exist; create missing by name (including query param)
+    const deptNames = Array.from(new Set([
+        ...deptNameSet,
+        ...(departmentFromQuery ? [departmentFromQuery] : []),
+    ] as string[]));
     if (deptNames.length > 0) {
         await Promise.all(
             deptNames.map((name) =>
@@ -86,6 +90,17 @@ export async function POST(request: Request) : Promise<Response> {
         );
     }
     const depts = deptNames.length > 0 ? await prisma.department.findMany({ where: { name: { in: deptNames } } }) : [];
+
+    // Delete only staff records within departments provided in the request or query param
+    if (departmentFromQuery) {
+        const targetDept = depts.find(d => d.name === departmentFromQuery);
+        if (targetDept) {
+            await prisma.staff.deleteMany({ where: { departmentId: targetDept.id } });
+        }
+    } else if (depts.length > 0) {
+        const deptIds = depts.map(d => d.id);
+        await prisma.staff.deleteMany({ where: { departmentId: { in: deptIds } } });
+    }
 
     const roomNoToId = new Map(rooms.map(r => [r.roomNo, r.id] as const));
     const deptNameToId = new Map(depts.map(d => [d.name, d.id] as const));
@@ -98,10 +113,12 @@ export async function POST(request: Request) : Promise<Response> {
         extNo: r.extNo,
         source: r.source,
         roomId: r.roomNo ? roomNoToId.get(r.roomNo) ?? null : null,
-        departmentId: r.departmentName ? deptNameToId.get(r.departmentName) ?? null : null,
+        departmentId: (r.departmentName ? (deptNameToId.get(r.departmentName) ?? null) : null) ?? (departmentFromQuery ? (deptNameToId.get(departmentFromQuery) ?? null) : null),
     }));
 
-    await prisma.staff.createMany({ data });
+    if (data.length > 0) {
+        await prisma.staff.createMany({ data });
+    }
 
     return Response.json({ message: 'Staff inserted successfully' });
 }

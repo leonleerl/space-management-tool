@@ -5,38 +5,22 @@ import "handsontable/styles/handsontable.css";
 import "handsontable/styles/ht-theme-main.css";
 import { Button, Popconfirm } from "antd";
 import { useStaffGrid } from "@/hooks/useStaffGrid";
+import { useRoom } from "@/hooks/useRoomOptions";
+import { useStaffPosition } from "@/hooks/useStaffPosition";
+import { useStaffSource } from "@/hooks/useStaffSource";
 
-// Dean's Office specific position list
-// Customized based on actual data from contact_list.json
-const STAFF_POSITIONS = [
-  "Dean",
-  "Associate Dean",
-  "Director MBA Program",
-  "Adjunct Associate Professor",
-  "Senior Lecturer",
-  "Lecturer",
-  "Senior School Operations Coordinator",
-  "School Operations Coordinator",
-  "School Operations Officer",
-  "Project Officer",
-  "UWA PPI - Director",
-  "UWA PPI - Executive Officer",
-  "Administrative Officer",
-];
-
-// Dean's Office source types
-const STAFF_SOURCES = ["Academic", "Administrative", "Executive", "PPI"];
 
 const DeanStaff: FC<HotTableProps> = () => {
-  // Key: Use "Dean's Office" as department name
-  // This aligns with "Classification": "Deans Office" in contact_list.json
   const { hotRef, gridRows, isSaving, handleSave, handleAdd } =
     useStaffGrid("Dean's Office");
+  const { roomOptions } = useRoom("DeaneryLevel2");
+  const { staffPositions } = useStaffPosition();
+  const { staffSources } = useStaffSource();
 
   return (
     <div>
       <div className="flex items-center justify-between">
-        <div className="font-black text-2xl">Dean's Office Staff</div>
+        <div className="font-black text-2xl">Dean&apos;s Office Staff</div>
         <div className="flex gap-2">
           <Button type="primary" onClick={handleAdd}>
             Add
@@ -60,23 +44,29 @@ const DeanStaff: FC<HotTableProps> = () => {
         themeName="ht-theme-main"
         colHeaders={["Full Name", "Position", "Ext No", "Room", "Source"]}
         columns={[
-          {}, // Full Name - free text input
+          {}, 
           {
-            type: "autocomplete",
-            source: STAFF_POSITIONS,
+            type: "dropdown",
+            source: staffPositions,
             allowInvalid: false,
             filter: false,
             strict: true,
-          }, // Position - dropdown selection
-          {}, // Ext No - free text input
-          {}, // Room - free text input
+          }, 
+          {},
           {
-            type: "autocomplete",
-            source: STAFF_SOURCES,
+            type: "dropdown",
+            source: roomOptions,
+            allowInvalid: false,
+            filter: true,
+            strict: true,
+          },
+          {
+            type: "dropdown",
+            source: staffSources,
             allowInvalid: false,
             filter: false,
             strict: true,
-          }, // Source - dropdown selection
+          }, 
         ]}
         data={gridRows}
         rowHeaders={true}
@@ -84,6 +74,7 @@ const DeanStaff: FC<HotTableProps> = () => {
         autoWrapRow={true}
         autoWrapCol={true}
         licenseKey="non-commercial-and-evaluation" // for non-commercial use only
+        columnSorting={true}
       />
     </div>
   );

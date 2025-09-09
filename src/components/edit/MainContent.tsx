@@ -6,12 +6,12 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 
 import { FileExcelOutlined, FileTextOutlined, FolderOutlined } from '@ant-design/icons';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu, theme, type MenuProps } from 'antd';
 import { ContentMap } from './ContentMap';
 
 const { Content, Sider } = Layout;
 
-const items = [
+const items: MenuProps['items'] = [
   {
     key: '1',
     icon: <FolderOutlined/>,
@@ -59,26 +59,27 @@ const items = [
     icon: <FolderOutlined/>,
     label: 'Staff List',
     children: [
-        {
-          key: '21',
-          icon: <FileTextOutlined/>,
-          label: 'AccFin',
-        },
-        {
-          key: '22',
-          icon: <FileTextOutlined/>,
-          label: 'Economics',
-        },
-        {
-          key: '23',
-          icon: <FileTextOutlined/>,
-          label: 'Marketing',
-        },
+      {
+        key: '21',
+        icon: <FileTextOutlined/>,
+        label: 'Mgmt & Orgs',
+      },
+      {
+        key: '22',
+        icon: <FileTextOutlined/>,
+        label: 'Economics',
+      },
+      {
+        key: '23',
+        icon: <FileTextOutlined/>,
+        label: 'Marketing',
+      },
         {
           key: '24',
           icon: <FileTextOutlined/>,
-          label: 'MO',
+          label: 'AccFin',
         },
+
         {
           key: '25',
           icon: <FileTextOutlined/>,
@@ -94,27 +95,32 @@ const items = [
       {
         key: '31',
         icon: <FileTextOutlined/>,
-        label: 'Mgmt & Orgs',
+        label: 'Ground Floor - CSI',
       },
       {
         key: '32',
         icon: <FileTextOutlined/>,
-        label: 'Economics',
+        label: 'Ground Floor - DA',
       },
       {
         key: '33',
         icon: <FileTextOutlined/>,
-        label: 'Marketing',
+        label: 'Mgmt & Orgs',
       },
       {
         key: '34',
         icon: <FileTextOutlined/>,
-        label: 'AccFin',
+        label: 'Economics',
       },
       {
         key: '35',
         icon: <FileTextOutlined/>,
-        label: 'Ground Floor',
+        label: 'Marketing',
+      },
+      {
+        key: '36',
+        icon: <FileTextOutlined/>,
+        label: 'AccFin',
       },
     ]
   },
@@ -159,8 +165,25 @@ const items = [
         label: 'Deanery-LVL 2',
       },
     ]
+  },
+  {
+    type: 'divider' as const,
+  },
+  {
+    key: '51',
+    icon: <FileExcelOutlined />,
+    label: 'Student Type',
+  },
+  {
+    key: '61',
+    icon: <FileExcelOutlined />,
+    label: 'Staff Position',
+  },
+  {
+    key: '71',
+    icon: <FileExcelOutlined />,
+    label: 'Staff Source',
   }
-
 ]
 
 registerAllModules();

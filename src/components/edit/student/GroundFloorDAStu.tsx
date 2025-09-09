@@ -5,13 +5,15 @@ import 'handsontable/styles/handsontable.css';
 import 'handsontable/styles/ht-theme-main.css';
 import { Button, Popconfirm } from 'antd';
 import { useStudentGrid } from '@/hooks/useStudentGrid';
+import { useRoom } from '@/hooks/useRoomOptions';
 
-const GroundFloorStu: FC<HotTableProps> = () => {
-  const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('GroundFloor');
+const GroundFloorDAStu: FC<HotTableProps> = () => {
+  const { hotRef, gridRows, isSaving, handleSave, handleAdd, studentTypes } = useStudentGrid('GroundFloorDA');
+  const { roomOptions } = useRoom('GroundFloorDA');
   return (
     <div className=' p-4'>
       <div className='flex items-center justify-between mb-4'>
-        <div className='font-black text-2xl'>GroundFloor Student</div>
+        <div className='font-black text-2xl'>GroundFloor - DA Student</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
           <Popconfirm
@@ -32,11 +34,11 @@ const GroundFloorStu: FC<HotTableProps> = () => {
       colHeaders={['Full Name', 'End Date', 'Comment', 'Ext No', 'Pod No', 'Room', 'Type']}
       columns={[
         {},
+        { type: 'date', allowInvalid: false, filter: false, dateFormat: 'YYYY-MM-DD', correctFormat: true },
         {},
         {},
         {},
-        {},
-        {},
+        { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
       colWidths={[180, 100, 220, 100, 100, 100,180]}
@@ -46,9 +48,10 @@ const GroundFloorStu: FC<HotTableProps> = () => {
       autoWrapRow={true}
       autoWrapCol={true}
       licenseKey="non-commercial-and-evaluation" 
+      columnSorting={true}
     />
     </div>
   )
 }
 
-export { GroundFloorStu }
+export { GroundFloorDAStu }

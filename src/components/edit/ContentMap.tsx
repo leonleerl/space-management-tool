@@ -1,11 +1,52 @@
 import React from "react";
 
-import { AccFinStaff, MarketingStaff, MOStaff, EconomicsStaff, DeanStaff} from "./staff";
+// Staff
+import {
+  AccFinStaff,
+  MarketingStaff,
+  MOStaff,
+  EconomicsStaff,
+  DeanStaff,
+} from "./staff";
 
-import { AccFinAcc, MarketingAcc, MOAcc, EconomicsAcc, GroundFloorCSI, GroundFloorDA } from "./accommodation";
-import { AccFinStu, EconomicsStu, MarketingStu, GroundFloorStu, MOStu } from './student'
-import { DeanRoom, AccFinRoom, EconomicsRoom, MarketingRoom, MORoom, GroundFloorDARoom } from "./room";
-import { GroundFloorCSIRoom } from "./room";
+// Accommodation
+import {
+  AccFinAcc,
+  MarketingAcc,
+  MOAcc,
+  EconomicsAcc,
+  GroundFloorCSI,
+  GroundFloorDA,
+  DeanAcc,
+} from "./accommodation";
+
+// Student
+import {
+  AccFinStu,
+  EconomicsStu,
+  MarketingStu,
+  MOStu,
+  GroundFloorCSIStu,
+  GroundFloorDAStu,
+} from "./student";
+
+// Room
+import {
+  DeanRoom,
+  AccFinRoom,
+  EconomicsRoom,
+  MarketingRoom,
+  MORoom,
+  GroundFloorDARoom,
+  GroundFloorCSIRoom,
+} from "./room";
+
+// Student Type, Staff Position, Staff Source
+import { 
+  StudentType, 
+  StaffPosition, 
+  StaffSource 
+} from "./index";
 
 const ContentMap: Record<string, React.ReactNode> = {
   // Accommodation Map
@@ -15,20 +56,22 @@ const ContentMap: Record<string, React.ReactNode> = {
   "14": <EconomicsAcc />,
   "15": <MarketingAcc />,
   "16": <AccFinAcc />,
-  
+  "17": <DeanAcc />,
+
   // Staff List
-  "21": <AccFinStaff />,
+  "21": <MOStaff />,
   "22": <EconomicsStaff />,
   "23": <MarketingStaff />,
-  "24": <MOStaff />,
-  "25": <DeanStaff />, 
-  
+  "24": <AccFinStaff />,
+  "25": <DeanStaff />,
+
   // Student List
-  "31": <MOStu />,
-  "32": <EconomicsStu />,
-  "33": <MarketingStu />,
-  "34": <AccFinStu />,
-  "35": <GroundFloorStu />,
+  "31": <GroundFloorCSIStu />,
+  "32": <GroundFloorDAStu />,
+  "33": <MOStu />,
+  "34": <EconomicsStu />,
+  "35": <MarketingStu />,
+  "36": <AccFinStu />,
 
   // Room Management
   "41": <GroundFloorCSIRoom />,
@@ -38,5 +81,15 @@ const ContentMap: Record<string, React.ReactNode> = {
   "45": <MarketingRoom />,
   "46": <AccFinRoom />,
   "47": <DeanRoom />,
+
+  // Student Type
+  "51": <StudentType />,
+
+  // Staff Position
+  "61": <StaffPosition />,
+
+  // Staff Source
+  "71": <StaffSource />,
 };
+
 export { ContentMap };

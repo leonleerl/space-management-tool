@@ -76,7 +76,7 @@ export function useStaffGrid(departmentName: string) {
         } as StaffDto;
       });
 
-    fetch('/api/staff', {
+    fetch(`/api/staff?department=${encodeURIComponent(departmentName)}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(staffDtos),

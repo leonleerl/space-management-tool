@@ -20,7 +20,7 @@ export interface StudentDto {
     id: number;
     comment: string | null;
     department: DepartmentDto | null;
-    endDate: Date | null;
+    endDate: string | Date | null;
     extNo: string | null;
     fullName: string | null;
     podNo: string | null;
