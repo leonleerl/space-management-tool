@@ -104,7 +104,7 @@ export function useStudentGrid(departmentName: string) {
         } as StudentDto;
       });
 
-    fetch('/api/student', {
+    fetch(`/api/student?department=${encodeURIComponent(departmentName)}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(studentDtos),
