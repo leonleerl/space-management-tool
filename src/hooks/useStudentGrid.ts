@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import type { HotTableRef } from '@handsontable/react-wrapper';
 import { message } from 'antd';
 import { StudentDto, StudentEntity } from '@/types/student';
-import { StudentTypeDto } from '@/types/studentType';
 
 type GridCell = string | null;
 
@@ -81,6 +80,11 @@ export function useStudentGrid(departmentName: string) {
       .filter(
         (row) => Array.isArray(row) && row.some((cell) => cell && String(cell).trim().length > 0)
       )
+      // Drop rows without required Full Name to satisfy backend schema (min length 1)
+      .filter((row) => {
+        const fullNameCandidate = normalize(row[0]);
+        return typeof fullNameCandidate === 'string' && fullNameCandidate.length > 0;
+      })
       .map((row) => {
         const fullName = normalize(row[0]) ?? '';
         const endDateString = normalize(row[1]);
@@ -104,7 +108,7 @@ export function useStudentGrid(departmentName: string) {
         } as StudentDto;
       });
 
-    fetch('/api/student', {
+    fetch(`/api/student?department=${encodeURIComponent(departmentName)}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(studentDtos),
@@ -123,7 +127,7 @@ export function useStudentGrid(departmentName: string) {
 
   const handleAdd = () => {
     setGridRows((previousRows) => {
-      const numberOfColumns = previousRows[0]?.length ?? 5;
+      const numberOfColumns = previousRows[0]?.length ?? 7;
       const emptyRow: GridCell[] = Array(numberOfColumns).fill(null);
       return [...previousRows, emptyRow];
     });

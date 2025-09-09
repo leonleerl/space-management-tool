@@ -26,6 +26,9 @@ export async function GET(request: Request) : Promise<Response> {
 }
 
 export async function POST(request: Request) : Promise<Response> {
+    const { searchParams } = new URL(request.url);
+    const departmentFromQuery = (searchParams.get('department') || '').trim() || null;
+
     const body = await request.json();
     const parseResult = StudentDtoArraySchema.safeParse(body);
     if (!parseResult.success) {
@@ -65,8 +68,11 @@ export async function POST(request: Request) : Promise<Response> {
 
     const rooms = roomNoSet.size > 0 ? await prisma.room.findMany({ where: { roomNo: { in: Array.from(roomNoSet) } } }) : [];
 
-    // Ensure departments exist; create missing by name
-    const deptNames = Array.from(deptNameSet);
+    // Ensure departments exist; create missing by name (including query param)
+    const deptNames = Array.from(new Set([
+        ...deptNameSet,
+        ...(departmentFromQuery ? [departmentFromQuery] : []),
+    ] as string[]));
     if (deptNames.length > 0) {
         await Promise.all(
             deptNames.map((name) =>
@@ -87,8 +93,13 @@ export async function POST(request: Request) : Promise<Response> {
     }
     const types = typeNames.length > 0 ? await prisma.studentType.findMany({ where: { name: { in: typeNames } } }) : [];
 
-    // Delete only student records within departments provided in the request
-    if (depts.length > 0) {
+    // Delete only student records within departments provided in the request or query param
+    if (departmentFromQuery) {
+        const targetDept = depts.find(d => d.name === departmentFromQuery);
+        if (targetDept) {
+            await prisma.student.deleteMany({ where: { departmentId: targetDept.id } });
+        }
+    } else if (depts.length > 0) {
         const deptIds = depts.map(d => d.id);
         await prisma.student.deleteMany({ where: { departmentId: { in: deptIds } } });
     }
@@ -106,11 +117,13 @@ export async function POST(request: Request) : Promise<Response> {
         podNo: r.podNo,
         endDate: r.endDate,
         roomId: r.roomNo ? (roomNoToId.get(r.roomNo) ?? null) : null,
-        departmentId: r.departmentName ? (deptNameToId.get(r.departmentName) ?? null) : null,
+        departmentId: (r.departmentName ? (deptNameToId.get(r.departmentName) ?? null) : null) ?? (departmentFromQuery ? (deptNameToId.get(departmentFromQuery) ?? null) : null),
         typeId: r.typeName ? (typeNameToId.get(r.typeName) ?? null) : null,
     }));
 
-    await prisma.student.createMany({ data });
+    if (data.length > 0) {
+        await prisma.student.createMany({ data });
+    }
 
     return Response.json({ message: 'Student inserted successfully' })
 }
