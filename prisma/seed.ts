@@ -12,6 +12,7 @@ async function main() {
   await prisma.student.deleteMany();
   await prisma.staff.deleteMany();
   await prisma.room.deleteMany();
+  await prisma.roomLocation.deleteMany();
 
   // Create Student Types (based on your image)
   console.log('Creating student types...');
@@ -52,6 +53,19 @@ async function main() {
       create: { name: 'Casual Staff' }
     })
   ]);
+
+  // Seed room locations to ensure lookups exist
+  console.log('Seeding room locations...');
+  const roomLocationNames = [
+    'AccountingFinanceLevel',
+    'EconomicsLevel',
+    'MarketingLevel',
+    'ManagementOrganizationsLevel',
+    'GroundFloorDA',
+    'GroundFloorCSI',
+    'DeaneryLevel2',
+  ];
+  await prisma.roomLocation.createMany({ data: roomLocationNames.map(name => ({ name })), skipDuplicates: true });
 
   // Get existing departments and room locations
   const departments = await prisma.department.findMany();

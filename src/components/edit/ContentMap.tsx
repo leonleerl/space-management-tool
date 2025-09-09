@@ -25,8 +25,9 @@ import {
   AccFinStu,
   EconomicsStu,
   MarketingStu,
-  GroundFloorStu,
   MOStu,
+  GroundFloorCSIStu,
+  GroundFloorDAStu,
 } from "./student";
 
 // Room
@@ -58,18 +59,19 @@ const ContentMap: Record<string, React.ReactNode> = {
   "17": <DeanAcc />,
 
   // Staff List
-  "21": <AccFinStaff />,
+  "21": <MOStaff />,
   "22": <EconomicsStaff />,
   "23": <MarketingStaff />,
-  "24": <MOStaff />,
+  "24": <AccFinStaff />,
   "25": <DeanStaff />,
 
   // Student List
-  "31": <MOStu />,
-  "32": <EconomicsStu />,
-  "33": <MarketingStu />,
-  "34": <AccFinStu />,
-  "35": <GroundFloorStu />,
+  "31": <GroundFloorCSIStu />,
+  "32": <GroundFloorDAStu />,
+  "33": <MOStu />,
+  "34": <EconomicsStu />,
+  "35": <MarketingStu />,
+  "36": <AccFinStu />,
 
   // Room Management
   "41": <GroundFloorCSIRoom />,
