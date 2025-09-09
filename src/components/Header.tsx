@@ -25,12 +25,9 @@ function Header() {
       <Link href="/edit" className={getLinkClassName('/edit')}>Edit</Link>
       <Link href="/download" className={getLinkClassName('/download')}>Download</Link>
       {isLogin && <Link href="/logout" className={getLinkClassName('/logout')} onClick={() => signOut()}>Logout</Link>}
-
-      <Link href="/edit" className={getLinkClassName('/edit')}>Edit</Link>
       {/*
       <Link href="/upload" className={getLinkClassName('/upload')}>Upload</Link>
       */}
-
     </div>
   </div>
   )
