@@ -16,7 +16,7 @@ const EconomicsStaff: FC<HotTableProps> = () => {
 
   return (
     <div>
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-between mb-2'>
         <div className='font-black text-2xl'>Economics</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
@@ -39,7 +39,7 @@ const EconomicsStaff: FC<HotTableProps> = () => {
         colHeaders={['Full Name', 'Position', 'Ext No', 'Room', 'Source']}
         columns={[
           {},
-          { type: 'autocomplete', source: staffPositions, allowInvalid: false, filter: false, strict: true },  // dropdown
+          { type: 'autocomplete', source: staffPositions, allowInvalid: false, filter: true, strict: true },  // dropdown
           {},
           {
             type: 'dropdown',
@@ -48,9 +48,9 @@ const EconomicsStaff: FC<HotTableProps> = () => {
             filter: true,
             strict: true,
           },
-          { type: 'autocomplete', source: staffSources, allowInvalid: false, filter: false, strict: true } // dropdown
+          { type: 'autocomplete', source: staffSources, allowInvalid: false, filter: true, strict: true } // dropdown
         ]}
-        colWidths={[180, 150, 100, 100, 120]}
+        colWidths={[180, 150, 200, 140, 180]}
         data={gridRows}
         rowHeaders={true}
         height="600px"

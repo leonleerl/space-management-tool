@@ -19,7 +19,7 @@ const DeanStaff: FC<HotTableProps> = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mb-2">
         <div className="font-black text-2xl">Dean&apos;s Office Staff</div>
         <div className="flex gap-2">
           <Button type="primary" onClick={handleAdd}>
@@ -49,7 +49,7 @@ const DeanStaff: FC<HotTableProps> = () => {
             type: "dropdown",
             source: staffPositions,
             allowInvalid: false,
-            filter: false,
+            filter: true,
             strict: true,
           }, 
           {},
@@ -64,10 +64,11 @@ const DeanStaff: FC<HotTableProps> = () => {
             type: "dropdown",
             source: staffSources,
             allowInvalid: false,
-            filter: false,
+            filter: true,
             strict: true,
           }, 
         ]}
+        colWidths={[180, 150, 200, 140, 180]}
         data={gridRows}
         rowHeaders={true}
         height="600px"

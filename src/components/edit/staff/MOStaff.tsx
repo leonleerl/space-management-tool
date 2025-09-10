@@ -16,7 +16,7 @@ const MOStaff: FC<HotTableProps> = () => {
   const { staffSources } = useStaffSource();
   return (
     <div>
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-between mb-2'>
         <div className='font-black text-2xl'>Management & Organizations Staff</div>
         <div className='flex gap-2'>
           <Button type='primary' onClick={handleAdd}>Add</Button>
@@ -43,10 +43,10 @@ const MOStaff: FC<HotTableProps> = () => {
           { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
           { type: 'dropdown', source: staffSources, allowInvalid: false, filter: true, strict: true } // dropdown
         ]}
-        colWidths={[180, 150, 200, 100, 120]}
+        colWidths={[180, 150, 200, 140, 180]}
         data={gridRows}
         rowHeaders={true}
-        height="auto"
+        height="600px"
         autoWrapRow={true}
         autoWrapCol={true}
         licenseKey="non-commercial-and-evaluation"  // for non-commercial use only

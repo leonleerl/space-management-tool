@@ -69,32 +69,23 @@ export async function POST(request: Request) : Promise<Response> {
 
     const locationIds = locations.map(l => l.id);
 
-    // Find existing rooms under these locations to cascade delete dependents first
-    const roomsToReplace = await prisma.room.findMany({
-        where: { locationId: { in: locationIds } },
-        select: { id: true },
+    for (const r of payload) {
+    const locationId = locationNameToId.get(r.location!.name)!;
+
+    await prisma.room.upsert({
+        where: r.id && r.id > 0 ? { id: r.id } : { roomNo: r.roomNo },
+        create: {
+            roomNo: r.roomNo,
+            keyLocker: r.keyLocker ?? null,
+            locationId,
+        },
+        update: {
+            keyLocker: r.keyLocker ?? null,
+            locationId,
+        },
     });
-    const roomIdsToReplace = roomsToReplace.map(r => r.id);
 
-    if (roomIdsToReplace.length > 0) {
-        // Cascade delete dependents referencing these rooms only
-        await prisma.staff.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
-        await prisma.student.deleteMany({ where: { roomId: { in: roomIdsToReplace } } });
-    }
+  }
 
-    // Delete only rooms for these locations
-    await prisma.room.deleteMany({ where: { locationId: { in: locationIds } } });
-
-    // Prepare data mapped to location ids
-    const data = payload.map(r => ({
-        roomNo: r.roomNo,
-        keyLocker: r.keyLocker ?? null,
-        locationId: locationNameToId.get(r.location!.name)!,
-    }));
-
-    if (data.length > 0) {
-        await prisma.room.createMany({ data });
-    }
-
-    return Response.json({ message: 'Rooms replaced for selected locations successfully' });
+    return Response.json({ message: 'Rooms upserted for selected locations successfully' });
 }
