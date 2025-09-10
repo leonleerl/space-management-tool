@@ -49,7 +49,7 @@ const EconomicsStu : FC<HotTableProps> = () => {
         },
         { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
       ]}
-      colWidths={[180, 100, 220, 100, 100, 100,180]}
+      colWidths={[160, 160, 160, 140, 140, 140, 140]}
       data={gridRows}
       rowHeaders={true}
       height="600px"

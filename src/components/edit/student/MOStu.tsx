@@ -40,7 +40,7 @@ const MOStu : FC<HotTableProps> = () => {
           {},
           {},
           { type: 'dropdown', source: roomOptions, allowInvalid: false, filter: true, strict: true },
-          { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: false }
+          { type: 'autocomplete', source: studentTypes, allowInvalid: false, filter: true }
         ]}
         colWidths={[180, 100, 220, 100, 100, 100, 180]}
         data={gridRows}

@@ -31,6 +31,7 @@ const DeanRoom: FC<HotTableProps> = () => {
         themeName="ht-theme-main"
         colHeaders={['Room No', 'Key Locker', 'Location']}
         columns={[{}, {}, { readOnly: true, className: 'htDimmed' }]}
+        colWidths={[160, 160, 160]}
         data={gridRows}
         rowHeaders={true}
         height="600px"
