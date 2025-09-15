@@ -175,7 +175,8 @@ export async function POST(req: NextRequest) {
         if (names.length) {
           people = names;
         }
-        if (!keylocker && db.keyLocker) {
+        // Always prefer DB keyLocker over JSON when available
+        if (db.keyLocker !== null && db.keyLocker !== undefined && String(db.keyLocker).trim() !== '') {
           keylocker = db.keyLocker;
         }
       }
