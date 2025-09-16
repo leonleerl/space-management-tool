@@ -1,6 +1,23 @@
-import { Button } from "antd";
+"use client"
+import { LoginModal } from "@/components/auth/login";
+import { useSession } from "next-auth/react";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
+import { message } from "antd";
 
 export default function Home() {
+  const { data: session } = useSession();
+  const isLogin = session ? true : false
+  const searchParams = useSearchParams();
+  const queryMessage = searchParams.get('error');
+
+  useEffect(() => {
+    if (queryMessage === 'loginRequired') {
+      message.error("Please login first");
+    }
+  }, [queryMessage]);
+
+
   return (
     <div className="min-h-screen flex items-center justify-center text-center">
       <div className="max-w-4xl mx-auto px-4">
@@ -10,21 +27,7 @@ export default function Home() {
         <p className="text-gray-600 text-xl mb-12 leading-relaxed">
           This web app lets you seamlessly synchronize your Excel files online. Please sign in or sign up to get started.
         </p>
-        <div className="flex justify-center gap-6">
-          <Button 
-            type="primary" 
-            size="large"
-            className="px-8 py-2 h-12 text-lg font-medium"
-          >
-            Sign in
-          </Button>
-          <Button 
-            size="large"
-            className="px-8 py-2 h-12 text-lg font-medium"
-          >
-            Sign up
-          </Button>
-        </div>
+        {isLogin ? <div className="mb-6 text-green-500 font-medium">Login successful</div> : <LoginModal />}  
       </div>
     </div>
   );

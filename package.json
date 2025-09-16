@@ -16,8 +16,10 @@
     "@prisma/client": "^6.13.0",
     "@prisma/extension-accelerate": "^2.0.2",
     "antd": "^5.26.7",
+    "bcrypt": "^6.0.0",
     "handsontable": "^16.0.1",
     "next": "15.4.5",
+    "next-auth": "^4.24.11",
     "prisma": "^6.13.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/bcrypt": "^6.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
