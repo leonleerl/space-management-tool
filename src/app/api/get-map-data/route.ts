@@ -192,28 +192,18 @@ export async function POST(req: NextRequest) {
         content += `\nKey Locker: ${keylocker}`;
       }
 
-      const studentColor = getStudentBgColor(students, room);
-      const contactColor = getContactBgColor(contacts, room);
+      let bgColor: string;
+      const hasOccupant =
+        (people && people.length > 0) ||
+        (cell.content && cell.content.trim() !== '') ||
+       (keylocker && keylocker.trim() !== '');
 
-      let bgColor: string | undefined = undefined;
-
-      const isValidRoomFormat = roomFormatRegexps.some((re) => re.test(room));
-      
-      if (studentColor) {
-        bgColor = studentColor;
-      } else if (contactColor) {
-        bgColor = contactColor;
-      } else if (
-        (!people || people.length === 0) &&
-        (!cell.content || cell.content.trim() === '') &&
-        (!keylocker || keylocker === '') &&
-        !excludeRooms.has(room) &&
-        isValidRoomFormat
-      ) {
-        bgColor = '#E7FA03';
+      if (hasOccupant) {
+        bgColor = '#FFFFFF'; // occupied → white
       } else {
-        bgColor = cell.bgColor;
+        bgColor = '#B7F527'; // vacant → green
       }
+
       
       return {
         ...cell,
