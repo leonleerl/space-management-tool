@@ -107,18 +107,22 @@ export async function POST(req: NextRequest) {
 
     students.forEach((stu: StudentEntry) => {
       const room = String(stu["Pod No"]).trim();
-      const summary = buildSummary(stu);
-      if (!roomMap[room]) roomMap[room] = [];
-      roomMap[room].push(summary);
+      const summary = buildSummary(stu).trim();
+      if (summary) {
+        if (!roomMap[room]) roomMap[room] = [];
+        roomMap[room].push(summary);
+      }
       if (stu.Comment) commentMap[room] = stu.Comment;
     });
 
     contacts.forEach((person: ContactEntry) => {
       const room = String(person.Room ?? '').trim();
       if (!room) return;
-      const summary = buildSummary(person);
-      if (!roomMap[room]) roomMap[room] = [];
-      roomMap[room].push(summary);
+      const summary = buildSummary(person).trim();
+      if (summary) {
+        if (!roomMap[room]) roomMap[room] = [];
+        roomMap[room].push(summary);
+      }
     });
 
     // Try to enrich with DB data when possible
@@ -193,15 +197,12 @@ export async function POST(req: NextRequest) {
       }
 
       let bgColor: string;
-      const hasOccupant =
-        (people && people.length > 0) ||
-        (cell.content && cell.content.trim() !== '') ||
-       (keylocker && keylocker.trim() !== '');
+      const hasOccupant =Array.isArray(people) && people.length > 0;
 
       if (hasOccupant) {
         bgColor = '#FFFFFF'; // occupied → white
       } else {
-        bgColor = '#B7F527'; // vacant → green
+        bgColor = '#459C07'; // vacant → green
       }
 
       
