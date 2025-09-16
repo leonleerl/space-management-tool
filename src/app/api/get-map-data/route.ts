@@ -107,18 +107,22 @@ export async function POST(req: NextRequest) {
 
     students.forEach((stu: StudentEntry) => {
       const room = String(stu["Pod No"]).trim();
-      const summary = buildSummary(stu);
-      if (!roomMap[room]) roomMap[room] = [];
-      roomMap[room].push(summary);
+      const summary = buildSummary(stu).trim();
+      if (summary) {
+        if (!roomMap[room]) roomMap[room] = [];
+        roomMap[room].push(summary);
+      }
       if (stu.Comment) commentMap[room] = stu.Comment;
     });
 
     contacts.forEach((person: ContactEntry) => {
       const room = String(person.Room ?? '').trim();
       if (!room) return;
-      const summary = buildSummary(person);
-      if (!roomMap[room]) roomMap[room] = [];
-      roomMap[room].push(summary);
+      const summary = buildSummary(person).trim();
+      if (summary) {
+        if (!roomMap[room]) roomMap[room] = [];
+        roomMap[room].push(summary);
+      }
     });
 
     // Try to enrich with DB data when possible
@@ -192,28 +196,15 @@ export async function POST(req: NextRequest) {
         content += `\nKey Locker: ${keylocker}`;
       }
 
-      const studentColor = getStudentBgColor(students, room);
-      const contactColor = getContactBgColor(contacts, room);
+      let bgColor: string;
+      const hasOccupant =Array.isArray(people) && people.length > 0;
 
-      let bgColor: string | undefined = undefined;
-
-      const isValidRoomFormat = roomFormatRegexps.some((re) => re.test(room));
-      
-      if (studentColor) {
-        bgColor = studentColor;
-      } else if (contactColor) {
-        bgColor = contactColor;
-      } else if (
-        (!people || people.length === 0) &&
-        (!cell.content || cell.content.trim() === '') &&
-        (!keylocker || keylocker === '') &&
-        !excludeRooms.has(room) &&
-        isValidRoomFormat
-      ) {
-        bgColor = '#E7FA03';
+      if (hasOccupant) {
+        bgColor = '#FFFFFF'; // occupied → white
       } else {
-        bgColor = cell.bgColor;
+        bgColor = '#459C07'; // vacant → green
       }
+
       
       return {
         ...cell,
