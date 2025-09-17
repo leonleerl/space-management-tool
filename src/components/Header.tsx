@@ -24,10 +24,18 @@ function Header() {
     <div className="flex space-x-6 text-lg ">
       <Link href="/edit" className={getLinkClassName('/edit')}>Edit</Link>
       <Link href="/download" className={getLinkClassName('/download')}>Download</Link>
-      {isLogin && <Link href="/logout" className={getLinkClassName('/logout')} onClick={() => signOut()}>Logout</Link>}
-      {/*
+      {isLogin && (
+        <button
+          type="button"
+          className="hover:underline"
+          onClick={() => signOut({ callbackUrl: '/' })}
+        >
+          Logout
+        </button>
+      )}
+      {/**
       <Link href="/upload" className={getLinkClassName('/upload')}>Upload</Link>
-      */}
+      **/}
     </div>
   </div>
   )
