@@ -20,7 +20,7 @@ function DeanAcc() {
       }}
     >
       <div className="flex justify-between items-center mb-4 px-4 pt-4">
-        <h2 className="text-xl font-bold">Dean's Office</h2>
+        <h2 className="text-xl font-bold">Dean&apos;s Office</h2>
       </div>
 
       <div className="px-4 mb-2">
