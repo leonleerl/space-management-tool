@@ -9,8 +9,10 @@ export default async function EditLayout({ children }: { children: React.ReactNo
     const session = await getServerSession(authOptions)
     if (!session) {
         // redirect('/?error=loginRequired')
+        console.log("session(if not session): ", session)
         redirect('/');
     }
+    console.log("session(if session): ", session)
     return (
         <>
         {children}
