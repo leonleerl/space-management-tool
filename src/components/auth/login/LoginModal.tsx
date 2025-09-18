@@ -2,11 +2,13 @@
 import React, { useState } from 'react';
 import { Button, Modal, Form, Input, message } from 'antd';
 import { signIn } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
 
 const LoginModal: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [form] = Form.useForm();
   const [confirmLoading, setConfirmLoading] = useState(false);
+  const router = useRouter();
 
   const openModal = () => setIsOpen(true);
   const closeModal = () => {
@@ -27,6 +29,7 @@ const LoginModal: React.FC = () => {
       if (res?.ok) {
         message.success('Login successful');
         closeModal();
+        router.refresh();
       } else {
         const reason = res?.error || 'Login failed';
         message.error(reason === 'CredentialsSignin' ? 'Invalid username or password' : reason);

@@ -22,8 +22,8 @@ function Header() {
       <Link href="/" className="font-black text-2xl">Home</Link>
     </div>
     <div className="flex space-x-6 text-lg ">
-      <Link href="/edit" className={getLinkClassName('/edit')}>Edit</Link>
-      <Link href="/download" className={getLinkClassName('/download')}>Download</Link>
+      <Link href="/edit" prefetch={false} className={getLinkClassName('/edit')}>Edit</Link>
+      <Link href="/download" prefetch={false} className={getLinkClassName('/download')}>Download</Link>
       {isLogin && (
         <button
           type="button"
