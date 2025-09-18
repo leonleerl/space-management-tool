@@ -1,22 +1,20 @@
 "use client"
 import { LoginModal } from "@/components/auth/login";
 import { useSession } from "next-auth/react";
-import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
 import { message } from "antd";
+import { useEffect, useRef } from "react";
 
 export default function Home() {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const isLogin = session ? true : false
-  const searchParams = useSearchParams();
-  const queryMessage = searchParams.get('error');
+  const hasShownAuthMessageRef = useRef(false);
 
   useEffect(() => {
-    if (queryMessage === 'loginRequired') {
+    if (!hasShownAuthMessageRef.current && !session && status === "unauthenticated") {
+      hasShownAuthMessageRef.current = true;
       message.error("Please login first");
     }
-  }, [queryMessage]);
-
+  }, [session, status]);
 
   return (
     <div className="min-h-screen flex items-center justify-center text-center">
