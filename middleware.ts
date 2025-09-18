@@ -18,10 +18,18 @@ export async function middleware(req: NextRequest) {
   
   if (!token) {
     const url = new URL('/', req.url)
-    return NextResponse.redirect(url)
+    const res = NextResponse.redirect(url)
+    res.headers.set('Cache-Control', 'no-store')
+    res.headers.set('Pragma', 'no-cache')
+    res.headers.set('x-middleware-cache', 'no-cache')
+    return res
   }
 
-  return NextResponse.next()
+  const next = NextResponse.next()
+  next.headers.set('Cache-Control', 'no-store')
+  next.headers.set('Pragma', 'no-cache')
+  next.headers.set('x-middleware-cache', 'no-cache')
+  return next
 }
 
 export const config = {
