@@ -1,8 +1,13 @@
-export const runtime = 'nodejs'
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
+import { getServerSession } from "next-auth"
+import { authOptions } from "@/lib/authOptions"
+import { redirect } from "next/navigation"
 
-export default function EditLayout({ children }: { children: React.ReactNode }) {   
+
+export default async function EditLayout({ children }: { children: React.ReactNode }) {   
+    const session = await getServerSession(authOptions)
+    if (!session) {
+        redirect('/')
+    }
     return (
         <>
         {children}
