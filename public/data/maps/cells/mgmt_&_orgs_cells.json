@@ -51,7 +51,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "170 Online Tutorial Room"
+    "room": "170"
   },
   {
     "type": "merged",
@@ -123,7 +123,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "190 Staff Room"
+    "room": "190"
   },
   {
     "type": "merged",
@@ -807,7 +807,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "1212 Meeting / Print Room"
+    "room": "1212"
   },
   {
     "type": "merged",

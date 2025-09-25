@@ -170,7 +170,7 @@
     "content": "",
   	"keylocker": "591104",
     "bgColor": "FFFFFF",
-    "comment": "\nVesna:\n- key has been requested and  new occupant will be Ronnie Das \n\n\n\n\n\n",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -249,7 +249,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G37 Meeting Room"
+    "room": "G37"
   },
   {
     "type": "merged",
@@ -285,7 +285,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G42 Case Study Room \nMichael Chaney Case Study Room"
+    "room": "G42"
   },
   {
     "type": "merged",
