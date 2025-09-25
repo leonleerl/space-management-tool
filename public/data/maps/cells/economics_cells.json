@@ -321,7 +321,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Case Study Room 101"
+    "room": "101"
   },
   {
     "type": "merged",
@@ -387,7 +387,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "155 Meeting Room & Print Room"
+    "room": "155"
   },
   {
     "type": "merged",
@@ -522,7 +522,7 @@
     "content": "",
     "keylocker": "",
     "bgColor": "FFFFFF",
-    "comment": "April Wen:\nHenderi will move in when Sineth finish - Michael Palmer has approved\n",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -774,7 +774,7 @@
     "content": "",
     "keylocker": "591313",
     "bgColor": "FFFFFF",
-    "comment": "Wendy Lumanau:\nYanli Lin - new staff starting in Aug\n",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -972,7 +972,7 @@
     "content": "",
     "keylocker": "591312",
     "bgColor": "FFFFFF",
-    "comment": "Ha Le:\nTwice a week-Tue,Thu",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -1105,7 +1105,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "121 Printer Room"
+    "room": "121"
   },
   {
     "type": "merged",
@@ -1303,7 +1303,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "142 Case Study Room"
+    "room": "142"
   },
   {
     "type": "merged",
@@ -1368,7 +1368,7 @@
     "content": "",
     "keylocker": "591319",
     "bgColor": "FFFFFF",
-    "comment": "April Wen:\nMichael M retired but holds an Emeritus Professor title. Can check with Leandro if have new staff coming\nHolger Sturlik will use the office from 9/2 - 9/3 2025",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -1492,7 +1492,7 @@
     "content": "",
     "keylocker": "591326",
     "bgColor": "FFFFFF",
-    "comment": "Vesna Pribicevic:\nYanrui Wu Visiting Student Han JiaBin Until  31-1-2025\nYongMing Miao leaving earlier than 1-11-2024",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",
@@ -1528,7 +1528,7 @@
     "content": "",
     "keylocker": "591329",
     "bgColor": "FFFFFF",
-    "comment": "Freya: \nAlison Preston reserves for visitor for March 2025\n\n",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "thin",

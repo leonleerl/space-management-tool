@@ -537,7 +537,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G90 Meeting Room"
+    "room": "G90"
   },
   {
     "type": "merged",
@@ -573,7 +573,7 @@
       "top": null,
       "bottom": "thin"
     },
-    "room": "G73 Recording Studio"
+    "room": "G73"
   },
   {
     "type": "merged",
@@ -645,7 +645,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G78 Postgrad Room"
+    "room": "G78"
   },
   {
     "type": "merged",
@@ -663,7 +663,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G55 Student Experience Consult Room"
+    "room": "G55"
   },
   {
     "type": "merged",
@@ -753,7 +753,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G87 Computer Lab 3"
+    "room": "G87"
   },
   {
     "type": "merged",
@@ -915,7 +915,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G85 Computer Lab 1"
+    "room": "G85"
   },
   {
     "type": "merged",
@@ -951,7 +951,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G51 Printer Room"
+    "room": "G51"
   },
   {
     "type": "merged",
@@ -1041,7 +1041,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G86 Computer Lab 2"
+    "room": "G86"
   },
   {
     "type": "merged",

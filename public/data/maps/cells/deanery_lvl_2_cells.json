@@ -249,7 +249,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "286 Printer Room"
+    "room": "286"
   },
   {
     "type": "merged",
@@ -260,7 +260,7 @@
     "content": "",
     "keylocker": "",
     "bgColor": "FFFFFF",
-    "comment": "Vesna Pribicevic:\nHolly to move in on part time basis",
+    "comment": "",
     "border": {
       "left": "thin",
       "right": "medium",
@@ -569,7 +569,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "284 Kitchen"
+    "room": "284"
   },
   {
     "type": "merged",
@@ -587,7 +587,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "282 Ela (IT)\nStorage Room"
+    "room": "282"
   },
   {
     "type": "merged",
