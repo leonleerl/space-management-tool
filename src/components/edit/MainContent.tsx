@@ -122,6 +122,11 @@ const items: MenuProps['items'] = [
         icon: <FileTextOutlined/>,
         label: 'AccFin',
       },
+      {
+        key: '37',
+        icon: <FileTextOutlined/>,
+        label: 'Dean',
+      },
     ]
   },
   {

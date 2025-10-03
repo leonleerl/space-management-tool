@@ -28,6 +28,7 @@ import {
   MOStu,
   GroundFloorCSIStu,
   GroundFloorDAStu,
+  DeanStu,
 } from "./student";
 
 // Room
@@ -72,6 +73,7 @@ const ContentMap: Record<string, React.ReactNode> = {
   "34": <EconomicsStu />,
   "35": <MarketingStu />,
   "36": <AccFinStu />,
+  "37": <DeanStu />,
 
   // Room Management
   "41": <GroundFloorCSIRoom />,

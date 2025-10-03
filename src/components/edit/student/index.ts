@@ -4,3 +4,4 @@ export * from "./MarketingStu";
 export * from "./MOStu";
 export * from "./GroundFloorDAStu";
 export * from "./GroundFloorCSIStu";
+export * from "./DeanStu";
